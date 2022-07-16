@@ -1,0 +1,15 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>hordedefense</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>./roslynator.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>7</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <GlobalAnalyzerConfigFiles Include="~/.local/share/.roslynatorconfig" />
+  </ItemGroup>
+</Project>

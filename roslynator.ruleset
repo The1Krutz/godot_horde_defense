@@ -19,8 +19,11 @@
     <Rule Id="RCS1141" Action="Warning" />
     <Rule Id="RCS1142" Action="Warning" />
     <Rule Id="RCS1169" Action="None" />
+
     <Rule Id="IDE0004" Action="Info" />
     <Rule Id="IDE0044" Action="None" />
+
+    <Rule Id="CA1050" Action="None" />
     <!-- Specify default action that should be applied to a specified analyzer. -->
     <!-- <Rule Id="RCS...." Action="None,Hidden,Info,Warning,Error" /> -->
 

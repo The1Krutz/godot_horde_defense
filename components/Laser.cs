@@ -1,10 +1,9 @@
-using System;
 using Godot;
 
 /// <summary>
 /// template
 /// </summary>
-public class Laser : Spatial {
+public class Laser : Node2D {
   // Signals
 
   // Exports
