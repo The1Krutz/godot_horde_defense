@@ -1,33 +1,22 @@
-# Godotspace
+# Godot Horde Defense
 
 ## Introduction
 
-Is an attempt to make a workable 3d space flight sim in godot.
+I kept seeing ads on Tiktok for mobile games that had the palyer moving a group of people around trying to survive a horde of zombies or something. Passing over pickup areas to modify the group to do better or worse.
 
-It would be real nice if it could end up similar to any of its inspirations, but just being able to fly around would also be nice
+No idea if the game is actually like that, or if it exists. I didn't check and I don't care. I'm making something mechanically similar to the ad.
 
 ## Features
 
-*  Fly a spaceship in a featureless void!
+*  TBD
 
 ## Inspirations:
 
-*  TIE Fighter and Freespace 2
-
-    * Scripted missions
-    * Less complex flight model
-
-*  Elite Dangerous
-
-    * Nothing specific, but every time I play E:D I just really want to stop and go make my own flight sim instead, so here we are
+*  A bunch of Tiktok ads for mobile games
 
 ## Credits
 
-* Spaceship models are from the [https://quaternius.com/packs/ultimatespaceships.html](Quaternius Ultimate Spaceship Pack) (licensed CC0)
-
-* Skybox is from [https://godotengine.org/asset-library/asset/579](AllSky Free) (licensed MIT)
-
-* Bar graphics are from [https://github.com/GDQuest/godot-demos](GDQuest's Godot Demos) (licensed MIT)
+* TBD
 
 ## License
 
