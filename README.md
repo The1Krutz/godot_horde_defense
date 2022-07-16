@@ -8,16 +8,18 @@ No idea if the game is actually like that, or if it exists. I didn't check and I
 
 ## Features
 
-*  TBD
+- TBD
 
 ## Inspirations:
 
-*  A bunch of Tiktok ads for mobile games
+- A bunch of Tiktok ads for mobile games
 
 ## Credits
 
-* TBD
+- Green grassy background by [@sharonmccutcheon](https://unsplash.com/@sharonmccutcheon), downloaded from [Unsplash](https://unsplash.com/photos/fSlCxR0dnZY) and used under [their license](https://unsplash.com/license)
+
+- Player icon is from Kenney Game Assets pack, licensed under Creative Commons Zero (CC0)
 
 ## License
 
-MIT License unless otherwise specified
+- MIT License unless otherwise specified
