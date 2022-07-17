@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Player.cs" type="Script" id=1]
-[ext_resource path="res://assets/target_back.png" type="Texture" id=2]
-[ext_resource path="res://assets/paddle_04.png" type="Texture" id=3]
+[ext_resource path="res://actors/Player.cs" type="Script" id=1]
+[ext_resource path="res://assets/paddle_04.png" type="Texture" id=2]
+[ext_resource path="res://assets/target_back.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 32.0624
@@ -15,9 +15,9 @@ shape = SubResource( 1 )
 
 [node name="TargetBack" type="Sprite" parent="."]
 scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 
 [node name="Paddle04" type="Sprite" parent="."]
 position = Vector2( 24.4583, -0.249999 )
 scale = Vector2( 0.0791667, 0.0791667 )
-texture = ExtResource( 3 )
+texture = ExtResource( 2 )
