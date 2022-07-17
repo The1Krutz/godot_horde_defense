@@ -14,6 +14,13 @@ config/name="horde-defense"
 run/main_scene="res://Arena.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
 [input]
 
 move_right={
