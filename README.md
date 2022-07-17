@@ -18,7 +18,7 @@ No idea if the game is actually like that, or if it exists. I didn't check and I
 
 - Green grassy background by [@sharonmccutcheon](https://unsplash.com/@sharonmccutcheon), downloaded from [Unsplash](https://unsplash.com/photos/fSlCxR0dnZY) and used under [their license](https://unsplash.com/license)
 
-- Player icon and UI assets are from [Kenney Game Assets All-in-1](https://kenney.itch.io/kenney-game-assets) pack (credit [Kenney](www.kenney.nl)), licensed under [Creative Commons Zero (CC0)](http://creativecommons.org/publicdomain/zero/1.0/)
+- Player icon and UI assets are from [Kenney Game Assets All-in-1](https://kenney.itch.io/kenney-game-assets) pack (credit [Kenney](https://www.kenney.nl)), licensed under [Creative Commons Zero (CC0)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 - Heroic Asset Series (credit [Aleksandr Makarov](https://www.patreon.com/iknowkingrabbit))
 
