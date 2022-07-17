@@ -15,33 +15,38 @@ public class Player : KinematicBody2D {
   // Backing Fields
 
   // Private Fields
+  private float stickAimThreshold = 0.2f;
+  private bool useGamepadInput = false;
 
   // Constructor
 
   // Lifecycle Hooks
   public override void _PhysicsProcess(float delta) {
     // movement
-    float horizontalMovement = Input.GetActionStrength("move_right") - Input.GetActionStrength("move_left");
-    float verticalMovement = Input.GetActionStrength("move_down") - Input.GetActionStrength("move_up");
-
-    Vector2 movementVector = new Vector2(horizontalMovement, verticalMovement).Clamped(1.0f);
-    // using Clamped here instead of Normalized becuase we want to be able to move slowly by nudging the stick
+    Vector2 movementVector = Input.GetVector("move_left", "move_right", "move_up", "move_down");
 
     MoveAndCollide(movementVector * MoveSpeed * delta);
 
-    // mouse aiming
-    LookAt(GetGlobalMousePosition());
+    if (useGamepadInput) {
+      // controller aiming
+      Vector2 controllerAim = Input.GetVector("aim_left", "aim_right", "aim_up", "aim_down");
 
-    // controller aiming
-    // @todo - it works okay, but it feels stick in the cardinal directions. Not really sure why, but it doesn't feel good to use
-    // float horizontalAimAdjust = Input.GetActionStrength("aim_right") - Input.GetActionStrength("aim_left");
-    // float verticalAimAdjust = Input.GetActionStrength("aim_down") - Input.GetActionStrength("aim_up");
-    // Vector2 controllerAim = new Vector2(horizontalAimAdjust, verticalAimAdjust).Normalized();
-    // if (controllerAim.Length() > 0) {
-    //   LookAt(GlobalPosition + controllerAim);
-    // }
-
+      if (Mathf.Abs(controllerAim.x) > stickAimThreshold || Mathf.Abs(controllerAim.y) > stickAimThreshold) {
+        LookAt(GlobalPosition + controllerAim);
+      }
+    } else {
+      // mouse aiming
+      LookAt(GetGlobalMousePosition());
+    }
     // @todo - do the shoot code here
+  }
+
+  public override void _UnhandledInput(InputEvent @event) {
+    if (@event is InputEventJoypadMotion || @event is InputEventJoypadButton) {
+      useGamepadInput = true;
+    } else if (@event is InputEventMouseMotion || @event is InputEventMouseButton) {
+      useGamepadInput = false;
+    }
   }
 
   // Public Functions
