@@ -16,7 +16,7 @@ texture = ExtResource( 1 )
 current = true
 
 [node name="Skeleton" parent="." instance=ExtResource( 3 )]
-position = Vector2( -636, -350 )
+position = Vector2( -310, -61 )
 
 [node name="Skeleton2" parent="." instance=ExtResource( 3 )]
-position = Vector2( -164, -507 )
+position = Vector2( -124, -117 )
