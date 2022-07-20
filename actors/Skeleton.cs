@@ -1,4 +1,5 @@
 using Godot;
+using ExtensionMethods;
 
 /// <summary>
 /// template
@@ -7,6 +8,8 @@ public class Skeleton : KinematicBody2D {
   // Signals
 
   // Exports
+  [Export]
+  public float MoveSpeed = 20.0f;
 
   // Public Fields
 
@@ -22,6 +25,13 @@ public class Skeleton : KinematicBody2D {
     animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
 
     animationPlayer.Play("Idle");
+  }
+
+  public override void _PhysicsProcess(float delta) {
+    // movement
+    Vector2 movementVector = new Vector2().Randomize();
+
+    MoveAndCollide(movementVector * MoveSpeed * delta);
   }
 
   // Public Functions

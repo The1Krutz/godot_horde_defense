@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/sharon-mccutcheon-fSlCxR0dnZY-unsplash.jpg" type="Texture" id=1]
 [ext_resource path="res://actors/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://actors/Skeleton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://actors/PlayerControl.tscn" type="PackedScene" id=4]
 
 [node name="Node2D" type="Node2D"]
 
@@ -12,11 +13,972 @@ texture = ExtResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 
-[node name="Camera2D" type="Camera2D" parent="Player"]
-current = true
+[node name="PlayerControl" parent="Player" instance=ExtResource( 4 )]
 
 [node name="Skeleton" parent="." instance=ExtResource( 3 )]
 position = Vector2( -310, -61 )
 
 [node name="Skeleton2" parent="." instance=ExtResource( 3 )]
 position = Vector2( -124, -117 )
+
+[node name="mass skellies" type="Node2D" parent="."]
+
+[node name="Skeleton" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton2" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton3" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton4" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton5" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton6" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton7" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton8" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton9" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton10" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton11" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton12" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton13" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton14" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton15" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton16" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton17" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton18" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton19" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton20" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton21" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton22" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton23" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton24" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton25" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton26" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton27" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton28" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton29" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton30" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton31" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton32" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton33" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton34" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton35" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton36" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton37" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton38" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton39" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton40" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton41" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton42" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton43" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton44" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton45" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton46" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton47" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton48" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton49" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton50" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton51" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton52" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton53" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton54" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton55" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton56" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton57" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton58" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton59" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton60" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton61" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton62" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton63" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton64" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton65" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton66" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton67" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton68" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton69" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton70" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton71" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton72" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton73" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton74" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton75" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton76" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton77" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton78" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton79" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton80" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton81" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton82" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton83" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton84" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton85" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton86" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton87" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton88" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton89" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton90" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton91" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton92" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton93" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton94" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton95" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton96" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton97" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton98" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton99" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton100" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton101" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton102" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton103" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton104" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton105" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton106" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton107" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton108" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton109" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton110" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton111" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton112" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton113" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton114" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton115" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton116" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton117" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton118" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton119" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton120" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton121" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton122" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton123" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton124" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton125" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton126" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton127" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton128" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton129" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton130" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton131" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton132" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton133" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton134" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton135" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton136" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton137" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton138" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton139" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton140" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton141" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton142" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton143" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton144" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton145" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton146" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton147" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton148" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton149" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton150" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton151" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton152" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton153" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton154" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton155" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton156" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton157" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton158" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton159" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton160" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton161" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton162" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton163" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton164" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton165" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton166" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton167" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton168" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton169" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton170" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton171" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton172" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton173" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton174" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton175" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton176" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton177" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton178" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton179" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton180" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton181" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton182" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton183" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton184" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton185" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton186" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton187" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton188" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton189" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton190" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton191" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton192" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton193" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton194" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton195" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton196" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton197" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton198" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton199" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton200" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton201" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton202" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton203" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton204" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton205" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton206" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton207" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton208" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton209" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton210" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton211" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton212" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton213" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton214" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton215" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton216" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton217" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton218" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton219" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton220" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton221" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton222" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton223" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton224" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton225" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton226" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton227" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton228" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton229" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton230" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton231" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton232" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton233" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton234" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton235" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton236" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton237" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton238" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton239" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton240" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton241" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton242" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton243" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton244" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton245" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton246" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton247" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton248" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton249" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton250" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton251" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton252" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton253" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton254" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton255" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton256" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton257" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton258" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton259" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton260" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton261" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton262" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton263" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton264" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton265" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton266" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton267" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton268" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton269" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton270" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton271" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton272" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton273" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton274" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton275" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton276" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton277" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton278" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton279" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton280" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton281" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton282" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton283" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton284" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton285" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton286" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton287" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton288" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton289" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton290" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton291" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton292" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton293" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton294" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton295" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton296" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton297" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton298" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton299" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton300" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton301" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton302" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton303" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton304" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton305" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton306" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton307" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton308" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton309" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton310" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton311" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton312" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton313" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton314" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton315" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton316" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton317" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton318" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton319" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton320" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton321" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton322" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton323" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton324" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton325" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton326" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton327" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton328" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton329" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton330" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton331" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton332" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton333" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton334" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton335" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton336" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton337" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton338" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton339" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton340" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton341" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton342" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton343" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton344" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton345" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton346" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton347" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton348" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton349" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton350" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton351" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton352" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton353" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton354" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton355" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton356" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton357" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton358" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton359" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton360" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton361" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton362" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton363" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton364" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton365" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton366" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton367" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton368" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton369" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton370" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton371" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton372" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton373" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton374" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton375" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton376" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton377" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton378" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton379" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton380" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton381" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton382" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton383" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton384" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton385" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton386" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton387" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton388" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton389" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton390" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton391" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton392" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton393" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton394" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton395" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton396" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton397" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton398" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton399" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton400" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton401" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton402" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton403" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton404" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton405" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton406" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton407" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton408" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton409" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton410" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton411" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton412" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton413" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton414" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton415" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton416" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton417" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton418" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton419" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton420" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton421" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton422" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton423" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton424" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton425" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton426" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton427" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton428" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton429" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton430" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton431" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton432" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton433" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton434" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton435" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton436" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton437" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton438" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton439" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton440" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton441" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton442" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton443" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton444" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton445" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton446" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton447" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton448" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton449" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton450" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton451" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton452" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton453" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton454" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton455" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton456" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton457" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton458" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton459" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton460" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton461" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton462" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton463" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton464" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton465" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton466" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton467" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton468" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton469" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton470" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton471" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton472" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton473" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton474" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton475" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton476" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton477" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton478" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton479" parent="mass skellies" instance=ExtResource( 3 )]
+
+[node name="Skeleton480" parent="mass skellies" instance=ExtResource( 3 )]
