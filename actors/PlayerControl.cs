@@ -1,4 +1,3 @@
-using System;
 using Godot;
 
 /// <summary>
@@ -36,43 +35,15 @@ public class PlayerControl : Node2D {
   }
 
   public override void _PhysicsProcess(float delta) {
-    // movement
-    Vector2 movementVector = Input.GetVector("move_left", "move_right", "move_up", "move_down");
-
-    parent.MoveAndCollide(movementVector * MoveSpeed * delta);
-
-    if (useGamepadInput) {
-      // controller aiming
-      Vector2 controllerAim = Input.GetVector("aim_left", "aim_right", "aim_up", "aim_down");
-
-      if (Mathf.Abs(controllerAim.x) > stickAimThreshold || Mathf.Abs(controllerAim.y) > stickAimThreshold) {
-        parent.LookAt(parent.GlobalPosition + controllerAim);
-      }
-    } else {
-      // mouse aiming
-      parent.LookAt(parent.GetGlobalMousePosition());
-    }
-
-    if (Input.IsActionPressed("fire_primary")) {
-      GD.Print("fire_primary pressed");
-    }
-    if (Input.IsActionPressed("fire_secondary")) {
-      GD.Print("fire_secondary pressed");
-    }
+    UpdateMovement(delta);
+    UpdateAim();
+    UpdatePrimaryFire(delta);
+    UpdateSecondaryFire(delta);
   }
 
   public override void _Process(float delta) {
-    float scrollScalar = Input.GetAxis("zoom_in", "zoom_out");
-
-    if (scrollScalar != 0) {
-      // currentZoom += scrollScalar * ZoomSpeed * delta;
-      // currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom);
-      // camera.Zoom = new Vector2(currentZoom, currentZoom);
-
-      UpdateZoom(scrollScalar * delta);
-    }
-
-    GD.Print(scrollScalar, camera.Zoom);
+    // any zoom control except the scroll wheel. That has a separate workaround in _UnhandledInput
+    UpdateZoom(Input.GetAxis("zoom_in", "zoom_out"), delta);
   }
 
   public override void _UnhandledInput(InputEvent @event) {
@@ -87,12 +58,10 @@ public class PlayerControl : Node2D {
     if (@event is InputEventMouseButton emb && emb.IsPressed()) {
       switch (emb.ButtonIndex) {
         case (int)ButtonList.WheelUp:
-          UpdateZoom(-0.0333f); // -1 for the GetAxis, divided by 30 for part of the delta
-          GD.Print("scrolling up");
+          UpdateZoom(-1, 0.0333f);
           break;
         case (int)ButtonList.WheelDown:
-          UpdateZoom(0.0333f); // 1 for the GetAxis, divided by 30 for part of the delta
-          GD.Print("scrolling down");
+          UpdateZoom(1, 0.0333f);
           break;
       }
     }
@@ -101,9 +70,47 @@ public class PlayerControl : Node2D {
   // Public Functions
 
   // Private Functions
-  private void UpdateZoom(float scrollScalar) {
-    currentZoom += scrollScalar * ZoomSpeed;
-    currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom);
-    camera.Zoom = new Vector2(currentZoom, currentZoom);
+  private void UpdateMovement(float delta) {
+    Vector2 movementVector = Input.GetVector("move_left", "move_right", "move_up", "move_down");
+    parent.MoveAndCollide(movementVector * MoveSpeed * delta);
+  }
+
+  private void UpdateAim() {
+    if (useGamepadInput) {
+      // controller aiming
+      Vector2 controllerAim = Input.GetVector("aim_left", "aim_right", "aim_up", "aim_down");
+
+      if (Mathf.Abs(controllerAim.x) > stickAimThreshold || Mathf.Abs(controllerAim.y) > stickAimThreshold) {
+        parent.LookAt(parent.GlobalPosition + controllerAim);
+      }
+    } else {
+      // mouse aiming
+      parent.LookAt(parent.GetGlobalMousePosition());
+    }
+  }
+
+  /// <summary>
+  /// Updates zoom level
+  /// </summary>
+  /// <param name="scrollScalar">Amount to adjust zoom by. Positive (1) to zoom out, negative (-1) to zoom in</param>
+  /// <param name="delta">frame delta</param>
+  private void UpdateZoom(float scrollScalar, float delta) {
+    if (scrollScalar != 0) {
+      currentZoom += scrollScalar * ZoomSpeed * delta;
+      currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom);
+      camera.Zoom = new Vector2(currentZoom, currentZoom);
+    }
+  }
+
+  private void UpdatePrimaryFire(float delta) {
+    if (Input.IsActionPressed("fire_primary")) {
+      GD.Print("fire_primary", delta);
+    }
+  }
+
+  private void UpdateSecondaryFire(float delta) {
+    if (Input.IsActionPressed("fire_secondary")) {
+      GD.Print("fire_secondary", delta);
+    }
   }
 }
