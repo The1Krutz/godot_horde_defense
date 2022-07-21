@@ -1,7 +1,7 @@
 using Godot;
 
 /// <summary>
-/// This will probably get used later on as I start doing the whole "you're in control of a whole 
+/// This will probably get used later on as I start doing the whole "you're in control of a whole
 /// group" thing, but for now it's kinda not necessary
 /// </summary>
 public class Player : KinematicBody2D {

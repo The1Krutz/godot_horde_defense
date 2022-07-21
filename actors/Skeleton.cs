@@ -1,5 +1,5 @@
-using Godot;
 using ExtensionMethods;
+using Godot;
 
 /// <summary>
 /// template
@@ -17,8 +17,14 @@ public class Skeleton : KinematicBody2D {
 
   // Private Fields
   private AnimationPlayer animationPlayer;
+  private Vector2 movementVector = new Vector2().Randomize();
+  private Timer movementUpdateTimer = new Timer() { WaitTime = 2.0f, OneShot = false, Autostart = true };
 
   // Constructor
+  public Skeleton() {
+    movementUpdateTimer.Connect("timeout", this, nameof(RandomizeMovementVector));
+    AddChild(movementUpdateTimer);
+  }
 
   // Lifecycle Hooks
   public override void _Ready() {
@@ -28,13 +34,17 @@ public class Skeleton : KinematicBody2D {
   }
 
   public override void _PhysicsProcess(float delta) {
-    // movement
-    Vector2 movementVector = new Vector2().Randomize();
-
-    MoveAndCollide(movementVector * MoveSpeed * delta);
+    UpdateMovement(delta);
   }
 
   // Public Functions
 
   // Private Functions
+  private void UpdateMovement(float delta) {
+    MoveAndCollide(movementVector * MoveSpeed * delta);
+  }
+
+  private void RandomizeMovementVector() {
+    movementVector = new Vector2().Randomize();
+  }
 }
