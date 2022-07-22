@@ -3,7 +3,7 @@ using Godot;
 /// <summary>
 /// template
 /// </summary>
-public class Laser : Node2D {
+public class Laser : Node2D, IWeapon {
   // Signals
 
   // Exports
@@ -18,7 +18,7 @@ public class Laser : Node2D {
   // Backing Fields
 
   // Private Fields
-  private RayCast aimCast;
+  private RayCast2D aimCast;
   private Damage WeaponDamage { get; } // damage per second of continuous contact with the beam
 
   // Constructor
@@ -28,33 +28,36 @@ public class Laser : Node2D {
 
   // Lifecycle Hooks
   public override void _Ready() {
-    aimCast = GetNode<RayCast>("RayCast");
+    aimCast = GetNode<RayCast2D>("AimCast");
   }
 
   public override void _PhysicsProcess(float delta) {
-    if (Input.IsActionPressed("fire_primary")) {
-      if (aimCast.IsColliding()) {
-        CollisionObject target = (CollisionObject)aimCast.GetCollider();
+    if (aimCast.IsColliding()) {
+      CollisionObject2D target = (CollisionObject2D)aimCast.GetCollider();
 
-        if (target.HasNode("Health")) {
-          IHasHealth targetHealth = target.GetNode<IHasHealth>("Health");
+      if (target.HasNode("Health")) {
+        GD.Print("dealing damage!", target);
+        IHasHealth targetHealth = target.GetNode<IHasHealth>("Health");
 
-          targetHealth.TakeDamage(WeaponDamage * delta);
-        }
-      } else {
-        // TODO: should we do something if they miss?
+        targetHealth.TakeDamage(WeaponDamage * delta);
       }
-    }
-
-    if (Input.IsActionJustPressed("fire_primary")) {
-      ToggleBeam(true);
-    }
-    if (Input.IsActionJustReleased("fire_primary")) {
-      ToggleBeam(false);
+    } else {
+      // TODO: should we do something if they miss?
     }
   }
 
   // Public Functions
+  public void AimAt(Vector2 aimPoint) {
+    aimCast.CastTo = aimPoint;
+  }
+
+  public void StartShooting() {
+    ToggleBeam(true);
+  }
+
+  public void StopShooting() {
+    ToggleBeam(false);
+  }
 
   // Private Functions
   private void ToggleBeam(bool value) {

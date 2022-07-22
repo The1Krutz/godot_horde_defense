@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Godot;
 
 /// <summary>
@@ -26,12 +27,20 @@ public class PlayerControl : Node2D {
   private float minZoom = 0.15f;
   private float maxZoom = 4.0f;
 
+  private List<IWeapon> weapons = new List<IWeapon>();
+
   // Constructor
 
   // Lifecycle Hooks
   public override void _Ready() {
     parent = GetParent<KinematicBody2D>();
     camera = GetNode<Camera2D>("Camera2D");
+
+    foreach (IWeapon temp in parent.GetNode("Weapons").GetChildren()) {
+      weapons.Add(temp);
+    }
+
+    GD.Print("weapons count: ", weapons.Count);
   }
 
   public override void _PhysicsProcess(float delta) {
@@ -78,14 +87,14 @@ public class PlayerControl : Node2D {
   private void UpdateAim() {
     if (useGamepadInput) {
       // controller aiming
-      Vector2 controllerAim = Input.GetVector("aim_left", "aim_right", "aim_up", "aim_down");
+      Vector2 controllerAim = Input.GetVector("aim_left", "aim_right", "aim_up", "aim_down").Normalized();
 
       if (Mathf.Abs(controllerAim.x) > stickAimThreshold || Mathf.Abs(controllerAim.y) > stickAimThreshold) {
-        parent.LookAt(parent.GlobalPosition + controllerAim);
+        weapons.ForEach((weapon) => weapon.AimAt(controllerAim * 1000));
       }
     } else {
       // mouse aiming
-      parent.LookAt(parent.GetGlobalMousePosition());
+      weapons.ForEach((weapon) => weapon.AimAt(parent.GetLocalMousePosition()));
     }
   }
 
@@ -103,14 +112,16 @@ public class PlayerControl : Node2D {
   }
 
   private void UpdatePrimaryFire(float delta) {
-    if (Input.IsActionPressed("fire_primary")) {
-      GD.Print("fire_primary", delta);
+    if (Input.IsActionJustPressed("fire_primary")) {
+      weapons.ForEach((weapon) => weapon.StartShooting());
+    } else if (Input.IsActionJustReleased("fire_primary")) {
+      weapons.ForEach((weapon) => weapon.StopShooting());
     }
   }
 
   private void UpdateSecondaryFire(float delta) {
     if (Input.IsActionPressed("fire_secondary")) {
-      GD.Print("fire_secondary", delta);
+      GD.Print("fire_secondary ", delta);
     }
   }
 }

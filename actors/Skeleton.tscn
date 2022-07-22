@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://assets/HAS Creature Pack/NecromancerSpriteSheet.png" type="Texture" id=1]
 [ext_resource path="res://actors/Skeleton.cs" type="Script" id=2]
+[ext_resource path="res://components/Health.tscn" type="PackedScene" id=3]
 
-[sub_resource type="CircleShape2D" id=4]
-radius = 3.0
+[sub_resource type="CircleShape2D" id=11]
+radius = 5.0
 
 [sub_resource type="Animation" id=8]
 resource_name = "Attack"
@@ -109,6 +110,8 @@ tracks/0/keys = {
 [sub_resource type="AnimationNodeStateMachinePlayback" id=3]
 
 [node name="Skeleton" type="KinematicBody2D"]
+collision_layer = 17
+collision_mask = 3
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -120,8 +123,8 @@ vframes = 16
 frame = 24
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -1, -5 )
-shape = SubResource( 4 )
+position = Vector2( -1, -6 )
+shape = SubResource( 11 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Attack = SubResource( 8 )
@@ -135,3 +138,6 @@ anims/Walk = SubResource( 7 )
 tree_root = SubResource( 2 )
 anim_player = NodePath("../AnimationPlayer")
 parameters/playback = SubResource( 3 )
+
+[node name="Health" parent="." instance=ExtResource( 3 )]
+MaxHealth = 2.0
