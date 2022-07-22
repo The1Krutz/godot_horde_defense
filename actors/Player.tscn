@@ -1,14 +1,19 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://components/Laser.tscn" type="PackedScene" id=1]
+[ext_resource path="res://actors/Player.cs" type="Script" id=2]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 32.0624
 
 [node name="Player" type="KinematicBody2D"]
+script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
 
 [node name="Squad" type="Node2D" parent="."]
 
@@ -16,7 +21,6 @@ shape = SubResource( 1 )
 
 [node name="Laser" parent="Weapons" instance=ExtResource( 1 )]
 position = Vector2( -10, 0 )
-damagePerSecond = 100.0
 
 [node name="Laser2" parent="Weapons" instance=ExtResource( 1 )]
 position = Vector2( 10, 0 )

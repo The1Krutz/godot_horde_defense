@@ -8,7 +8,7 @@ public class Laser : Node2D, IWeapon {
 
   // Exports
   [Export]
-  private float damagePerSecond = 20.0f;
+  private float damagePerSecond = 100.0f;
 
   [Export]
   private DamageType damageType = DamageType.Normal;
@@ -37,9 +37,13 @@ public class Laser : Node2D, IWeapon {
 
       if (target.HasNode("Health")) {
         GD.Print("dealing damage!", target);
-        IHasHealth targetHealth = target.GetNode<IHasHealth>("Health");
 
-        targetHealth.TakeDamage(WeaponDamage * delta);
+        if (target is IHasHealth targetHealth) {
+          // in case the script has overrides for the default IHasHealth implementations
+          targetHealth.TakeDamage(WeaponDamage * delta);
+        } else {
+          target.GetNode<IHasHealth>("Health").TakeDamage(WeaponDamage * delta);
+        }
       }
     } else {
       // TODO: should we do something if they miss?
