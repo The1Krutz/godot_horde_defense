@@ -8,7 +8,7 @@ public class Bullet : Area2D {
 
   // Exports
   [Export]
-  public float speed = 100.0f;
+  public float speed = 500.0f;
 
   // Public Fields
   public Damage WeaponDamage; // damage per bullet

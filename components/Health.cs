@@ -47,7 +47,7 @@ public class Health : Node, IHasHealth {
       GetParent().QueueFree();
     }
 
-    GD.Print("current health: ", CurrentHealth);
+    // GD.Print("current health: ", CurrentHealth);
     EmitSignal(nameof(HealthChanged), CurrentHealth);
   }
 

@@ -70,6 +70,14 @@ public class LMG : Node2D, IWeapon {
     ShotTimer.OneShot = true;
   }
 
+  public void DestroyIfBullet(Node body) {
+    GD.Print("on body exit", body);
+
+    if (body is Bullet bullet) {
+      bullet.QueueFree();
+    }
+  }
+
   // Private Functions
   private void SpawnBullet() {
     Bullet bullet = BulletScene.Instance<Bullet>();

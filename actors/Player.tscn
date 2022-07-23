@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://components/Laser.tscn" type="PackedScene" id=1]
 [ext_resource path="res://actors/Player.cs" type="Script" id=2]
 [ext_resource path="res://components/LMG.tscn" type="PackedScene" id=3]
 
@@ -22,16 +21,4 @@ current = true
 
 [node name="LMG" parent="Weapons" instance=ExtResource( 3 )]
 
-[node name="LMG2" parent="Weapons" instance=ExtResource( 3 )]
-
-[node name="LMG3" parent="Weapons" instance=ExtResource( 3 )]
-
-[node name="LMG4" parent="Weapons" instance=ExtResource( 3 )]
-
 [node name="DisabledWeapons" type="Node2D" parent="."]
-
-[node name="Laser" parent="DisabledWeapons" instance=ExtResource( 1 )]
-position = Vector2( -10, 0 )
-
-[node name="Laser2" parent="DisabledWeapons" instance=ExtResource( 1 )]
-position = Vector2( 10, 0 )
