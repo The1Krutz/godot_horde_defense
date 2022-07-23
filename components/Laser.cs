@@ -8,7 +8,7 @@ public class Laser : Node2D, IWeapon {
 
   // Exports
   [Export]
-  private float damagePerSecond = 100.0f;
+  private float damagePerSecond = 300.0f;
 
   [Export]
   private DamageType damageType = DamageType.Normal;
@@ -56,16 +56,14 @@ public class Laser : Node2D, IWeapon {
   }
 
   public void StartShooting() {
-    ToggleBeam(true);
+    aimCast.Enabled = true;
+    // TODO - turn on some effect to show the laser beam
   }
 
   public void StopShooting() {
-    ToggleBeam(false);
+    aimCast.Enabled = false;
+    // TODO - turn off the effect to show the laser beam
   }
 
   // Private Functions
-  private void ToggleBeam(bool value) {
-    aimCast.Enabled = value;
-    // TODO: toggle something to show the beam
-  }
 }
