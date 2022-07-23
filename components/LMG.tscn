@@ -4,7 +4,6 @@
 
 [node name="LMG" type="Node2D"]
 script = ExtResource( 1 )
-aimSpread = 15.0
 
 [node name="ShotTimer" type="Timer" parent="."]
-wait_time = 0.2
+wait_time = 0.1

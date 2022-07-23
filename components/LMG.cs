@@ -24,7 +24,7 @@ public class LMG : Node2D, IWeapon {
   // Public Fields
 
   // Backing Fields
-  private float _aimSpread = 0.261799f; // default to 15 degrees
+  private float _aimSpread = 0.261799f / 2; // default to 15 degrees
 
   // Private Fields
   private static RandomNumberGenerator _random;
@@ -32,7 +32,7 @@ public class LMG : Node2D, IWeapon {
   private Damage WeaponDamage { get; } // damage per bullet
   private Vector2 AimDirection;
   private Timer ShotTimer;
-  private PackedScene Bullet;
+  private PackedScene BulletScene;
   private bool isAllowedToShoot = true;
 
   // Constructor
@@ -46,7 +46,7 @@ public class LMG : Node2D, IWeapon {
   public override void _Ready() {
     ShotTimer = GetNode<Timer>("ShotTimer");
     ShotTimer.Connect("timeout", this, nameof(ReadyToShoot));
-    Bullet = ResourceLoader.Load<PackedScene>("res://components/projectiles/Bullet.tscn");
+    BulletScene = ResourceLoader.Load<PackedScene>("res://components/projectiles/Bullet.tscn");
   }
 
   // Public Functions
@@ -72,10 +72,11 @@ public class LMG : Node2D, IWeapon {
 
   // Private Functions
   private void SpawnBullet() {
-    Area2D bullet = Bullet.Instance<Area2D>();
+    Bullet bullet = BulletScene.Instance<Bullet>();
     Owner.AddChild(bullet);
     float spreadValue = _random.RandfRange(-AimSpread, AimSpread);
     bullet.Transform = new Transform2D(AimDirection.Angle() + spreadValue, Position);
+    bullet.WeaponDamage = WeaponDamage;
   }
 
   private void ReadyToShoot() {

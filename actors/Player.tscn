@@ -22,6 +22,12 @@ current = true
 
 [node name="LMG" parent="Weapons" instance=ExtResource( 3 )]
 
+[node name="LMG2" parent="Weapons" instance=ExtResource( 3 )]
+
+[node name="LMG3" parent="Weapons" instance=ExtResource( 3 )]
+
+[node name="LMG4" parent="Weapons" instance=ExtResource( 3 )]
+
 [node name="DisabledWeapons" type="Node2D" parent="."]
 
 [node name="Laser" parent="DisabledWeapons" instance=ExtResource( 1 )]

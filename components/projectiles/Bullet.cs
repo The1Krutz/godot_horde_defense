@@ -11,6 +11,7 @@ public class Bullet : Area2D {
   public float speed = 100.0f;
 
   // Public Fields
+  public Damage WeaponDamage; // damage per bullet
 
   // Backing Fields
 
@@ -24,20 +25,16 @@ public class Bullet : Area2D {
   }
 
   public void OnBulletEntered(Node target) {
-    GD.Print("OnBulletEntered", target);
+    if (target.HasNode("Health")) {
+      if (target is IHasHealth targetHealth) {
+        // in case the script has overrides for the default IHasHealth implementations
+        targetHealth.TakeDamage(WeaponDamage);
+      } else {
+        target.GetNode<IHasHealth>("Health").TakeDamage(WeaponDamage);
+      }
+    }
 
     QueueFree();
-
-    // if (target.HasNode("Health")) {
-    //   GD.Print("dealing damage!", target);
-
-    //   if (target is IHasHealth targetHealth) {
-    //     // in case the script has overrides for the default IHasHealth implementations
-    //     targetHealth.TakeDamage(WeaponDamage * delta);
-    //   } else {
-    //     target.GetNode<IHasHealth>("Health").TakeDamage(WeaponDamage * delta);
-    //   }
-    // }
   }
 
   // Public Functions
