@@ -110,7 +110,7 @@ public class Player : KinematicBody2D {
   }
 
   private void UpdatePrimaryFire(float delta) {
-    if (Input.IsActionJustPressed("fire_primary")) {
+    if (Input.IsActionPressed("fire_primary")) {
       weapons.ForEach((weapon) => weapon.StartShooting());
     } else if (Input.IsActionJustReleased("fire_primary")) {
       weapons.ForEach((weapon) => weapon.StopShooting());

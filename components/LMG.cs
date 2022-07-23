@@ -13,8 +13,8 @@ public class LMG : Node2D, IWeapon {
   [Export]
   private DamageType damageType = DamageType.Normal;
 
-  [Export(hintString: "Aim spread in degrees")]
-  private float aimSpread {
+  [Export]
+  private float AimSpread {
     get { return _aimSpread; }
     set {
       _aimSpread = Mathf.Deg2Rad(value);
@@ -33,6 +33,7 @@ public class LMG : Node2D, IWeapon {
   private Vector2 AimDirection;
   private Timer ShotTimer;
   private PackedScene Bullet;
+  private bool isAllowedToShoot = true;
 
   // Constructor
   public LMG() {
@@ -44,6 +45,7 @@ public class LMG : Node2D, IWeapon {
   // Lifecycle Hooks
   public override void _Ready() {
     ShotTimer = GetNode<Timer>("ShotTimer");
+    ShotTimer.Connect("timeout", this, nameof(ReadyToShoot));
     Bullet = ResourceLoader.Load<PackedScene>("res://components/projectiles/Bullet.tscn");
   }
 
@@ -53,19 +55,30 @@ public class LMG : Node2D, IWeapon {
   }
 
   public void StartShooting() {
-    GD.Print("todo - start shooting");
-    SpawnBullet();
+    if (ShotTimer.IsStopped()) {
+      ShotTimer.OneShot = false;
+      ShotTimer.Start();
+    }
+
+    if (isAllowedToShoot) {
+      SpawnBullet();
+      isAllowedToShoot = false;
+    }
   }
 
   public void StopShooting() {
-    GD.Print("todo - stop shooting");
+    ShotTimer.OneShot = true;
   }
 
   // Private Functions
   private void SpawnBullet() {
     Area2D bullet = Bullet.Instance<Area2D>();
     Owner.AddChild(bullet);
-    float spreadValue = _random.RandfRange(-aimSpread, aimSpread);
+    float spreadValue = _random.RandfRange(-AimSpread, AimSpread);
     bullet.Transform = new Transform2D(AimDirection.Angle() + spreadValue, Position);
+  }
+
+  private void ReadyToShoot() {
+    isAllowedToShoot = true;
   }
 }

@@ -7,6 +7,4 @@ script = ExtResource( 1 )
 aimSpread = 15.0
 
 [node name="ShotTimer" type="Timer" parent="."]
-
-[node name="Muzzle" type="Position2D" parent="."]
-position = Vector2( 5, 0 )
+wait_time = 0.2
