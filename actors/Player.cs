@@ -78,15 +78,26 @@ public class Player : KinematicBody2D {
 
   // Private Functions
   private void UpdateMovement(float delta) {
+#if GODOT_HTML5
+    // need to work around a bug where Input.GetVector doesn't work for html builds
+    // @todo - remove this workaround if this bug ever gets fixed: https://github.com/godotengine/godot/issues/58168
+    Vector2 movementVector = Vector2.FromAxes("move_left", "move_right", "move_up", "move_down");
+#else
     Vector2 movementVector = Input.GetVector("move_left", "move_right", "move_up", "move_down");
+#endif
     MoveAndCollide(movementVector * MoveSpeed * delta);
   }
 
   private void UpdateAim() {
     if (useGamepadInput) {
       // controller aiming
+#if GODOT_HTML5
+      // need to work around a bug where Input.GetVector doesn't work for html builds
+      // @todo - remove this workaround if this bug ever gets fixed: https://github.com/godotengine/godot/issues/58168
+      Vector2 controllerAim2 = Vector2.FromAxes("aim_left", "aim_right", "aim_up", "aim_down").Normalized();
+#else
       Vector2 controllerAim = Input.GetVector("aim_left", "aim_right", "aim_up", "aim_down").Normalized();
-
+#endif
       if (Mathf.Abs(controllerAim.x) > stickAimThreshold || Mathf.Abs(controllerAim.y) > stickAimThreshold) {
         weapons.ForEach((weapon) => weapon.AimAt(controllerAim * 1000));
       }
