@@ -36,8 +36,6 @@ public class Laser : Node2D, IWeapon {
       CollisionObject2D target = (CollisionObject2D)aimCast.GetCollider();
 
       if (target.HasNode("Health")) {
-        GD.Print("dealing damage!", target);
-
         if (target is IHasHealth targetHealth) {
           // in case the script has overrides for the default IHasHealth implementations
           targetHealth.TakeDamage(WeaponDamage * delta);

@@ -71,8 +71,6 @@ public class LMG : Node2D, IWeapon {
   }
 
   public void DestroyIfBullet(Node body) {
-    GD.Print("on body exit", body);
-
     if (body is Bullet bullet) {
       bullet.QueueFree();
     }

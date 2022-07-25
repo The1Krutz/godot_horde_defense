@@ -19,963 +19,3244 @@ position = Vector2( -310, -61 )
 position = Vector2( -124, -117 )
 
 [node name="mass skellies" type="Node2D" parent="."]
-
-[node name="Skeleton" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton2" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton3" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton4" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton5" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton6" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton7" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton8" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton9" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton10" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton11" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton12" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton13" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton14" parent="mass skellies" instance=ExtResource( 3 )]
-
-[node name="Skeleton15" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -338, -7 )
 
 [node name="Skeleton16" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -121, -66 )
 
 [node name="Skeleton17" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -180, -49 )
 
 [node name="Skeleton18" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -216, -100 )
 
 [node name="Skeleton19" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -124, -185 )
 
 [node name="Skeleton20" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -195, -159 )
 
 [node name="Skeleton21" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -90, -63 )
 
 [node name="Skeleton22" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -149, -46 )
 
 [node name="Skeleton23" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -185, -97 )
 
 [node name="Skeleton24" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -93, -182 )
 
 [node name="Skeleton25" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -164, -156 )
 
 [node name="Skeleton26" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -104, -43 )
 
 [node name="Skeleton27" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -163, -26 )
 
 [node name="Skeleton28" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -199, -77 )
 
 [node name="Skeleton29" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -107, -162 )
 
 [node name="Skeleton30" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -178, -136 )
 
 [node name="Skeleton31" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -73, -40 )
 
 [node name="Skeleton32" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -132, -23 )
 
 [node name="Skeleton33" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -168, -74 )
 
 [node name="Skeleton34" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -76, -159 )
 
 [node name="Skeleton35" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -147, -133 )
 
 [node name="Skeleton36" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -180, -77 )
 
 [node name="Skeleton37" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -239, -60 )
 
 [node name="Skeleton38" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -275, -111 )
 
 [node name="Skeleton39" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -183, -196 )
 
 [node name="Skeleton40" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -254, -170 )
 
 [node name="Skeleton41" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -149, -74 )
 
 [node name="Skeleton42" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -208, -57 )
 
 [node name="Skeleton43" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -244, -108 )
 
 [node name="Skeleton44" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -152, -193 )
 
 [node name="Skeleton45" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -223, -167 )
 
 [node name="Skeleton46" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -163, -54 )
 
 [node name="Skeleton47" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -222, -37 )
 
 [node name="Skeleton48" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -258, -88 )
 
 [node name="Skeleton49" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -166, -173 )
 
 [node name="Skeleton50" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -237, -147 )
 
 [node name="Skeleton51" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -132, -51 )
 
 [node name="Skeleton52" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -191, -34 )
 
 [node name="Skeleton53" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -227, -85 )
 
 [node name="Skeleton54" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -135, -170 )
 
 [node name="Skeleton55" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -206, -144 )
 
 [node name="Skeleton56" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 60, -74 )
 
 [node name="Skeleton57" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 1, -57 )
 
 [node name="Skeleton58" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -35, -108 )
 
 [node name="Skeleton59" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 57, -193 )
 
 [node name="Skeleton60" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -14, -167 )
 
 [node name="Skeleton61" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 91, -71 )
 
 [node name="Skeleton62" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 32, -54 )
 
 [node name="Skeleton63" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -4, -105 )
 
 [node name="Skeleton64" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 88, -190 )
 
 [node name="Skeleton65" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 17, -164 )
 
 [node name="Skeleton66" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 77, -51 )
 
 [node name="Skeleton67" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 18, -34 )
 
 [node name="Skeleton68" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -18, -85 )
 
 [node name="Skeleton69" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 74, -170 )
 
 [node name="Skeleton70" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 3, -144 )
 
 [node name="Skeleton71" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 108, -48 )
 
 [node name="Skeleton72" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 49, -31 )
 
 [node name="Skeleton73" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 13, -82 )
 
 [node name="Skeleton74" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 105, -167 )
 
 [node name="Skeleton75" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 34, -141 )
 
 [node name="Skeleton76" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 1, -85 )
 
 [node name="Skeleton77" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -58, -68 )
 
 [node name="Skeleton78" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -94, -119 )
 
 [node name="Skeleton79" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -2, -204 )
 
 [node name="Skeleton80" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -73, -178 )
 
 [node name="Skeleton81" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 32, -82 )
 
 [node name="Skeleton82" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -27, -65 )
 
 [node name="Skeleton83" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -63, -116 )
 
 [node name="Skeleton84" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 29, -201 )
 
 [node name="Skeleton85" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -42, -175 )
 
 [node name="Skeleton86" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 18, -62 )
 
 [node name="Skeleton87" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -41, -45 )
 
 [node name="Skeleton88" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -77, -96 )
 
 [node name="Skeleton89" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 15, -181 )
 
 [node name="Skeleton90" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -56, -155 )
 
 [node name="Skeleton91" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 49, -59 )
 
 [node name="Skeleton92" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -10, -42 )
 
 [node name="Skeleton93" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -46, -93 )
 
 [node name="Skeleton94" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 46, -178 )
 
 [node name="Skeleton95" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -25, -152 )
 
 [node name="Skeleton96" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 199, -68 )
 
 [node name="Skeleton97" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 140, -51 )
 
 [node name="Skeleton98" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 104, -102 )
 
 [node name="Skeleton99" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 196, -187 )
 
 [node name="Skeleton100" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 125, -161 )
 
 [node name="Skeleton101" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 230, -65 )
 
 [node name="Skeleton102" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 171, -48 )
 
 [node name="Skeleton103" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 135, -99 )
 
 [node name="Skeleton104" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 227, -184 )
 
 [node name="Skeleton105" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 156, -158 )
 
 [node name="Skeleton106" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 216, -45 )
 
 [node name="Skeleton107" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 157, -28 )
 
 [node name="Skeleton108" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 121, -79 )
 
 [node name="Skeleton109" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 213, -164 )
 
 [node name="Skeleton110" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 142, -138 )
 
 [node name="Skeleton111" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 247, -42 )
 
 [node name="Skeleton112" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 188, -25 )
 
 [node name="Skeleton113" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 152, -76 )
 
 [node name="Skeleton114" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 244, -161 )
 
 [node name="Skeleton115" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 173, -135 )
 
 [node name="Skeleton116" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 140, -79 )
 
 [node name="Skeleton117" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 81, -62 )
 
 [node name="Skeleton118" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 45, -113 )
 
 [node name="Skeleton119" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 137, -198 )
 
 [node name="Skeleton120" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 66, -172 )
 
 [node name="Skeleton121" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 171, -76 )
 
 [node name="Skeleton122" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 112, -59 )
 
 [node name="Skeleton123" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 76, -110 )
 
 [node name="Skeleton124" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 168, -195 )
 
 [node name="Skeleton125" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 97, -169 )
 
 [node name="Skeleton126" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 157, -56 )
 
 [node name="Skeleton127" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 98, -39 )
 
 [node name="Skeleton128" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 62, -90 )
 
 [node name="Skeleton129" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 154, -175 )
 
 [node name="Skeleton130" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 83, -149 )
 
 [node name="Skeleton131" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 188, -53 )
 
 [node name="Skeleton132" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 129, -36 )
 
 [node name="Skeleton133" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 93, -87 )
 
 [node name="Skeleton134" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 185, -172 )
 
 [node name="Skeleton135" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 114, -146 )
 
 [node name="Skeleton136" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -112, 91 )
 
 [node name="Skeleton137" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -171, 108 )
 
 [node name="Skeleton138" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -207, 57 )
 
 [node name="Skeleton139" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -115, -28 )
 
 [node name="Skeleton140" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -186, -2 )
 
 [node name="Skeleton141" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -81, 94 )
 
 [node name="Skeleton142" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -140, 111 )
 
 [node name="Skeleton143" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -176, 60 )
 
 [node name="Skeleton144" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -84, -25 )
 
 [node name="Skeleton145" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -155, 1 )
 
 [node name="Skeleton146" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -95, 114 )
 
 [node name="Skeleton147" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -154, 131 )
 
 [node name="Skeleton148" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -190, 80 )
 
 [node name="Skeleton149" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -98, -5 )
 
 [node name="Skeleton150" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -169, 21 )
 
 [node name="Skeleton151" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -64, 117 )
 
 [node name="Skeleton152" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -123, 134 )
 
 [node name="Skeleton153" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -159, 83 )
 
 [node name="Skeleton154" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -67, -2 )
 
 [node name="Skeleton155" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -138, 24 )
 
 [node name="Skeleton156" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -171, 80 )
 
 [node name="Skeleton157" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -230, 97 )
 
 [node name="Skeleton158" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -266, 46 )
 
 [node name="Skeleton159" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -174, -39 )
 
 [node name="Skeleton160" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -245, -13 )
 
 [node name="Skeleton161" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -140, 83 )
 
 [node name="Skeleton162" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -199, 100 )
 
 [node name="Skeleton163" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -235, 49 )
 
 [node name="Skeleton164" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -143, -36 )
 
 [node name="Skeleton165" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -214, -10 )
 
 [node name="Skeleton166" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -154, 103 )
 
 [node name="Skeleton167" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -213, 120 )
 
 [node name="Skeleton168" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -249, 69 )
 
 [node name="Skeleton169" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -157, -16 )
 
 [node name="Skeleton170" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -228, 10 )
 
 [node name="Skeleton171" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -123, 106 )
 
 [node name="Skeleton172" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -182, 123 )
 
 [node name="Skeleton173" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -218, 72 )
 
 [node name="Skeleton174" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -126, -13 )
 
 [node name="Skeleton175" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -197, 13 )
 
 [node name="Skeleton176" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 69, 83 )
 
 [node name="Skeleton177" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 10, 100 )
 
 [node name="Skeleton178" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -26, 49 )
 
 [node name="Skeleton179" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 66, -36 )
 
 [node name="Skeleton180" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -5, -10 )
 
 [node name="Skeleton181" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 100, 86 )
 
 [node name="Skeleton182" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 41, 103 )
 
 [node name="Skeleton183" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 5, 52 )
 
 [node name="Skeleton184" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 97, -33 )
 
 [node name="Skeleton185" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 26, -7 )
 
 [node name="Skeleton186" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 86, 106 )
 
 [node name="Skeleton187" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 27, 123 )
 
 [node name="Skeleton188" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -9, 72 )
 
 [node name="Skeleton189" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 83, -13 )
 
 [node name="Skeleton190" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 12, 13 )
 
 [node name="Skeleton191" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 117, 109 )
 
 [node name="Skeleton192" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 58, 126 )
 
 [node name="Skeleton193" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 22, 75 )
 
 [node name="Skeleton194" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 114, -10 )
 
 [node name="Skeleton195" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 43, 16 )
 
 [node name="Skeleton196" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 10, 72 )
 
 [node name="Skeleton197" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -49, 89 )
 
 [node name="Skeleton198" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -85, 38 )
 
 [node name="Skeleton199" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 7, -47 )
 
 [node name="Skeleton200" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -64, -21 )
 
 [node name="Skeleton201" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 41, 75 )
 
 [node name="Skeleton202" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -18, 92 )
 
 [node name="Skeleton203" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -54, 41 )
 
 [node name="Skeleton204" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 38, -44 )
 
 [node name="Skeleton205" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -33, -18 )
 
 [node name="Skeleton206" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 27, 95 )
 
 [node name="Skeleton207" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -32, 112 )
 
 [node name="Skeleton208" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -68, 61 )
 
 [node name="Skeleton209" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 24, -24 )
 
 [node name="Skeleton210" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -47, 2 )
 
 [node name="Skeleton211" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 58, 98 )
 
 [node name="Skeleton212" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -1, 115 )
 
 [node name="Skeleton213" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -37, 64 )
 
 [node name="Skeleton214" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 55, -21 )
 
 [node name="Skeleton215" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -16, 5 )
 
 [node name="Skeleton216" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 208, 89 )
 
 [node name="Skeleton217" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 149, 106 )
 
 [node name="Skeleton218" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 113, 55 )
 
 [node name="Skeleton219" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 205, -30 )
 
 [node name="Skeleton220" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 134, -4 )
 
 [node name="Skeleton221" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 239, 92 )
 
 [node name="Skeleton222" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 180, 109 )
 
 [node name="Skeleton223" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 144, 58 )
 
 [node name="Skeleton224" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 236, -27 )
 
 [node name="Skeleton225" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 165, -1 )
 
 [node name="Skeleton226" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 225, 112 )
 
 [node name="Skeleton227" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 166, 129 )
 
 [node name="Skeleton228" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 130, 78 )
 
 [node name="Skeleton229" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 222, -7 )
 
 [node name="Skeleton230" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 151, 19 )
 
 [node name="Skeleton231" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 256, 115 )
 
 [node name="Skeleton232" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 197, 132 )
 
 [node name="Skeleton233" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 161, 81 )
 
 [node name="Skeleton234" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 253, -4 )
 
 [node name="Skeleton235" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 182, 22 )
 
 [node name="Skeleton236" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 149, 78 )
 
 [node name="Skeleton237" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 90, 95 )
 
 [node name="Skeleton238" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 54, 44 )
 
 [node name="Skeleton239" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 146, -41 )
 
 [node name="Skeleton240" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 75, -15 )
 
 [node name="Skeleton241" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 180, 81 )
 
 [node name="Skeleton242" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 121, 98 )
 
 [node name="Skeleton243" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 85, 47 )
 
 [node name="Skeleton244" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 177, -38 )
 
 [node name="Skeleton245" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 106, -12 )
 
 [node name="Skeleton246" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 166, 101 )
 
 [node name="Skeleton247" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 107, 118 )
 
 [node name="Skeleton248" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 71, 67 )
 
 [node name="Skeleton249" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 163, -18 )
 
 [node name="Skeleton250" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 92, 8 )
 
 [node name="Skeleton251" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 197, 104 )
 
 [node name="Skeleton252" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 138, 121 )
 
 [node name="Skeleton253" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 102, 70 )
 
 [node name="Skeleton254" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 194, -15 )
 
 [node name="Skeleton255" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 123, 11 )
 
 [node name="Skeleton256" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -104, 261 )
 
 [node name="Skeleton257" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -163, 278 )
 
 [node name="Skeleton258" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -199, 227 )
 
 [node name="Skeleton259" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -107, 142 )
 
 [node name="Skeleton260" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -178, 168 )
 
 [node name="Skeleton261" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -73, 264 )
 
 [node name="Skeleton262" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -132, 281 )
 
 [node name="Skeleton263" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -168, 230 )
 
 [node name="Skeleton264" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -76, 145 )
 
 [node name="Skeleton265" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -147, 171 )
 
 [node name="Skeleton266" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -87, 284 )
 
 [node name="Skeleton267" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -146, 301 )
 
 [node name="Skeleton268" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -182, 250 )
 
 [node name="Skeleton269" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -90, 165 )
 
 [node name="Skeleton270" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -161, 191 )
 
 [node name="Skeleton271" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -56, 287 )
 
 [node name="Skeleton272" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -115, 304 )
 
 [node name="Skeleton273" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -151, 253 )
 
 [node name="Skeleton274" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -59, 168 )
 
 [node name="Skeleton275" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -130, 194 )
 
 [node name="Skeleton276" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -163, 250 )
 
 [node name="Skeleton277" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -222, 267 )
 
 [node name="Skeleton278" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -258, 216 )
 
 [node name="Skeleton279" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -166, 131 )
 
 [node name="Skeleton280" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -237, 157 )
 
 [node name="Skeleton281" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -132, 253 )
 
 [node name="Skeleton282" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -191, 270 )
 
 [node name="Skeleton283" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -227, 219 )
 
 [node name="Skeleton284" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -135, 134 )
 
 [node name="Skeleton285" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -206, 160 )
 
 [node name="Skeleton286" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -146, 273 )
 
 [node name="Skeleton287" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -205, 290 )
 
 [node name="Skeleton288" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -241, 239 )
 
 [node name="Skeleton289" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -149, 154 )
 
 [node name="Skeleton290" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -220, 180 )
 
 [node name="Skeleton291" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -115, 276 )
 
 [node name="Skeleton292" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -174, 293 )
 
 [node name="Skeleton293" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -210, 242 )
 
 [node name="Skeleton294" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -118, 157 )
 
 [node name="Skeleton295" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -189, 183 )
 
 [node name="Skeleton296" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 77, 253 )
 
 [node name="Skeleton297" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 18, 270 )
 
 [node name="Skeleton298" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -18, 219 )
 
 [node name="Skeleton299" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 74, 134 )
 
 [node name="Skeleton300" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 3, 160 )
 
 [node name="Skeleton301" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 108, 256 )
 
 [node name="Skeleton302" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 49, 273 )
 
 [node name="Skeleton303" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 13, 222 )
 
 [node name="Skeleton304" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 105, 137 )
 
 [node name="Skeleton305" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 34, 163 )
 
 [node name="Skeleton306" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 94, 276 )
 
 [node name="Skeleton307" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 35, 293 )
 
 [node name="Skeleton308" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -1, 242 )
 
 [node name="Skeleton309" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 91, 157 )
 
 [node name="Skeleton310" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 20, 183 )
 
 [node name="Skeleton311" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 125, 279 )
 
 [node name="Skeleton312" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 66, 296 )
 
 [node name="Skeleton313" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 30, 245 )
 
 [node name="Skeleton314" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 122, 160 )
 
 [node name="Skeleton315" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 51, 186 )
 
 [node name="Skeleton316" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 18, 242 )
 
 [node name="Skeleton317" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -41, 259 )
 
 [node name="Skeleton318" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -77, 208 )
 
 [node name="Skeleton319" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 15, 123 )
 
 [node name="Skeleton320" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -56, 149 )
 
 [node name="Skeleton321" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 49, 245 )
 
 [node name="Skeleton322" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -10, 262 )
 
 [node name="Skeleton323" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -46, 211 )
 
 [node name="Skeleton324" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 46, 126 )
 
 [node name="Skeleton325" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -25, 152 )
 
 [node name="Skeleton326" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 35, 265 )
 
 [node name="Skeleton327" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -24, 282 )
 
 [node name="Skeleton328" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -60, 231 )
 
 [node name="Skeleton329" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 32, 146 )
 
 [node name="Skeleton330" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -39, 172 )
 
 [node name="Skeleton331" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 66, 268 )
 
 [node name="Skeleton332" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 7, 285 )
 
 [node name="Skeleton333" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -29, 234 )
 
 [node name="Skeleton334" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 63, 149 )
 
 [node name="Skeleton335" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -8, 175 )
 
 [node name="Skeleton336" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 216, 259 )
 
 [node name="Skeleton337" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 157, 276 )
 
 [node name="Skeleton338" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 121, 225 )
 
 [node name="Skeleton339" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 213, 140 )
 
 [node name="Skeleton340" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 142, 166 )
 
 [node name="Skeleton341" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 247, 262 )
 
 [node name="Skeleton342" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 188, 279 )
 
 [node name="Skeleton343" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 152, 228 )
 
 [node name="Skeleton344" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 244, 143 )
 
 [node name="Skeleton345" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 173, 169 )
 
 [node name="Skeleton346" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 233, 282 )
 
 [node name="Skeleton347" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 174, 299 )
 
 [node name="Skeleton348" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 138, 248 )
 
 [node name="Skeleton349" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 230, 163 )
 
 [node name="Skeleton350" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 159, 189 )
 
 [node name="Skeleton351" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 264, 285 )
 
 [node name="Skeleton352" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 205, 302 )
 
 [node name="Skeleton353" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 169, 251 )
 
 [node name="Skeleton354" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 261, 166 )
 
 [node name="Skeleton355" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 190, 192 )
 
 [node name="Skeleton356" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 157, 248 )
 
 [node name="Skeleton357" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 98, 265 )
 
 [node name="Skeleton358" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 62, 214 )
 
 [node name="Skeleton359" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 154, 129 )
 
 [node name="Skeleton360" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 83, 155 )
 
 [node name="Skeleton361" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 188, 251 )
 
 [node name="Skeleton362" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 129, 268 )
 
 [node name="Skeleton363" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 93, 217 )
 
 [node name="Skeleton364" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 185, 132 )
 
 [node name="Skeleton365" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 114, 158 )
 
 [node name="Skeleton366" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 174, 271 )
 
 [node name="Skeleton367" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 115, 288 )
 
 [node name="Skeleton368" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 79, 237 )
 
 [node name="Skeleton369" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 171, 152 )
 
 [node name="Skeleton370" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 100, 178 )
 
 [node name="Skeleton371" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 205, 274 )
 
 [node name="Skeleton372" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 146, 291 )
 
 [node name="Skeleton373" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 110, 240 )
 
 [node name="Skeleton374" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 202, 155 )
 
 [node name="Skeleton375" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 131, 181 )
 
 [node name="Skeleton376" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 358, -428 )
 
 [node name="Skeleton377" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 299, -411 )
 
 [node name="Skeleton378" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 263, -462 )
 
 [node name="Skeleton379" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 355, -547 )
 
 [node name="Skeleton380" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 284, -521 )
 
 [node name="Skeleton381" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 389, -425 )
 
 [node name="Skeleton382" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 330, -408 )
 
 [node name="Skeleton383" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 294, -459 )
 
 [node name="Skeleton384" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 386, -544 )
 
 [node name="Skeleton385" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 315, -518 )
 
 [node name="Skeleton386" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 375, -405 )
 
 [node name="Skeleton387" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 316, -388 )
 
 [node name="Skeleton388" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 280, -439 )
 
 [node name="Skeleton389" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 372, -524 )
 
 [node name="Skeleton390" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 301, -498 )
 
 [node name="Skeleton391" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 406, -402 )
 
 [node name="Skeleton392" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 347, -385 )
 
 [node name="Skeleton393" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 311, -436 )
 
 [node name="Skeleton394" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 403, -521 )
 
 [node name="Skeleton395" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 332, -495 )
 
 [node name="Skeleton396" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 299, -439 )
 
 [node name="Skeleton397" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 240, -422 )
 
 [node name="Skeleton398" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 204, -473 )
 
 [node name="Skeleton399" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 296, -558 )
 
 [node name="Skeleton400" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 225, -532 )
 
 [node name="Skeleton401" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 330, -436 )
 
 [node name="Skeleton402" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 271, -419 )
 
 [node name="Skeleton403" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 235, -470 )
 
 [node name="Skeleton404" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 327, -555 )
 
 [node name="Skeleton405" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 256, -529 )
 
 [node name="Skeleton406" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 316, -416 )
 
 [node name="Skeleton407" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 257, -399 )
 
 [node name="Skeleton408" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 221, -450 )
 
 [node name="Skeleton409" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 313, -535 )
 
 [node name="Skeleton410" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 242, -509 )
 
 [node name="Skeleton411" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 347, -413 )
 
 [node name="Skeleton412" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 288, -396 )
 
 [node name="Skeleton413" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 252, -447 )
 
 [node name="Skeleton414" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 344, -532 )
 
 [node name="Skeleton415" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 273, -506 )
 
 [node name="Skeleton416" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 539, -436 )
 
 [node name="Skeleton417" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 480, -419 )
 
 [node name="Skeleton418" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 444, -470 )
 
 [node name="Skeleton419" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 536, -555 )
 
 [node name="Skeleton420" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 465, -529 )
 
 [node name="Skeleton421" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 570, -433 )
 
 [node name="Skeleton422" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 511, -416 )
 
 [node name="Skeleton423" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 475, -467 )
 
 [node name="Skeleton424" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 567, -552 )
 
 [node name="Skeleton425" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 496, -526 )
 
 [node name="Skeleton426" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 556, -413 )
 
 [node name="Skeleton427" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 497, -396 )
 
 [node name="Skeleton428" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 461, -447 )
 
 [node name="Skeleton429" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 553, -532 )
 
 [node name="Skeleton430" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 482, -506 )
 
 [node name="Skeleton431" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 587, -410 )
 
 [node name="Skeleton432" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 528, -393 )
 
 [node name="Skeleton433" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 492, -444 )
 
 [node name="Skeleton434" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 584, -529 )
 
 [node name="Skeleton435" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 513, -503 )
 
 [node name="Skeleton436" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 480, -447 )
 
 [node name="Skeleton437" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 421, -430 )
 
 [node name="Skeleton438" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 385, -481 )
 
 [node name="Skeleton439" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 477, -566 )
 
 [node name="Skeleton440" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 406, -540 )
 
 [node name="Skeleton441" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 511, -444 )
 
 [node name="Skeleton442" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 452, -427 )
 
 [node name="Skeleton443" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 416, -478 )
 
 [node name="Skeleton444" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 508, -563 )
 
 [node name="Skeleton445" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 437, -537 )
 
 [node name="Skeleton446" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 497, -424 )
 
 [node name="Skeleton447" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 438, -407 )
 
 [node name="Skeleton448" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 402, -458 )
 
 [node name="Skeleton449" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 494, -543 )
 
 [node name="Skeleton450" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 423, -517 )
 
 [node name="Skeleton451" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 528, -421 )
 
 [node name="Skeleton452" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 469, -404 )
 
 [node name="Skeleton453" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 433, -455 )
 
 [node name="Skeleton454" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 525, -540 )
 
 [node name="Skeleton455" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 454, -514 )
 
 [node name="Skeleton456" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 678, -430 )
 
 [node name="Skeleton457" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 619, -413 )
 
 [node name="Skeleton458" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 583, -464 )
 
 [node name="Skeleton459" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 675, -549 )
 
 [node name="Skeleton460" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 604, -523 )
 
 [node name="Skeleton461" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 709, -427 )
 
 [node name="Skeleton462" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 650, -410 )
 
 [node name="Skeleton463" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 614, -461 )
 
 [node name="Skeleton464" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 706, -546 )
 
 [node name="Skeleton465" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 635, -520 )
 
 [node name="Skeleton466" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 695, -407 )
 
 [node name="Skeleton467" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 636, -390 )
 
 [node name="Skeleton468" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 600, -441 )
 
 [node name="Skeleton469" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 692, -526 )
 
 [node name="Skeleton470" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 621, -500 )
 
 [node name="Skeleton471" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 726, -404 )
 
 [node name="Skeleton472" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 667, -387 )
 
 [node name="Skeleton473" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 631, -438 )
 
 [node name="Skeleton474" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 723, -523 )
 
 [node name="Skeleton475" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 652, -497 )
 
 [node name="Skeleton476" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 619, -441 )
 
 [node name="Skeleton477" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 560, -424 )
 
 [node name="Skeleton478" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 524, -475 )
 
 [node name="Skeleton479" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 616, -560 )
 
 [node name="Skeleton480" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 545, -534 )
+
+[node name="Skeleton481" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 650, -438 )
+
+[node name="Skeleton482" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 591, -421 )
+
+[node name="Skeleton483" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 555, -472 )
+
+[node name="Skeleton484" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 647, -557 )
+
+[node name="Skeleton485" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 576, -531 )
+
+[node name="Skeleton486" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 636, -418 )
+
+[node name="Skeleton487" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 577, -401 )
+
+[node name="Skeleton488" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 541, -452 )
+
+[node name="Skeleton489" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 633, -537 )
+
+[node name="Skeleton490" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 562, -511 )
+
+[node name="Skeleton491" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 667, -415 )
+
+[node name="Skeleton492" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 608, -398 )
+
+[node name="Skeleton493" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 572, -449 )
+
+[node name="Skeleton494" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 664, -534 )
+
+[node name="Skeleton495" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 593, -508 )
+
+[node name="Skeleton496" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 367, -271 )
+
+[node name="Skeleton497" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 308, -254 )
+
+[node name="Skeleton498" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 272, -305 )
+
+[node name="Skeleton499" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 364, -390 )
+
+[node name="Skeleton500" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 293, -364 )
+
+[node name="Skeleton501" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 398, -268 )
+
+[node name="Skeleton502" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 339, -251 )
+
+[node name="Skeleton503" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 303, -302 )
+
+[node name="Skeleton504" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 395, -387 )
+
+[node name="Skeleton505" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 324, -361 )
+
+[node name="Skeleton506" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 384, -248 )
+
+[node name="Skeleton507" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 325, -231 )
+
+[node name="Skeleton508" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 289, -282 )
+
+[node name="Skeleton509" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 381, -367 )
+
+[node name="Skeleton510" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 310, -341 )
+
+[node name="Skeleton511" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 415, -245 )
+
+[node name="Skeleton512" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 356, -228 )
+
+[node name="Skeleton513" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 320, -279 )
+
+[node name="Skeleton514" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 412, -364 )
+
+[node name="Skeleton515" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 341, -338 )
+
+[node name="Skeleton516" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 308, -282 )
+
+[node name="Skeleton517" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 249, -265 )
+
+[node name="Skeleton518" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 213, -316 )
+
+[node name="Skeleton519" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 305, -401 )
+
+[node name="Skeleton520" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 234, -375 )
+
+[node name="Skeleton521" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 339, -279 )
+
+[node name="Skeleton522" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 280, -262 )
+
+[node name="Skeleton523" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 244, -313 )
+
+[node name="Skeleton524" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 336, -398 )
+
+[node name="Skeleton525" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 265, -372 )
+
+[node name="Skeleton526" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 325, -259 )
+
+[node name="Skeleton527" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 266, -242 )
+
+[node name="Skeleton528" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 230, -293 )
+
+[node name="Skeleton529" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 322, -378 )
+
+[node name="Skeleton530" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 251, -352 )
+
+[node name="Skeleton531" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 356, -256 )
+
+[node name="Skeleton532" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 297, -239 )
+
+[node name="Skeleton533" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 261, -290 )
+
+[node name="Skeleton534" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 353, -375 )
+
+[node name="Skeleton535" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 282, -349 )
+
+[node name="Skeleton536" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 548, -279 )
+
+[node name="Skeleton537" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 489, -262 )
+
+[node name="Skeleton538" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 453, -313 )
+
+[node name="Skeleton539" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 545, -398 )
+
+[node name="Skeleton540" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 474, -372 )
+
+[node name="Skeleton541" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 579, -276 )
+
+[node name="Skeleton542" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 520, -259 )
+
+[node name="Skeleton543" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 484, -310 )
+
+[node name="Skeleton544" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 576, -395 )
+
+[node name="Skeleton545" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 505, -369 )
+
+[node name="Skeleton546" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 565, -256 )
+
+[node name="Skeleton547" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 506, -239 )
+
+[node name="Skeleton548" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 470, -290 )
+
+[node name="Skeleton549" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 562, -375 )
+
+[node name="Skeleton550" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 491, -349 )
+
+[node name="Skeleton551" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 596, -253 )
+
+[node name="Skeleton552" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 537, -236 )
+
+[node name="Skeleton553" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 501, -287 )
+
+[node name="Skeleton554" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 593, -372 )
+
+[node name="Skeleton555" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 522, -346 )
+
+[node name="Skeleton556" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 489, -290 )
+
+[node name="Skeleton557" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 430, -273 )
+
+[node name="Skeleton558" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 394, -324 )
+
+[node name="Skeleton559" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 486, -409 )
+
+[node name="Skeleton560" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 415, -383 )
+
+[node name="Skeleton561" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 520, -287 )
+
+[node name="Skeleton562" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 461, -270 )
+
+[node name="Skeleton563" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 425, -321 )
+
+[node name="Skeleton564" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 517, -406 )
+
+[node name="Skeleton565" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 446, -380 )
+
+[node name="Skeleton566" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 506, -267 )
+
+[node name="Skeleton567" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 447, -250 )
+
+[node name="Skeleton568" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 411, -301 )
+
+[node name="Skeleton569" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 503, -386 )
+
+[node name="Skeleton570" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 432, -360 )
+
+[node name="Skeleton571" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 537, -264 )
+
+[node name="Skeleton572" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 478, -247 )
+
+[node name="Skeleton573" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 442, -298 )
+
+[node name="Skeleton574" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 534, -383 )
+
+[node name="Skeleton575" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 463, -357 )
+
+[node name="Skeleton576" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 687, -273 )
+
+[node name="Skeleton577" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 628, -256 )
+
+[node name="Skeleton578" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 592, -307 )
+
+[node name="Skeleton579" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 684, -392 )
+
+[node name="Skeleton580" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 613, -366 )
+
+[node name="Skeleton581" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 718, -270 )
+
+[node name="Skeleton582" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 659, -253 )
+
+[node name="Skeleton583" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 623, -304 )
+
+[node name="Skeleton584" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 715, -389 )
+
+[node name="Skeleton585" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 644, -363 )
+
+[node name="Skeleton586" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 704, -250 )
+
+[node name="Skeleton587" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 645, -233 )
+
+[node name="Skeleton588" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 609, -284 )
+
+[node name="Skeleton589" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 701, -369 )
+
+[node name="Skeleton590" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 630, -343 )
+
+[node name="Skeleton591" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 735, -247 )
+
+[node name="Skeleton592" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 676, -230 )
+
+[node name="Skeleton593" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 640, -281 )
+
+[node name="Skeleton594" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 732, -366 )
+
+[node name="Skeleton595" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 661, -340 )
+
+[node name="Skeleton596" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 628, -284 )
+
+[node name="Skeleton597" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 569, -267 )
+
+[node name="Skeleton598" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 533, -318 )
+
+[node name="Skeleton599" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 625, -403 )
+
+[node name="Skeleton600" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 554, -377 )
+
+[node name="Skeleton601" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 659, -281 )
+
+[node name="Skeleton602" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 600, -264 )
+
+[node name="Skeleton603" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 564, -315 )
+
+[node name="Skeleton604" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 656, -400 )
+
+[node name="Skeleton605" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 585, -374 )
+
+[node name="Skeleton606" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 645, -261 )
+
+[node name="Skeleton607" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 586, -244 )
+
+[node name="Skeleton608" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 550, -295 )
+
+[node name="Skeleton609" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 642, -380 )
+
+[node name="Skeleton610" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 571, -354 )
+
+[node name="Skeleton611" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 676, -258 )
+
+[node name="Skeleton612" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 617, -241 )
+
+[node name="Skeleton613" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 581, -292 )
+
+[node name="Skeleton614" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 673, -377 )
+
+[node name="Skeleton615" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 602, -351 )
+
+[node name="Skeleton616" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 375, -101 )
+
+[node name="Skeleton617" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 316, -84 )
+
+[node name="Skeleton618" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 280, -135 )
+
+[node name="Skeleton619" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 372, -220 )
+
+[node name="Skeleton620" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 301, -194 )
+
+[node name="Skeleton621" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 406, -98 )
+
+[node name="Skeleton622" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 347, -81 )
+
+[node name="Skeleton623" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 311, -132 )
+
+[node name="Skeleton624" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 403, -217 )
+
+[node name="Skeleton625" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 332, -191 )
+
+[node name="Skeleton626" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 392, -78 )
+
+[node name="Skeleton627" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 333, -61 )
+
+[node name="Skeleton628" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 297, -112 )
+
+[node name="Skeleton629" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 389, -197 )
+
+[node name="Skeleton630" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 318, -171 )
+
+[node name="Skeleton631" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 423, -75 )
+
+[node name="Skeleton632" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 364, -58 )
+
+[node name="Skeleton633" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 328, -109 )
+
+[node name="Skeleton634" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 420, -194 )
+
+[node name="Skeleton635" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 349, -168 )
+
+[node name="Skeleton636" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 316, -112 )
+
+[node name="Skeleton637" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 257, -95 )
+
+[node name="Skeleton638" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 221, -146 )
+
+[node name="Skeleton639" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 313, -231 )
+
+[node name="Skeleton640" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 242, -205 )
+
+[node name="Skeleton641" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 347, -109 )
+
+[node name="Skeleton642" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 288, -92 )
+
+[node name="Skeleton643" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 252, -143 )
+
+[node name="Skeleton644" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 344, -228 )
+
+[node name="Skeleton645" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 273, -202 )
+
+[node name="Skeleton646" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 333, -89 )
+
+[node name="Skeleton647" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 274, -72 )
+
+[node name="Skeleton648" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 238, -123 )
+
+[node name="Skeleton649" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 330, -208 )
+
+[node name="Skeleton650" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 259, -182 )
+
+[node name="Skeleton651" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 364, -86 )
+
+[node name="Skeleton652" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 305, -69 )
+
+[node name="Skeleton653" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 269, -120 )
+
+[node name="Skeleton654" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 361, -205 )
+
+[node name="Skeleton655" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 290, -179 )
+
+[node name="Skeleton656" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 556, -109 )
+
+[node name="Skeleton657" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 497, -92 )
+
+[node name="Skeleton658" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 461, -143 )
+
+[node name="Skeleton659" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 553, -228 )
+
+[node name="Skeleton660" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 482, -202 )
+
+[node name="Skeleton661" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 587, -106 )
+
+[node name="Skeleton662" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 528, -89 )
+
+[node name="Skeleton663" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 492, -140 )
+
+[node name="Skeleton664" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 584, -225 )
+
+[node name="Skeleton665" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 513, -199 )
+
+[node name="Skeleton666" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 573, -86 )
+
+[node name="Skeleton667" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 514, -69 )
+
+[node name="Skeleton668" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 478, -120 )
+
+[node name="Skeleton669" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 570, -205 )
+
+[node name="Skeleton670" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 499, -179 )
+
+[node name="Skeleton671" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 604, -83 )
+
+[node name="Skeleton672" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 545, -66 )
+
+[node name="Skeleton673" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 509, -117 )
+
+[node name="Skeleton674" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 601, -202 )
+
+[node name="Skeleton675" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 530, -176 )
+
+[node name="Skeleton676" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 497, -120 )
+
+[node name="Skeleton677" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 438, -103 )
+
+[node name="Skeleton678" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 402, -154 )
+
+[node name="Skeleton679" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 494, -239 )
+
+[node name="Skeleton680" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 423, -213 )
+
+[node name="Skeleton681" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 528, -117 )
+
+[node name="Skeleton682" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 469, -100 )
+
+[node name="Skeleton683" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 433, -151 )
+
+[node name="Skeleton684" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 525, -236 )
+
+[node name="Skeleton685" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 454, -210 )
+
+[node name="Skeleton686" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 514, -97 )
+
+[node name="Skeleton687" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 455, -80 )
+
+[node name="Skeleton688" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 419, -131 )
+
+[node name="Skeleton689" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 511, -216 )
+
+[node name="Skeleton690" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 440, -190 )
+
+[node name="Skeleton691" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 545, -94 )
+
+[node name="Skeleton692" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 486, -77 )
+
+[node name="Skeleton693" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 450, -128 )
+
+[node name="Skeleton694" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 542, -213 )
+
+[node name="Skeleton695" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 471, -187 )
+
+[node name="Skeleton696" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 695, -103 )
+
+[node name="Skeleton697" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 636, -86 )
+
+[node name="Skeleton698" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 600, -137 )
+
+[node name="Skeleton699" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 692, -222 )
+
+[node name="Skeleton700" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 621, -196 )
+
+[node name="Skeleton701" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 726, -100 )
+
+[node name="Skeleton702" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 667, -83 )
+
+[node name="Skeleton703" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 631, -134 )
+
+[node name="Skeleton704" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 723, -219 )
+
+[node name="Skeleton705" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 652, -193 )
+
+[node name="Skeleton706" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 712, -80 )
+
+[node name="Skeleton707" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 653, -63 )
+
+[node name="Skeleton708" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 617, -114 )
+
+[node name="Skeleton709" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 709, -199 )
+
+[node name="Skeleton710" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 638, -173 )
+
+[node name="Skeleton711" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 743, -77 )
+
+[node name="Skeleton712" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 684, -60 )
+
+[node name="Skeleton713" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 648, -111 )
+
+[node name="Skeleton714" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 740, -196 )
+
+[node name="Skeleton715" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 669, -170 )
+
+[node name="Skeleton716" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 636, -114 )
+
+[node name="Skeleton717" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 577, -97 )
+
+[node name="Skeleton718" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 541, -148 )
+
+[node name="Skeleton719" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 633, -233 )
+
+[node name="Skeleton720" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 562, -207 )
+
+[node name="Skeleton721" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 667, -111 )
+
+[node name="Skeleton722" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 608, -94 )
+
+[node name="Skeleton723" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 572, -145 )
+
+[node name="Skeleton724" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 664, -230 )
+
+[node name="Skeleton725" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 593, -204 )
+
+[node name="Skeleton726" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 653, -91 )
+
+[node name="Skeleton727" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 594, -74 )
+
+[node name="Skeleton728" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 558, -125 )
+
+[node name="Skeleton729" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 650, -210 )
+
+[node name="Skeleton730" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 579, -184 )
+
+[node name="Skeleton731" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 684, -88 )
+
+[node name="Skeleton732" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 625, -71 )
+
+[node name="Skeleton733" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 589, -122 )
+
+[node name="Skeleton734" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 681, -207 )
+
+[node name="Skeleton735" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 610, -181 )
+
+[node name="Skeleton736" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -177, -595 )
+
+[node name="Skeleton737" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -236, -578 )
+
+[node name="Skeleton738" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -272, -629 )
+
+[node name="Skeleton739" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -180, -714 )
+
+[node name="Skeleton740" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -251, -688 )
+
+[node name="Skeleton741" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -146, -592 )
+
+[node name="Skeleton742" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -205, -575 )
+
+[node name="Skeleton743" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -241, -626 )
+
+[node name="Skeleton744" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -149, -711 )
+
+[node name="Skeleton745" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -220, -685 )
+
+[node name="Skeleton746" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -160, -572 )
+
+[node name="Skeleton747" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -219, -555 )
+
+[node name="Skeleton748" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -255, -606 )
+
+[node name="Skeleton749" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -163, -691 )
+
+[node name="Skeleton750" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -234, -665 )
+
+[node name="Skeleton751" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -129, -569 )
+
+[node name="Skeleton752" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -188, -552 )
+
+[node name="Skeleton753" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -224, -603 )
+
+[node name="Skeleton754" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -132, -688 )
+
+[node name="Skeleton755" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -203, -662 )
+
+[node name="Skeleton756" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -236, -606 )
+
+[node name="Skeleton757" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -295, -589 )
+
+[node name="Skeleton758" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -331, -640 )
+
+[node name="Skeleton759" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -239, -725 )
+
+[node name="Skeleton760" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -310, -699 )
+
+[node name="Skeleton761" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -205, -603 )
+
+[node name="Skeleton762" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -264, -586 )
+
+[node name="Skeleton763" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -300, -637 )
+
+[node name="Skeleton764" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -208, -722 )
+
+[node name="Skeleton765" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -279, -696 )
+
+[node name="Skeleton766" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -219, -583 )
+
+[node name="Skeleton767" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -278, -566 )
+
+[node name="Skeleton768" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -314, -617 )
+
+[node name="Skeleton769" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -222, -702 )
+
+[node name="Skeleton770" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -293, -676 )
+
+[node name="Skeleton771" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -188, -580 )
+
+[node name="Skeleton772" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -247, -563 )
+
+[node name="Skeleton773" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -283, -614 )
+
+[node name="Skeleton774" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -191, -699 )
+
+[node name="Skeleton775" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -262, -673 )
+
+[node name="Skeleton776" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 4, -603 )
+
+[node name="Skeleton777" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -55, -586 )
+
+[node name="Skeleton778" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -91, -637 )
+
+[node name="Skeleton779" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 1, -722 )
+
+[node name="Skeleton780" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -70, -696 )
+
+[node name="Skeleton781" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 35, -600 )
+
+[node name="Skeleton782" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -24, -583 )
+
+[node name="Skeleton783" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -60, -634 )
+
+[node name="Skeleton784" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 32, -719 )
+
+[node name="Skeleton785" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -39, -693 )
+
+[node name="Skeleton786" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 21, -580 )
+
+[node name="Skeleton787" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -38, -563 )
+
+[node name="Skeleton788" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -74, -614 )
+
+[node name="Skeleton789" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 18, -699 )
+
+[node name="Skeleton790" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -53, -673 )
+
+[node name="Skeleton791" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 52, -577 )
+
+[node name="Skeleton792" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -7, -560 )
+
+[node name="Skeleton793" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -43, -611 )
+
+[node name="Skeleton794" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 49, -696 )
+
+[node name="Skeleton795" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -22, -670 )
+
+[node name="Skeleton796" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -55, -614 )
+
+[node name="Skeleton797" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -114, -597 )
+
+[node name="Skeleton798" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -150, -648 )
+
+[node name="Skeleton799" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -58, -733 )
+
+[node name="Skeleton800" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -129, -707 )
+
+[node name="Skeleton801" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -24, -611 )
+
+[node name="Skeleton802" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -83, -594 )
+
+[node name="Skeleton803" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -119, -645 )
+
+[node name="Skeleton804" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -27, -730 )
+
+[node name="Skeleton805" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -98, -704 )
+
+[node name="Skeleton806" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -38, -591 )
+
+[node name="Skeleton807" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -97, -574 )
+
+[node name="Skeleton808" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -133, -625 )
+
+[node name="Skeleton809" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -41, -710 )
+
+[node name="Skeleton810" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -112, -684 )
+
+[node name="Skeleton811" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -7, -588 )
+
+[node name="Skeleton812" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -66, -571 )
+
+[node name="Skeleton813" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -102, -622 )
+
+[node name="Skeleton814" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -10, -707 )
+
+[node name="Skeleton815" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -81, -681 )
+
+[node name="Skeleton816" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 143, -597 )
+
+[node name="Skeleton817" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 84, -580 )
+
+[node name="Skeleton818" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 48, -631 )
+
+[node name="Skeleton819" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 140, -716 )
+
+[node name="Skeleton820" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 69, -690 )
+
+[node name="Skeleton821" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 174, -594 )
+
+[node name="Skeleton822" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 115, -577 )
+
+[node name="Skeleton823" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 79, -628 )
+
+[node name="Skeleton824" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 171, -713 )
+
+[node name="Skeleton825" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 100, -687 )
+
+[node name="Skeleton826" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 160, -574 )
+
+[node name="Skeleton827" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 101, -557 )
+
+[node name="Skeleton828" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 65, -608 )
+
+[node name="Skeleton829" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 157, -693 )
+
+[node name="Skeleton830" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 86, -667 )
+
+[node name="Skeleton831" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 191, -571 )
+
+[node name="Skeleton832" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 132, -554 )
+
+[node name="Skeleton833" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 96, -605 )
+
+[node name="Skeleton834" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 188, -690 )
+
+[node name="Skeleton835" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 117, -664 )
+
+[node name="Skeleton836" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 84, -608 )
+
+[node name="Skeleton837" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 25, -591 )
+
+[node name="Skeleton838" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -11, -642 )
+
+[node name="Skeleton839" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 81, -727 )
+
+[node name="Skeleton840" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 10, -701 )
+
+[node name="Skeleton841" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 115, -605 )
+
+[node name="Skeleton842" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 56, -588 )
+
+[node name="Skeleton843" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 20, -639 )
+
+[node name="Skeleton844" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 112, -724 )
+
+[node name="Skeleton845" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 41, -698 )
+
+[node name="Skeleton846" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 101, -585 )
+
+[node name="Skeleton847" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 42, -568 )
+
+[node name="Skeleton848" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 6, -619 )
+
+[node name="Skeleton849" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 98, -704 )
+
+[node name="Skeleton850" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 27, -678 )
+
+[node name="Skeleton851" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 132, -582 )
+
+[node name="Skeleton852" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 73, -565 )
+
+[node name="Skeleton853" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 37, -616 )
+
+[node name="Skeleton854" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 129, -701 )
+
+[node name="Skeleton855" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 58, -675 )
+
+[node name="Skeleton856" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -168, -438 )
+
+[node name="Skeleton857" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -227, -421 )
+
+[node name="Skeleton858" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -263, -472 )
+
+[node name="Skeleton859" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -171, -557 )
+
+[node name="Skeleton860" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -242, -531 )
+
+[node name="Skeleton861" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -137, -435 )
+
+[node name="Skeleton862" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -196, -418 )
+
+[node name="Skeleton863" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -232, -469 )
+
+[node name="Skeleton864" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -140, -554 )
+
+[node name="Skeleton865" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -211, -528 )
+
+[node name="Skeleton866" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -151, -415 )
+
+[node name="Skeleton867" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -210, -398 )
+
+[node name="Skeleton868" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -246, -449 )
+
+[node name="Skeleton869" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -154, -534 )
+
+[node name="Skeleton870" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -225, -508 )
+
+[node name="Skeleton871" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -120, -412 )
+
+[node name="Skeleton872" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -179, -395 )
+
+[node name="Skeleton873" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -215, -446 )
+
+[node name="Skeleton874" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -123, -531 )
+
+[node name="Skeleton875" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -194, -505 )
+
+[node name="Skeleton876" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -227, -449 )
+
+[node name="Skeleton877" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -286, -432 )
+
+[node name="Skeleton878" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -322, -483 )
+
+[node name="Skeleton879" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -230, -568 )
+
+[node name="Skeleton880" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -301, -542 )
+
+[node name="Skeleton881" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -196, -446 )
+
+[node name="Skeleton882" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -255, -429 )
+
+[node name="Skeleton883" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -291, -480 )
+
+[node name="Skeleton884" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -199, -565 )
+
+[node name="Skeleton885" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -270, -539 )
+
+[node name="Skeleton886" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -210, -426 )
+
+[node name="Skeleton887" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -269, -409 )
+
+[node name="Skeleton888" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -305, -460 )
+
+[node name="Skeleton889" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -213, -545 )
+
+[node name="Skeleton890" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -284, -519 )
+
+[node name="Skeleton891" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -179, -423 )
+
+[node name="Skeleton892" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -238, -406 )
+
+[node name="Skeleton893" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -274, -457 )
+
+[node name="Skeleton894" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -182, -542 )
+
+[node name="Skeleton895" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -253, -516 )
+
+[node name="Skeleton896" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 13, -446 )
+
+[node name="Skeleton897" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -46, -429 )
+
+[node name="Skeleton898" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -82, -480 )
+
+[node name="Skeleton899" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 10, -565 )
+
+[node name="Skeleton900" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -61, -539 )
+
+[node name="Skeleton901" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 44, -443 )
+
+[node name="Skeleton902" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -15, -426 )
+
+[node name="Skeleton903" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -51, -477 )
+
+[node name="Skeleton904" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 41, -562 )
+
+[node name="Skeleton905" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -30, -536 )
+
+[node name="Skeleton906" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 30, -423 )
+
+[node name="Skeleton907" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -29, -406 )
+
+[node name="Skeleton908" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -65, -457 )
+
+[node name="Skeleton909" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 27, -542 )
+
+[node name="Skeleton910" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -44, -516 )
+
+[node name="Skeleton911" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 61, -420 )
+
+[node name="Skeleton912" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 2, -403 )
+
+[node name="Skeleton913" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -34, -454 )
+
+[node name="Skeleton914" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 58, -539 )
+
+[node name="Skeleton915" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -13, -513 )
+
+[node name="Skeleton916" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -46, -457 )
+
+[node name="Skeleton917" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -105, -440 )
+
+[node name="Skeleton918" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -141, -491 )
+
+[node name="Skeleton919" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -49, -576 )
+
+[node name="Skeleton920" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -120, -550 )
+
+[node name="Skeleton921" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -15, -454 )
+
+[node name="Skeleton922" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -74, -437 )
+
+[node name="Skeleton923" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -110, -488 )
+
+[node name="Skeleton924" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -18, -573 )
+
+[node name="Skeleton925" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -89, -547 )
+
+[node name="Skeleton926" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -29, -434 )
+
+[node name="Skeleton927" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -88, -417 )
+
+[node name="Skeleton928" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -124, -468 )
+
+[node name="Skeleton929" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -32, -553 )
+
+[node name="Skeleton930" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -103, -527 )
+
+[node name="Skeleton931" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 2, -431 )
+
+[node name="Skeleton932" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -57, -414 )
+
+[node name="Skeleton933" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -93, -465 )
+
+[node name="Skeleton934" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -1, -550 )
+
+[node name="Skeleton935" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -72, -524 )
+
+[node name="Skeleton936" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 152, -440 )
+
+[node name="Skeleton937" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 93, -423 )
+
+[node name="Skeleton938" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 57, -474 )
+
+[node name="Skeleton939" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 149, -559 )
+
+[node name="Skeleton940" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 78, -533 )
+
+[node name="Skeleton941" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 183, -437 )
+
+[node name="Skeleton942" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 124, -420 )
+
+[node name="Skeleton943" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 88, -471 )
+
+[node name="Skeleton944" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 180, -556 )
+
+[node name="Skeleton945" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 109, -530 )
+
+[node name="Skeleton946" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 169, -417 )
+
+[node name="Skeleton947" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 110, -400 )
+
+[node name="Skeleton948" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 74, -451 )
+
+[node name="Skeleton949" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 166, -536 )
+
+[node name="Skeleton950" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 95, -510 )
+
+[node name="Skeleton951" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 200, -414 )
+
+[node name="Skeleton952" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 141, -397 )
+
+[node name="Skeleton953" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 105, -448 )
+
+[node name="Skeleton954" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 197, -533 )
+
+[node name="Skeleton955" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 126, -507 )
+
+[node name="Skeleton956" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 93, -451 )
+
+[node name="Skeleton957" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 34, -434 )
+
+[node name="Skeleton958" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -2, -485 )
+
+[node name="Skeleton959" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 90, -570 )
+
+[node name="Skeleton960" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 19, -544 )
+
+[node name="Skeleton961" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 124, -448 )
+
+[node name="Skeleton962" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 65, -431 )
+
+[node name="Skeleton963" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 29, -482 )
+
+[node name="Skeleton964" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 121, -567 )
+
+[node name="Skeleton965" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 50, -541 )
+
+[node name="Skeleton966" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 110, -428 )
+
+[node name="Skeleton967" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 51, -411 )
+
+[node name="Skeleton968" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 15, -462 )
+
+[node name="Skeleton969" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 107, -547 )
+
+[node name="Skeleton970" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 36, -521 )
+
+[node name="Skeleton971" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 141, -425 )
+
+[node name="Skeleton972" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 82, -408 )
+
+[node name="Skeleton973" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 46, -459 )
+
+[node name="Skeleton974" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 138, -544 )
+
+[node name="Skeleton975" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 67, -518 )
+
+[node name="Skeleton976" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -160, -268 )
+
+[node name="Skeleton977" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -219, -251 )
+
+[node name="Skeleton978" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -255, -302 )
+
+[node name="Skeleton979" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -163, -387 )
+
+[node name="Skeleton980" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -234, -361 )
+
+[node name="Skeleton981" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -129, -265 )
+
+[node name="Skeleton982" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -188, -248 )
+
+[node name="Skeleton983" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -224, -299 )
+
+[node name="Skeleton984" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -132, -384 )
+
+[node name="Skeleton985" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -203, -358 )
+
+[node name="Skeleton986" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -143, -245 )
+
+[node name="Skeleton987" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -202, -228 )
+
+[node name="Skeleton988" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -238, -279 )
+
+[node name="Skeleton989" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -146, -364 )
+
+[node name="Skeleton990" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -217, -338 )
+
+[node name="Skeleton991" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -112, -242 )
+
+[node name="Skeleton992" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -171, -225 )
+
+[node name="Skeleton993" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -207, -276 )
+
+[node name="Skeleton994" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -115, -361 )
+
+[node name="Skeleton995" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -186, -335 )
+
+[node name="Skeleton996" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -219, -279 )
+
+[node name="Skeleton997" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -278, -262 )
+
+[node name="Skeleton998" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -314, -313 )
+
+[node name="Skeleton999" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -222, -398 )
+
+[node name="Skeleton1000" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -293, -372 )
+
+[node name="Skeleton1001" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -188, -276 )
+
+[node name="Skeleton1002" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -247, -259 )
+
+[node name="Skeleton1003" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -283, -310 )
+
+[node name="Skeleton1004" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -191, -395 )
+
+[node name="Skeleton1005" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -262, -369 )
+
+[node name="Skeleton1006" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -202, -256 )
+
+[node name="Skeleton1007" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -261, -239 )
+
+[node name="Skeleton1008" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -297, -290 )
+
+[node name="Skeleton1009" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -205, -375 )
+
+[node name="Skeleton1010" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -276, -349 )
+
+[node name="Skeleton1011" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -171, -253 )
+
+[node name="Skeleton1012" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -230, -236 )
+
+[node name="Skeleton1013" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -266, -287 )
+
+[node name="Skeleton1014" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -174, -372 )
+
+[node name="Skeleton1015" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -245, -346 )
+
+[node name="Skeleton1016" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 21, -276 )
+
+[node name="Skeleton1017" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -38, -259 )
+
+[node name="Skeleton1018" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -74, -310 )
+
+[node name="Skeleton1019" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 18, -395 )
+
+[node name="Skeleton1020" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -53, -369 )
+
+[node name="Skeleton1021" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 52, -273 )
+
+[node name="Skeleton1022" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -7, -256 )
+
+[node name="Skeleton1023" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -43, -307 )
+
+[node name="Skeleton1024" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 49, -392 )
+
+[node name="Skeleton1025" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -22, -366 )
+
+[node name="Skeleton1026" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 38, -253 )
+
+[node name="Skeleton1027" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -21, -236 )
+
+[node name="Skeleton1028" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -57, -287 )
+
+[node name="Skeleton1029" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 35, -372 )
+
+[node name="Skeleton1030" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -36, -346 )
+
+[node name="Skeleton1031" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 69, -250 )
+
+[node name="Skeleton1032" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 10, -233 )
+
+[node name="Skeleton1033" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -26, -284 )
+
+[node name="Skeleton1034" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 66, -369 )
+
+[node name="Skeleton1035" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -5, -343 )
+
+[node name="Skeleton1036" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -38, -287 )
+
+[node name="Skeleton1037" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -97, -270 )
+
+[node name="Skeleton1038" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -133, -321 )
+
+[node name="Skeleton1039" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -41, -406 )
+
+[node name="Skeleton1040" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -112, -380 )
+
+[node name="Skeleton1041" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -7, -284 )
+
+[node name="Skeleton1042" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -66, -267 )
+
+[node name="Skeleton1043" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -102, -318 )
+
+[node name="Skeleton1044" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -10, -403 )
+
+[node name="Skeleton1045" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -81, -377 )
+
+[node name="Skeleton1046" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -21, -264 )
+
+[node name="Skeleton1047" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -80, -247 )
+
+[node name="Skeleton1048" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -116, -298 )
+
+[node name="Skeleton1049" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -24, -383 )
+
+[node name="Skeleton1050" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -95, -357 )
+
+[node name="Skeleton1051" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 10, -261 )
+
+[node name="Skeleton1052" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -49, -244 )
+
+[node name="Skeleton1053" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -85, -295 )
+
+[node name="Skeleton1054" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 7, -380 )
+
+[node name="Skeleton1055" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( -64, -354 )
+
+[node name="Skeleton1056" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 160, -270 )
+
+[node name="Skeleton1057" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 101, -253 )
+
+[node name="Skeleton1058" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 65, -304 )
+
+[node name="Skeleton1059" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 157, -389 )
+
+[node name="Skeleton1060" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 86, -363 )
+
+[node name="Skeleton1061" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 191, -267 )
+
+[node name="Skeleton1062" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 132, -250 )
+
+[node name="Skeleton1063" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 96, -301 )
+
+[node name="Skeleton1064" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 188, -386 )
+
+[node name="Skeleton1065" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 117, -360 )
+
+[node name="Skeleton1066" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 177, -247 )
+
+[node name="Skeleton1067" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 118, -230 )
+
+[node name="Skeleton1068" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 82, -281 )
+
+[node name="Skeleton1069" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 174, -366 )
+
+[node name="Skeleton1070" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 103, -340 )
+
+[node name="Skeleton1071" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 208, -244 )
+
+[node name="Skeleton1072" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 149, -227 )
+
+[node name="Skeleton1073" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 113, -278 )
+
+[node name="Skeleton1074" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 205, -363 )
+
+[node name="Skeleton1075" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 134, -337 )
+
+[node name="Skeleton1076" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 101, -281 )
+
+[node name="Skeleton1077" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 42, -264 )
+
+[node name="Skeleton1078" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 6, -315 )
+
+[node name="Skeleton1079" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 98, -400 )
+
+[node name="Skeleton1080" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 27, -374 )
+
+[node name="Skeleton1081" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 132, -278 )
+
+[node name="Skeleton1082" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 73, -261 )
+
+[node name="Skeleton1083" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 37, -312 )
+
+[node name="Skeleton1084" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 129, -397 )
+
+[node name="Skeleton1085" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 58, -371 )
+
+[node name="Skeleton1086" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 118, -258 )
+
+[node name="Skeleton1087" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 59, -241 )
+
+[node name="Skeleton1088" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 23, -292 )
+
+[node name="Skeleton1089" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 115, -377 )
+
+[node name="Skeleton1090" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 44, -351 )
+
+[node name="Skeleton1091" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 149, -255 )
+
+[node name="Skeleton1092" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 90, -238 )
+
+[node name="Skeleton1093" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 54, -289 )
+
+[node name="Skeleton1094" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 146, -374 )
+
+[node name="Skeleton1095" parent="mass skellies" instance=ExtResource( 3 )]
+position = Vector2( 75, -348 )
