@@ -1,4 +1,5 @@
 using Godot;
+using Helpers;
 
 /// <summary>
 /// template
@@ -12,6 +13,9 @@ public class LMG : Node2D, IWeapon {
 
   [Export]
   private DamageType damageType = DamageType.Normal;
+
+  [Export]
+  private float shotCooldown = 0.1f;
 
   [Export]
   private float AimSpread {
@@ -31,9 +35,11 @@ public class LMG : Node2D, IWeapon {
 
   private Damage WeaponDamage { get; } // damage per bullet
   private Vector2 AimDirection;
-  private Timer ShotTimer;
   private PackedScene BulletScene;
   private bool isAllowedToShoot = true;
+
+  private FastTimer ShotTimer;
+  private int queuedShots = 1;
 
   // Constructor
   public LMG() {
@@ -44,9 +50,13 @@ public class LMG : Node2D, IWeapon {
 
   // Lifecycle Hooks
   public override void _Ready() {
-    ShotTimer = GetNode<Timer>("ShotTimer");
-    ShotTimer.Connect("timeout", this, nameof(ReadyToShoot));
     BulletScene = ResourceLoader.Load<PackedScene>("res://components/projectiles/Bullet.tscn");
+
+    ShotTimer = new FastTimer(shotCooldown, ReadyToShoot);
+  }
+
+  public override void _Process(float delta) {
+    queuedShots += ShotTimer.Update(delta);
   }
 
   // Public Functions
@@ -55,13 +65,15 @@ public class LMG : Node2D, IWeapon {
   }
 
   public void StartShooting() {
-    if (ShotTimer.IsStopped()) {
+    if (ShotTimer.IsStopped) {
       ShotTimer.OneShot = false;
       ShotTimer.Start();
     }
 
     if (isAllowedToShoot) {
-      SpawnBullet();
+      for (; queuedShots > 0; queuedShots--) {
+        SpawnBullet();
+      }
       isAllowedToShoot = false;
     }
   }
