@@ -20,9 +20,11 @@ public class Skeleton : KinematicBody2D {
   private Vector2 movementVector = new Vector2().Randomize();
   private Timer movementUpdateTimer = new Timer() { WaitTime = 2.0f, OneShot = false, Autostart = true };
 
+  private Node2D player;
+
   // Constructor
   public Skeleton() {
-    movementUpdateTimer.Connect("timeout", this, nameof(RandomizeMovementVector));
+    movementUpdateTimer.Connect("timeout", this, nameof(UpdateTargetLocation));
     AddChild(movementUpdateTimer);
   }
 
@@ -31,6 +33,8 @@ public class Skeleton : KinematicBody2D {
     animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
 
     animationPlayer.Play("Idle");
+
+    player = (Node2D)GetTree().GetNodesInGroup("Player")[0];
   }
 
   public override void _PhysicsProcess(float delta) {
@@ -44,7 +48,8 @@ public class Skeleton : KinematicBody2D {
     MoveAndCollide(movementVector * MoveSpeed * delta);
   }
 
-  private void RandomizeMovementVector() {
-    movementVector = new Vector2().Randomize();
+  private void UpdateTargetLocation() {
+    // movementVector = new Vector2().Randomize();
+    movementVector = Position.DirectionTo(player.GlobalPosition);
   }
 }

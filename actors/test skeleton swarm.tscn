@@ -1,0 +1,3245 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://actors/Skeleton.tscn" type="PackedScene" id=2]
+
+[node name="skeleton swarm" type="Node"]
+
+[node name="Skeleton16" parent="." instance=ExtResource( 2 )]
+position = Vector2( -575, -146 )
+
+[node name="Skeleton17" parent="." instance=ExtResource( 2 )]
+position = Vector2( -634, -129 )
+
+[node name="Skeleton18" parent="." instance=ExtResource( 2 )]
+position = Vector2( -670, -180 )
+
+[node name="Skeleton19" parent="." instance=ExtResource( 2 )]
+position = Vector2( -578, -265 )
+
+[node name="Skeleton20" parent="." instance=ExtResource( 2 )]
+position = Vector2( -649, -239 )
+
+[node name="Skeleton21" parent="." instance=ExtResource( 2 )]
+position = Vector2( -544, -143 )
+
+[node name="Skeleton22" parent="." instance=ExtResource( 2 )]
+position = Vector2( -603, -126 )
+
+[node name="Skeleton23" parent="." instance=ExtResource( 2 )]
+position = Vector2( -639, -177 )
+
+[node name="Skeleton24" parent="." instance=ExtResource( 2 )]
+position = Vector2( -547, -262 )
+
+[node name="Skeleton25" parent="." instance=ExtResource( 2 )]
+position = Vector2( -618, -236 )
+
+[node name="Skeleton26" parent="." instance=ExtResource( 2 )]
+position = Vector2( -558, -123 )
+
+[node name="Skeleton27" parent="." instance=ExtResource( 2 )]
+position = Vector2( -617, -106 )
+
+[node name="Skeleton28" parent="." instance=ExtResource( 2 )]
+position = Vector2( -653, -157 )
+
+[node name="Skeleton29" parent="." instance=ExtResource( 2 )]
+position = Vector2( -561, -242 )
+
+[node name="Skeleton30" parent="." instance=ExtResource( 2 )]
+position = Vector2( -632, -216 )
+
+[node name="Skeleton31" parent="." instance=ExtResource( 2 )]
+position = Vector2( -527, -120 )
+
+[node name="Skeleton32" parent="." instance=ExtResource( 2 )]
+position = Vector2( -586, -103 )
+
+[node name="Skeleton33" parent="." instance=ExtResource( 2 )]
+position = Vector2( -622, -154 )
+
+[node name="Skeleton34" parent="." instance=ExtResource( 2 )]
+position = Vector2( -530, -239 )
+
+[node name="Skeleton35" parent="." instance=ExtResource( 2 )]
+position = Vector2( -601, -213 )
+
+[node name="Skeleton36" parent="." instance=ExtResource( 2 )]
+position = Vector2( -634, -157 )
+
+[node name="Skeleton37" parent="." instance=ExtResource( 2 )]
+position = Vector2( -693, -140 )
+
+[node name="Skeleton38" parent="." instance=ExtResource( 2 )]
+position = Vector2( -729, -191 )
+
+[node name="Skeleton39" parent="." instance=ExtResource( 2 )]
+position = Vector2( -637, -276 )
+
+[node name="Skeleton40" parent="." instance=ExtResource( 2 )]
+position = Vector2( -708, -250 )
+
+[node name="Skeleton41" parent="." instance=ExtResource( 2 )]
+position = Vector2( -603, -154 )
+
+[node name="Skeleton42" parent="." instance=ExtResource( 2 )]
+position = Vector2( -662, -137 )
+
+[node name="Skeleton43" parent="." instance=ExtResource( 2 )]
+position = Vector2( -698, -188 )
+
+[node name="Skeleton44" parent="." instance=ExtResource( 2 )]
+position = Vector2( -606, -273 )
+
+[node name="Skeleton45" parent="." instance=ExtResource( 2 )]
+position = Vector2( -677, -247 )
+
+[node name="Skeleton46" parent="." instance=ExtResource( 2 )]
+position = Vector2( -617, -134 )
+
+[node name="Skeleton47" parent="." instance=ExtResource( 2 )]
+position = Vector2( -676, -117 )
+
+[node name="Skeleton48" parent="." instance=ExtResource( 2 )]
+position = Vector2( -712, -168 )
+
+[node name="Skeleton49" parent="." instance=ExtResource( 2 )]
+position = Vector2( -620, -253 )
+
+[node name="Skeleton50" parent="." instance=ExtResource( 2 )]
+position = Vector2( -691, -227 )
+
+[node name="Skeleton51" parent="." instance=ExtResource( 2 )]
+position = Vector2( -586, -131 )
+
+[node name="Skeleton52" parent="." instance=ExtResource( 2 )]
+position = Vector2( -645, -114 )
+
+[node name="Skeleton53" parent="." instance=ExtResource( 2 )]
+position = Vector2( -681, -165 )
+
+[node name="Skeleton54" parent="." instance=ExtResource( 2 )]
+position = Vector2( -589, -250 )
+
+[node name="Skeleton55" parent="." instance=ExtResource( 2 )]
+position = Vector2( -660, -224 )
+
+[node name="Skeleton56" parent="." instance=ExtResource( 2 )]
+position = Vector2( -394, -154 )
+
+[node name="Skeleton57" parent="." instance=ExtResource( 2 )]
+position = Vector2( -453, -137 )
+
+[node name="Skeleton58" parent="." instance=ExtResource( 2 )]
+position = Vector2( -489, -188 )
+
+[node name="Skeleton59" parent="." instance=ExtResource( 2 )]
+position = Vector2( -397, -273 )
+
+[node name="Skeleton60" parent="." instance=ExtResource( 2 )]
+position = Vector2( -468, -247 )
+
+[node name="Skeleton61" parent="." instance=ExtResource( 2 )]
+position = Vector2( -363, -151 )
+
+[node name="Skeleton62" parent="." instance=ExtResource( 2 )]
+position = Vector2( -422, -134 )
+
+[node name="Skeleton63" parent="." instance=ExtResource( 2 )]
+position = Vector2( -458, -185 )
+
+[node name="Skeleton64" parent="." instance=ExtResource( 2 )]
+position = Vector2( -366, -270 )
+
+[node name="Skeleton65" parent="." instance=ExtResource( 2 )]
+position = Vector2( -437, -244 )
+
+[node name="Skeleton66" parent="." instance=ExtResource( 2 )]
+position = Vector2( -377, -131 )
+
+[node name="Skeleton67" parent="." instance=ExtResource( 2 )]
+position = Vector2( -436, -114 )
+
+[node name="Skeleton68" parent="." instance=ExtResource( 2 )]
+position = Vector2( -472, -165 )
+
+[node name="Skeleton69" parent="." instance=ExtResource( 2 )]
+position = Vector2( -380, -250 )
+
+[node name="Skeleton70" parent="." instance=ExtResource( 2 )]
+position = Vector2( -451, -224 )
+
+[node name="Skeleton71" parent="." instance=ExtResource( 2 )]
+position = Vector2( -346, -128 )
+
+[node name="Skeleton72" parent="." instance=ExtResource( 2 )]
+position = Vector2( -405, -111 )
+
+[node name="Skeleton73" parent="." instance=ExtResource( 2 )]
+position = Vector2( -441, -162 )
+
+[node name="Skeleton74" parent="." instance=ExtResource( 2 )]
+position = Vector2( -349, -247 )
+
+[node name="Skeleton75" parent="." instance=ExtResource( 2 )]
+position = Vector2( -420, -221 )
+
+[node name="Skeleton76" parent="." instance=ExtResource( 2 )]
+position = Vector2( -453, -165 )
+
+[node name="Skeleton77" parent="." instance=ExtResource( 2 )]
+position = Vector2( -512, -148 )
+
+[node name="Skeleton78" parent="." instance=ExtResource( 2 )]
+position = Vector2( -548, -199 )
+
+[node name="Skeleton79" parent="." instance=ExtResource( 2 )]
+position = Vector2( -456, -284 )
+
+[node name="Skeleton80" parent="." instance=ExtResource( 2 )]
+position = Vector2( -527, -258 )
+
+[node name="Skeleton81" parent="." instance=ExtResource( 2 )]
+position = Vector2( -422, -162 )
+
+[node name="Skeleton82" parent="." instance=ExtResource( 2 )]
+position = Vector2( -481, -145 )
+
+[node name="Skeleton83" parent="." instance=ExtResource( 2 )]
+position = Vector2( -517, -196 )
+
+[node name="Skeleton84" parent="." instance=ExtResource( 2 )]
+position = Vector2( -425, -281 )
+
+[node name="Skeleton85" parent="." instance=ExtResource( 2 )]
+position = Vector2( -496, -255 )
+
+[node name="Skeleton86" parent="." instance=ExtResource( 2 )]
+position = Vector2( -436, -142 )
+
+[node name="Skeleton87" parent="." instance=ExtResource( 2 )]
+position = Vector2( -495, -125 )
+
+[node name="Skeleton88" parent="." instance=ExtResource( 2 )]
+position = Vector2( -531, -176 )
+
+[node name="Skeleton89" parent="." instance=ExtResource( 2 )]
+position = Vector2( -439, -261 )
+
+[node name="Skeleton90" parent="." instance=ExtResource( 2 )]
+position = Vector2( -510, -235 )
+
+[node name="Skeleton91" parent="." instance=ExtResource( 2 )]
+position = Vector2( -405, -139 )
+
+[node name="Skeleton92" parent="." instance=ExtResource( 2 )]
+position = Vector2( -464, -122 )
+
+[node name="Skeleton93" parent="." instance=ExtResource( 2 )]
+position = Vector2( -500, -173 )
+
+[node name="Skeleton94" parent="." instance=ExtResource( 2 )]
+position = Vector2( -408, -258 )
+
+[node name="Skeleton95" parent="." instance=ExtResource( 2 )]
+position = Vector2( -479, -232 )
+
+[node name="Skeleton96" parent="." instance=ExtResource( 2 )]
+position = Vector2( -255, -148 )
+
+[node name="Skeleton97" parent="." instance=ExtResource( 2 )]
+position = Vector2( -314, -131 )
+
+[node name="Skeleton98" parent="." instance=ExtResource( 2 )]
+position = Vector2( -350, -182 )
+
+[node name="Skeleton99" parent="." instance=ExtResource( 2 )]
+position = Vector2( -258, -267 )
+
+[node name="Skeleton100" parent="." instance=ExtResource( 2 )]
+position = Vector2( -329, -241 )
+
+[node name="Skeleton101" parent="." instance=ExtResource( 2 )]
+position = Vector2( -224, -145 )
+
+[node name="Skeleton102" parent="." instance=ExtResource( 2 )]
+position = Vector2( -283, -128 )
+
+[node name="Skeleton103" parent="." instance=ExtResource( 2 )]
+position = Vector2( -319, -179 )
+
+[node name="Skeleton104" parent="." instance=ExtResource( 2 )]
+position = Vector2( -227, -264 )
+
+[node name="Skeleton105" parent="." instance=ExtResource( 2 )]
+position = Vector2( -298, -238 )
+
+[node name="Skeleton106" parent="." instance=ExtResource( 2 )]
+position = Vector2( -238, -125 )
+
+[node name="Skeleton107" parent="." instance=ExtResource( 2 )]
+position = Vector2( -297, -108 )
+
+[node name="Skeleton108" parent="." instance=ExtResource( 2 )]
+position = Vector2( -333, -159 )
+
+[node name="Skeleton109" parent="." instance=ExtResource( 2 )]
+position = Vector2( -241, -244 )
+
+[node name="Skeleton110" parent="." instance=ExtResource( 2 )]
+position = Vector2( -312, -218 )
+
+[node name="Skeleton111" parent="." instance=ExtResource( 2 )]
+position = Vector2( -207, -122 )
+
+[node name="Skeleton112" parent="." instance=ExtResource( 2 )]
+position = Vector2( -266, -105 )
+
+[node name="Skeleton113" parent="." instance=ExtResource( 2 )]
+position = Vector2( -302, -156 )
+
+[node name="Skeleton114" parent="." instance=ExtResource( 2 )]
+position = Vector2( -210, -241 )
+
+[node name="Skeleton115" parent="." instance=ExtResource( 2 )]
+position = Vector2( -281, -215 )
+
+[node name="Skeleton116" parent="." instance=ExtResource( 2 )]
+position = Vector2( -314, -159 )
+
+[node name="Skeleton117" parent="." instance=ExtResource( 2 )]
+position = Vector2( -373, -142 )
+
+[node name="Skeleton118" parent="." instance=ExtResource( 2 )]
+position = Vector2( -409, -193 )
+
+[node name="Skeleton119" parent="." instance=ExtResource( 2 )]
+position = Vector2( -317, -278 )
+
+[node name="Skeleton120" parent="." instance=ExtResource( 2 )]
+position = Vector2( -388, -252 )
+
+[node name="Skeleton121" parent="." instance=ExtResource( 2 )]
+position = Vector2( -283, -156 )
+
+[node name="Skeleton122" parent="." instance=ExtResource( 2 )]
+position = Vector2( -342, -139 )
+
+[node name="Skeleton123" parent="." instance=ExtResource( 2 )]
+position = Vector2( -378, -190 )
+
+[node name="Skeleton124" parent="." instance=ExtResource( 2 )]
+position = Vector2( -286, -275 )
+
+[node name="Skeleton125" parent="." instance=ExtResource( 2 )]
+position = Vector2( -357, -249 )
+
+[node name="Skeleton126" parent="." instance=ExtResource( 2 )]
+position = Vector2( -297, -136 )
+
+[node name="Skeleton127" parent="." instance=ExtResource( 2 )]
+position = Vector2( -356, -119 )
+
+[node name="Skeleton128" parent="." instance=ExtResource( 2 )]
+position = Vector2( -392, -170 )
+
+[node name="Skeleton129" parent="." instance=ExtResource( 2 )]
+position = Vector2( -300, -255 )
+
+[node name="Skeleton130" parent="." instance=ExtResource( 2 )]
+position = Vector2( -371, -229 )
+
+[node name="Skeleton131" parent="." instance=ExtResource( 2 )]
+position = Vector2( -266, -133 )
+
+[node name="Skeleton132" parent="." instance=ExtResource( 2 )]
+position = Vector2( -325, -116 )
+
+[node name="Skeleton133" parent="." instance=ExtResource( 2 )]
+position = Vector2( -361, -167 )
+
+[node name="Skeleton134" parent="." instance=ExtResource( 2 )]
+position = Vector2( -269, -252 )
+
+[node name="Skeleton135" parent="." instance=ExtResource( 2 )]
+position = Vector2( -340, -226 )
+
+[node name="Skeleton136" parent="." instance=ExtResource( 2 )]
+position = Vector2( -566, 11 )
+
+[node name="Skeleton137" parent="." instance=ExtResource( 2 )]
+position = Vector2( -625, 28 )
+
+[node name="Skeleton138" parent="." instance=ExtResource( 2 )]
+position = Vector2( -661, -23 )
+
+[node name="Skeleton139" parent="." instance=ExtResource( 2 )]
+position = Vector2( -569, -108 )
+
+[node name="Skeleton140" parent="." instance=ExtResource( 2 )]
+position = Vector2( -640, -82 )
+
+[node name="Skeleton141" parent="." instance=ExtResource( 2 )]
+position = Vector2( -535, 14 )
+
+[node name="Skeleton142" parent="." instance=ExtResource( 2 )]
+position = Vector2( -594, 31 )
+
+[node name="Skeleton143" parent="." instance=ExtResource( 2 )]
+position = Vector2( -630, -20 )
+
+[node name="Skeleton144" parent="." instance=ExtResource( 2 )]
+position = Vector2( -538, -105 )
+
+[node name="Skeleton145" parent="." instance=ExtResource( 2 )]
+position = Vector2( -609, -79 )
+
+[node name="Skeleton146" parent="." instance=ExtResource( 2 )]
+position = Vector2( -549, 34 )
+
+[node name="Skeleton147" parent="." instance=ExtResource( 2 )]
+position = Vector2( -608, 51 )
+
+[node name="Skeleton148" parent="." instance=ExtResource( 2 )]
+position = Vector2( -644, 0 )
+
+[node name="Skeleton149" parent="." instance=ExtResource( 2 )]
+position = Vector2( -552, -85 )
+
+[node name="Skeleton150" parent="." instance=ExtResource( 2 )]
+position = Vector2( -623, -59 )
+
+[node name="Skeleton151" parent="." instance=ExtResource( 2 )]
+position = Vector2( -518, 37 )
+
+[node name="Skeleton152" parent="." instance=ExtResource( 2 )]
+position = Vector2( -577, 54 )
+
+[node name="Skeleton153" parent="." instance=ExtResource( 2 )]
+position = Vector2( -613, 3 )
+
+[node name="Skeleton154" parent="." instance=ExtResource( 2 )]
+position = Vector2( -521, -82 )
+
+[node name="Skeleton155" parent="." instance=ExtResource( 2 )]
+position = Vector2( -592, -56 )
+
+[node name="Skeleton156" parent="." instance=ExtResource( 2 )]
+position = Vector2( -625, 0 )
+
+[node name="Skeleton157" parent="." instance=ExtResource( 2 )]
+position = Vector2( -684, 17 )
+
+[node name="Skeleton158" parent="." instance=ExtResource( 2 )]
+position = Vector2( -720, -34 )
+
+[node name="Skeleton159" parent="." instance=ExtResource( 2 )]
+position = Vector2( -628, -119 )
+
+[node name="Skeleton160" parent="." instance=ExtResource( 2 )]
+position = Vector2( -699, -93 )
+
+[node name="Skeleton161" parent="." instance=ExtResource( 2 )]
+position = Vector2( -594, 3 )
+
+[node name="Skeleton162" parent="." instance=ExtResource( 2 )]
+position = Vector2( -653, 20 )
+
+[node name="Skeleton163" parent="." instance=ExtResource( 2 )]
+position = Vector2( -689, -31 )
+
+[node name="Skeleton164" parent="." instance=ExtResource( 2 )]
+position = Vector2( -597, -116 )
+
+[node name="Skeleton165" parent="." instance=ExtResource( 2 )]
+position = Vector2( -668, -90 )
+
+[node name="Skeleton166" parent="." instance=ExtResource( 2 )]
+position = Vector2( -608, 23 )
+
+[node name="Skeleton167" parent="." instance=ExtResource( 2 )]
+position = Vector2( -667, 40 )
+
+[node name="Skeleton168" parent="." instance=ExtResource( 2 )]
+position = Vector2( -703, -11 )
+
+[node name="Skeleton169" parent="." instance=ExtResource( 2 )]
+position = Vector2( -611, -96 )
+
+[node name="Skeleton170" parent="." instance=ExtResource( 2 )]
+position = Vector2( -682, -70 )
+
+[node name="Skeleton171" parent="." instance=ExtResource( 2 )]
+position = Vector2( -577, 26 )
+
+[node name="Skeleton172" parent="." instance=ExtResource( 2 )]
+position = Vector2( -636, 43 )
+
+[node name="Skeleton173" parent="." instance=ExtResource( 2 )]
+position = Vector2( -672, -8 )
+
+[node name="Skeleton174" parent="." instance=ExtResource( 2 )]
+position = Vector2( -580, -93 )
+
+[node name="Skeleton175" parent="." instance=ExtResource( 2 )]
+position = Vector2( -651, -67 )
+
+[node name="Skeleton176" parent="." instance=ExtResource( 2 )]
+position = Vector2( -385, 3 )
+
+[node name="Skeleton177" parent="." instance=ExtResource( 2 )]
+position = Vector2( -444, 20 )
+
+[node name="Skeleton178" parent="." instance=ExtResource( 2 )]
+position = Vector2( -480, -31 )
+
+[node name="Skeleton179" parent="." instance=ExtResource( 2 )]
+position = Vector2( -388, -116 )
+
+[node name="Skeleton180" parent="." instance=ExtResource( 2 )]
+position = Vector2( -459, -90 )
+
+[node name="Skeleton181" parent="." instance=ExtResource( 2 )]
+position = Vector2( -354, 6 )
+
+[node name="Skeleton182" parent="." instance=ExtResource( 2 )]
+position = Vector2( -413, 23 )
+
+[node name="Skeleton183" parent="." instance=ExtResource( 2 )]
+position = Vector2( -449, -28 )
+
+[node name="Skeleton184" parent="." instance=ExtResource( 2 )]
+position = Vector2( -357, -113 )
+
+[node name="Skeleton185" parent="." instance=ExtResource( 2 )]
+position = Vector2( -428, -87 )
+
+[node name="Skeleton186" parent="." instance=ExtResource( 2 )]
+position = Vector2( -368, 26 )
+
+[node name="Skeleton187" parent="." instance=ExtResource( 2 )]
+position = Vector2( -427, 43 )
+
+[node name="Skeleton188" parent="." instance=ExtResource( 2 )]
+position = Vector2( -463, -8 )
+
+[node name="Skeleton189" parent="." instance=ExtResource( 2 )]
+position = Vector2( -371, -93 )
+
+[node name="Skeleton190" parent="." instance=ExtResource( 2 )]
+position = Vector2( -442, -67 )
+
+[node name="Skeleton191" parent="." instance=ExtResource( 2 )]
+position = Vector2( -337, 29 )
+
+[node name="Skeleton192" parent="." instance=ExtResource( 2 )]
+position = Vector2( -396, 46 )
+
+[node name="Skeleton193" parent="." instance=ExtResource( 2 )]
+position = Vector2( -432, -5 )
+
+[node name="Skeleton194" parent="." instance=ExtResource( 2 )]
+position = Vector2( -340, -90 )
+
+[node name="Skeleton195" parent="." instance=ExtResource( 2 )]
+position = Vector2( -411, -64 )
+
+[node name="Skeleton196" parent="." instance=ExtResource( 2 )]
+position = Vector2( -444, -8 )
+
+[node name="Skeleton197" parent="." instance=ExtResource( 2 )]
+position = Vector2( -503, 9 )
+
+[node name="Skeleton198" parent="." instance=ExtResource( 2 )]
+position = Vector2( -539, -42 )
+
+[node name="Skeleton199" parent="." instance=ExtResource( 2 )]
+position = Vector2( -447, -127 )
+
+[node name="Skeleton200" parent="." instance=ExtResource( 2 )]
+position = Vector2( -518, -101 )
+
+[node name="Skeleton201" parent="." instance=ExtResource( 2 )]
+position = Vector2( -413, -5 )
+
+[node name="Skeleton202" parent="." instance=ExtResource( 2 )]
+position = Vector2( -472, 12 )
+
+[node name="Skeleton203" parent="." instance=ExtResource( 2 )]
+position = Vector2( -508, -39 )
+
+[node name="Skeleton204" parent="." instance=ExtResource( 2 )]
+position = Vector2( -416, -124 )
+
+[node name="Skeleton205" parent="." instance=ExtResource( 2 )]
+position = Vector2( -487, -98 )
+
+[node name="Skeleton206" parent="." instance=ExtResource( 2 )]
+position = Vector2( -427, 15 )
+
+[node name="Skeleton207" parent="." instance=ExtResource( 2 )]
+position = Vector2( -486, 32 )
+
+[node name="Skeleton208" parent="." instance=ExtResource( 2 )]
+position = Vector2( -522, -19 )
+
+[node name="Skeleton209" parent="." instance=ExtResource( 2 )]
+position = Vector2( -430, -104 )
+
+[node name="Skeleton210" parent="." instance=ExtResource( 2 )]
+position = Vector2( -501, -78 )
+
+[node name="Skeleton211" parent="." instance=ExtResource( 2 )]
+position = Vector2( -396, 18 )
+
+[node name="Skeleton212" parent="." instance=ExtResource( 2 )]
+position = Vector2( -455, 35 )
+
+[node name="Skeleton213" parent="." instance=ExtResource( 2 )]
+position = Vector2( -491, -16 )
+
+[node name="Skeleton214" parent="." instance=ExtResource( 2 )]
+position = Vector2( -399, -101 )
+
+[node name="Skeleton215" parent="." instance=ExtResource( 2 )]
+position = Vector2( -470, -75 )
+
+[node name="Skeleton216" parent="." instance=ExtResource( 2 )]
+position = Vector2( -246, 9 )
+
+[node name="Skeleton217" parent="." instance=ExtResource( 2 )]
+position = Vector2( -305, 26 )
+
+[node name="Skeleton218" parent="." instance=ExtResource( 2 )]
+position = Vector2( -341, -25 )
+
+[node name="Skeleton219" parent="." instance=ExtResource( 2 )]
+position = Vector2( -249, -110 )
+
+[node name="Skeleton220" parent="." instance=ExtResource( 2 )]
+position = Vector2( -320, -84 )
+
+[node name="Skeleton221" parent="." instance=ExtResource( 2 )]
+position = Vector2( -215, 12 )
+
+[node name="Skeleton222" parent="." instance=ExtResource( 2 )]
+position = Vector2( -274, 29 )
+
+[node name="Skeleton223" parent="." instance=ExtResource( 2 )]
+position = Vector2( -310, -22 )
+
+[node name="Skeleton224" parent="." instance=ExtResource( 2 )]
+position = Vector2( -218, -107 )
+
+[node name="Skeleton225" parent="." instance=ExtResource( 2 )]
+position = Vector2( -289, -81 )
+
+[node name="Skeleton226" parent="." instance=ExtResource( 2 )]
+position = Vector2( -229, 32 )
+
+[node name="Skeleton227" parent="." instance=ExtResource( 2 )]
+position = Vector2( -288, 49 )
+
+[node name="Skeleton228" parent="." instance=ExtResource( 2 )]
+position = Vector2( -324, -2 )
+
+[node name="Skeleton229" parent="." instance=ExtResource( 2 )]
+position = Vector2( -232, -87 )
+
+[node name="Skeleton230" parent="." instance=ExtResource( 2 )]
+position = Vector2( -303, -61 )
+
+[node name="Skeleton231" parent="." instance=ExtResource( 2 )]
+position = Vector2( -198, 35 )
+
+[node name="Skeleton232" parent="." instance=ExtResource( 2 )]
+position = Vector2( -257, 52 )
+
+[node name="Skeleton233" parent="." instance=ExtResource( 2 )]
+position = Vector2( -293, 1 )
+
+[node name="Skeleton234" parent="." instance=ExtResource( 2 )]
+position = Vector2( -201, -84 )
+
+[node name="Skeleton235" parent="." instance=ExtResource( 2 )]
+position = Vector2( -272, -58 )
+
+[node name="Skeleton236" parent="." instance=ExtResource( 2 )]
+position = Vector2( -305, -2 )
+
+[node name="Skeleton237" parent="." instance=ExtResource( 2 )]
+position = Vector2( -364, 15 )
+
+[node name="Skeleton238" parent="." instance=ExtResource( 2 )]
+position = Vector2( -400, -36 )
+
+[node name="Skeleton239" parent="." instance=ExtResource( 2 )]
+position = Vector2( -308, -121 )
+
+[node name="Skeleton240" parent="." instance=ExtResource( 2 )]
+position = Vector2( -379, -95 )
+
+[node name="Skeleton241" parent="." instance=ExtResource( 2 )]
+position = Vector2( -274, 1 )
+
+[node name="Skeleton242" parent="." instance=ExtResource( 2 )]
+position = Vector2( -333, 18 )
+
+[node name="Skeleton243" parent="." instance=ExtResource( 2 )]
+position = Vector2( -369, -33 )
+
+[node name="Skeleton244" parent="." instance=ExtResource( 2 )]
+position = Vector2( -277, -118 )
+
+[node name="Skeleton245" parent="." instance=ExtResource( 2 )]
+position = Vector2( -348, -92 )
+
+[node name="Skeleton246" parent="." instance=ExtResource( 2 )]
+position = Vector2( -288, 21 )
+
+[node name="Skeleton247" parent="." instance=ExtResource( 2 )]
+position = Vector2( -347, 38 )
+
+[node name="Skeleton248" parent="." instance=ExtResource( 2 )]
+position = Vector2( -383, -13 )
+
+[node name="Skeleton249" parent="." instance=ExtResource( 2 )]
+position = Vector2( -291, -98 )
+
+[node name="Skeleton250" parent="." instance=ExtResource( 2 )]
+position = Vector2( -362, -72 )
+
+[node name="Skeleton251" parent="." instance=ExtResource( 2 )]
+position = Vector2( -257, 24 )
+
+[node name="Skeleton252" parent="." instance=ExtResource( 2 )]
+position = Vector2( -316, 41 )
+
+[node name="Skeleton253" parent="." instance=ExtResource( 2 )]
+position = Vector2( -352, -10 )
+
+[node name="Skeleton254" parent="." instance=ExtResource( 2 )]
+position = Vector2( -260, -95 )
+
+[node name="Skeleton255" parent="." instance=ExtResource( 2 )]
+position = Vector2( -331, -69 )
+
+[node name="Skeleton256" parent="." instance=ExtResource( 2 )]
+position = Vector2( -558, 181 )
+
+[node name="Skeleton257" parent="." instance=ExtResource( 2 )]
+position = Vector2( -617, 198 )
+
+[node name="Skeleton258" parent="." instance=ExtResource( 2 )]
+position = Vector2( -653, 147 )
+
+[node name="Skeleton259" parent="." instance=ExtResource( 2 )]
+position = Vector2( -561, 62 )
+
+[node name="Skeleton260" parent="." instance=ExtResource( 2 )]
+position = Vector2( -632, 88 )
+
+[node name="Skeleton261" parent="." instance=ExtResource( 2 )]
+position = Vector2( -527, 184 )
+
+[node name="Skeleton262" parent="." instance=ExtResource( 2 )]
+position = Vector2( -586, 201 )
+
+[node name="Skeleton263" parent="." instance=ExtResource( 2 )]
+position = Vector2( -622, 150 )
+
+[node name="Skeleton264" parent="." instance=ExtResource( 2 )]
+position = Vector2( -530, 65 )
+
+[node name="Skeleton265" parent="." instance=ExtResource( 2 )]
+position = Vector2( -601, 91 )
+
+[node name="Skeleton266" parent="." instance=ExtResource( 2 )]
+position = Vector2( -541, 204 )
+
+[node name="Skeleton267" parent="." instance=ExtResource( 2 )]
+position = Vector2( -600, 221 )
+
+[node name="Skeleton268" parent="." instance=ExtResource( 2 )]
+position = Vector2( -636, 170 )
+
+[node name="Skeleton269" parent="." instance=ExtResource( 2 )]
+position = Vector2( -544, 85 )
+
+[node name="Skeleton270" parent="." instance=ExtResource( 2 )]
+position = Vector2( -615, 111 )
+
+[node name="Skeleton271" parent="." instance=ExtResource( 2 )]
+position = Vector2( -510, 207 )
+
+[node name="Skeleton272" parent="." instance=ExtResource( 2 )]
+position = Vector2( -569, 224 )
+
+[node name="Skeleton273" parent="." instance=ExtResource( 2 )]
+position = Vector2( -605, 173 )
+
+[node name="Skeleton274" parent="." instance=ExtResource( 2 )]
+position = Vector2( -513, 88 )
+
+[node name="Skeleton275" parent="." instance=ExtResource( 2 )]
+position = Vector2( -584, 114 )
+
+[node name="Skeleton276" parent="." instance=ExtResource( 2 )]
+position = Vector2( -617, 170 )
+
+[node name="Skeleton277" parent="." instance=ExtResource( 2 )]
+position = Vector2( -676, 187 )
+
+[node name="Skeleton278" parent="." instance=ExtResource( 2 )]
+position = Vector2( -712, 136 )
+
+[node name="Skeleton279" parent="." instance=ExtResource( 2 )]
+position = Vector2( -620, 51 )
+
+[node name="Skeleton280" parent="." instance=ExtResource( 2 )]
+position = Vector2( -691, 77 )
+
+[node name="Skeleton281" parent="." instance=ExtResource( 2 )]
+position = Vector2( -586, 173 )
+
+[node name="Skeleton282" parent="." instance=ExtResource( 2 )]
+position = Vector2( -645, 190 )
+
+[node name="Skeleton283" parent="." instance=ExtResource( 2 )]
+position = Vector2( -681, 139 )
+
+[node name="Skeleton284" parent="." instance=ExtResource( 2 )]
+position = Vector2( -589, 54 )
+
+[node name="Skeleton285" parent="." instance=ExtResource( 2 )]
+position = Vector2( -660, 80 )
+
+[node name="Skeleton286" parent="." instance=ExtResource( 2 )]
+position = Vector2( -600, 193 )
+
+[node name="Skeleton287" parent="." instance=ExtResource( 2 )]
+position = Vector2( -659, 210 )
+
+[node name="Skeleton288" parent="." instance=ExtResource( 2 )]
+position = Vector2( -695, 159 )
+
+[node name="Skeleton289" parent="." instance=ExtResource( 2 )]
+position = Vector2( -603, 74 )
+
+[node name="Skeleton290" parent="." instance=ExtResource( 2 )]
+position = Vector2( -674, 100 )
+
+[node name="Skeleton291" parent="." instance=ExtResource( 2 )]
+position = Vector2( -569, 196 )
+
+[node name="Skeleton292" parent="." instance=ExtResource( 2 )]
+position = Vector2( -628, 213 )
+
+[node name="Skeleton293" parent="." instance=ExtResource( 2 )]
+position = Vector2( -664, 162 )
+
+[node name="Skeleton294" parent="." instance=ExtResource( 2 )]
+position = Vector2( -572, 77 )
+
+[node name="Skeleton295" parent="." instance=ExtResource( 2 )]
+position = Vector2( -643, 103 )
+
+[node name="Skeleton296" parent="." instance=ExtResource( 2 )]
+position = Vector2( -377, 173 )
+
+[node name="Skeleton297" parent="." instance=ExtResource( 2 )]
+position = Vector2( -436, 190 )
+
+[node name="Skeleton298" parent="." instance=ExtResource( 2 )]
+position = Vector2( -472, 139 )
+
+[node name="Skeleton299" parent="." instance=ExtResource( 2 )]
+position = Vector2( -380, 54 )
+
+[node name="Skeleton300" parent="." instance=ExtResource( 2 )]
+position = Vector2( -451, 80 )
+
+[node name="Skeleton301" parent="." instance=ExtResource( 2 )]
+position = Vector2( -346, 176 )
+
+[node name="Skeleton302" parent="." instance=ExtResource( 2 )]
+position = Vector2( -405, 193 )
+
+[node name="Skeleton303" parent="." instance=ExtResource( 2 )]
+position = Vector2( -441, 142 )
+
+[node name="Skeleton304" parent="." instance=ExtResource( 2 )]
+position = Vector2( -349, 57 )
+
+[node name="Skeleton305" parent="." instance=ExtResource( 2 )]
+position = Vector2( -420, 83 )
+
+[node name="Skeleton306" parent="." instance=ExtResource( 2 )]
+position = Vector2( -360, 196 )
+
+[node name="Skeleton307" parent="." instance=ExtResource( 2 )]
+position = Vector2( -419, 213 )
+
+[node name="Skeleton308" parent="." instance=ExtResource( 2 )]
+position = Vector2( -455, 162 )
+
+[node name="Skeleton309" parent="." instance=ExtResource( 2 )]
+position = Vector2( -363, 77 )
+
+[node name="Skeleton310" parent="." instance=ExtResource( 2 )]
+position = Vector2( -434, 103 )
+
+[node name="Skeleton311" parent="." instance=ExtResource( 2 )]
+position = Vector2( -329, 199 )
+
+[node name="Skeleton312" parent="." instance=ExtResource( 2 )]
+position = Vector2( -388, 216 )
+
+[node name="Skeleton313" parent="." instance=ExtResource( 2 )]
+position = Vector2( -424, 165 )
+
+[node name="Skeleton314" parent="." instance=ExtResource( 2 )]
+position = Vector2( -332, 80 )
+
+[node name="Skeleton315" parent="." instance=ExtResource( 2 )]
+position = Vector2( -403, 106 )
+
+[node name="Skeleton316" parent="." instance=ExtResource( 2 )]
+position = Vector2( -436, 162 )
+
+[node name="Skeleton317" parent="." instance=ExtResource( 2 )]
+position = Vector2( -495, 179 )
+
+[node name="Skeleton318" parent="." instance=ExtResource( 2 )]
+position = Vector2( -531, 128 )
+
+[node name="Skeleton319" parent="." instance=ExtResource( 2 )]
+position = Vector2( -439, 43 )
+
+[node name="Skeleton320" parent="." instance=ExtResource( 2 )]
+position = Vector2( -510, 69 )
+
+[node name="Skeleton321" parent="." instance=ExtResource( 2 )]
+position = Vector2( -405, 165 )
+
+[node name="Skeleton322" parent="." instance=ExtResource( 2 )]
+position = Vector2( -464, 182 )
+
+[node name="Skeleton323" parent="." instance=ExtResource( 2 )]
+position = Vector2( -500, 131 )
+
+[node name="Skeleton324" parent="." instance=ExtResource( 2 )]
+position = Vector2( -408, 46 )
+
+[node name="Skeleton325" parent="." instance=ExtResource( 2 )]
+position = Vector2( -479, 72 )
+
+[node name="Skeleton326" parent="." instance=ExtResource( 2 )]
+position = Vector2( -419, 185 )
+
+[node name="Skeleton327" parent="." instance=ExtResource( 2 )]
+position = Vector2( -478, 202 )
+
+[node name="Skeleton328" parent="." instance=ExtResource( 2 )]
+position = Vector2( -514, 151 )
+
+[node name="Skeleton329" parent="." instance=ExtResource( 2 )]
+position = Vector2( -422, 66 )
+
+[node name="Skeleton330" parent="." instance=ExtResource( 2 )]
+position = Vector2( -493, 92 )
+
+[node name="Skeleton331" parent="." instance=ExtResource( 2 )]
+position = Vector2( -388, 188 )
+
+[node name="Skeleton332" parent="." instance=ExtResource( 2 )]
+position = Vector2( -447, 205 )
+
+[node name="Skeleton333" parent="." instance=ExtResource( 2 )]
+position = Vector2( -483, 154 )
+
+[node name="Skeleton334" parent="." instance=ExtResource( 2 )]
+position = Vector2( -391, 69 )
+
+[node name="Skeleton335" parent="." instance=ExtResource( 2 )]
+position = Vector2( -462, 95 )
+
+[node name="Skeleton336" parent="." instance=ExtResource( 2 )]
+position = Vector2( -238, 179 )
+
+[node name="Skeleton337" parent="." instance=ExtResource( 2 )]
+position = Vector2( -297, 196 )
+
+[node name="Skeleton338" parent="." instance=ExtResource( 2 )]
+position = Vector2( -333, 145 )
+
+[node name="Skeleton339" parent="." instance=ExtResource( 2 )]
+position = Vector2( -241, 60 )
+
+[node name="Skeleton340" parent="." instance=ExtResource( 2 )]
+position = Vector2( -312, 86 )
+
+[node name="Skeleton341" parent="." instance=ExtResource( 2 )]
+position = Vector2( -207, 182 )
+
+[node name="Skeleton342" parent="." instance=ExtResource( 2 )]
+position = Vector2( -266, 199 )
+
+[node name="Skeleton343" parent="." instance=ExtResource( 2 )]
+position = Vector2( -302, 148 )
+
+[node name="Skeleton344" parent="." instance=ExtResource( 2 )]
+position = Vector2( -210, 63 )
+
+[node name="Skeleton345" parent="." instance=ExtResource( 2 )]
+position = Vector2( -281, 89 )
+
+[node name="Skeleton346" parent="." instance=ExtResource( 2 )]
+position = Vector2( -221, 202 )
+
+[node name="Skeleton347" parent="." instance=ExtResource( 2 )]
+position = Vector2( -280, 219 )
+
+[node name="Skeleton348" parent="." instance=ExtResource( 2 )]
+position = Vector2( -316, 168 )
+
+[node name="Skeleton349" parent="." instance=ExtResource( 2 )]
+position = Vector2( -224, 83 )
+
+[node name="Skeleton350" parent="." instance=ExtResource( 2 )]
+position = Vector2( -295, 109 )
+
+[node name="Skeleton351" parent="." instance=ExtResource( 2 )]
+position = Vector2( -190, 205 )
+
+[node name="Skeleton352" parent="." instance=ExtResource( 2 )]
+position = Vector2( -249, 222 )
+
+[node name="Skeleton353" parent="." instance=ExtResource( 2 )]
+position = Vector2( -285, 171 )
+
+[node name="Skeleton354" parent="." instance=ExtResource( 2 )]
+position = Vector2( -193, 86 )
+
+[node name="Skeleton355" parent="." instance=ExtResource( 2 )]
+position = Vector2( -264, 112 )
+
+[node name="Skeleton356" parent="." instance=ExtResource( 2 )]
+position = Vector2( -297, 168 )
+
+[node name="Skeleton357" parent="." instance=ExtResource( 2 )]
+position = Vector2( -356, 185 )
+
+[node name="Skeleton358" parent="." instance=ExtResource( 2 )]
+position = Vector2( -392, 134 )
+
+[node name="Skeleton359" parent="." instance=ExtResource( 2 )]
+position = Vector2( -300, 49 )
+
+[node name="Skeleton360" parent="." instance=ExtResource( 2 )]
+position = Vector2( -371, 75 )
+
+[node name="Skeleton361" parent="." instance=ExtResource( 2 )]
+position = Vector2( -266, 171 )
+
+[node name="Skeleton362" parent="." instance=ExtResource( 2 )]
+position = Vector2( -325, 188 )
+
+[node name="Skeleton363" parent="." instance=ExtResource( 2 )]
+position = Vector2( -361, 137 )
+
+[node name="Skeleton364" parent="." instance=ExtResource( 2 )]
+position = Vector2( -269, 52 )
+
+[node name="Skeleton365" parent="." instance=ExtResource( 2 )]
+position = Vector2( -340, 78 )
+
+[node name="Skeleton366" parent="." instance=ExtResource( 2 )]
+position = Vector2( -280, 191 )
+
+[node name="Skeleton367" parent="." instance=ExtResource( 2 )]
+position = Vector2( -339, 208 )
+
+[node name="Skeleton368" parent="." instance=ExtResource( 2 )]
+position = Vector2( -375, 157 )
+
+[node name="Skeleton369" parent="." instance=ExtResource( 2 )]
+position = Vector2( -283, 72 )
+
+[node name="Skeleton370" parent="." instance=ExtResource( 2 )]
+position = Vector2( -354, 98 )
+
+[node name="Skeleton371" parent="." instance=ExtResource( 2 )]
+position = Vector2( -249, 194 )
+
+[node name="Skeleton372" parent="." instance=ExtResource( 2 )]
+position = Vector2( -308, 211 )
+
+[node name="Skeleton373" parent="." instance=ExtResource( 2 )]
+position = Vector2( -344, 160 )
+
+[node name="Skeleton374" parent="." instance=ExtResource( 2 )]
+position = Vector2( -252, 75 )
+
+[node name="Skeleton375" parent="." instance=ExtResource( 2 )]
+position = Vector2( -323, 101 )
+
+[node name="Skeleton376" parent="." instance=ExtResource( 2 )]
+position = Vector2( -96, -508 )
+
+[node name="Skeleton377" parent="." instance=ExtResource( 2 )]
+position = Vector2( -155, -491 )
+
+[node name="Skeleton378" parent="." instance=ExtResource( 2 )]
+position = Vector2( -191, -542 )
+
+[node name="Skeleton379" parent="." instance=ExtResource( 2 )]
+position = Vector2( -99, -627 )
+
+[node name="Skeleton380" parent="." instance=ExtResource( 2 )]
+position = Vector2( -170, -601 )
+
+[node name="Skeleton381" parent="." instance=ExtResource( 2 )]
+position = Vector2( -65, -505 )
+
+[node name="Skeleton382" parent="." instance=ExtResource( 2 )]
+position = Vector2( -124, -488 )
+
+[node name="Skeleton383" parent="." instance=ExtResource( 2 )]
+position = Vector2( -160, -539 )
+
+[node name="Skeleton384" parent="." instance=ExtResource( 2 )]
+position = Vector2( -68, -624 )
+
+[node name="Skeleton385" parent="." instance=ExtResource( 2 )]
+position = Vector2( -139, -598 )
+
+[node name="Skeleton386" parent="." instance=ExtResource( 2 )]
+position = Vector2( -79, -485 )
+
+[node name="Skeleton387" parent="." instance=ExtResource( 2 )]
+position = Vector2( -138, -468 )
+
+[node name="Skeleton388" parent="." instance=ExtResource( 2 )]
+position = Vector2( -174, -519 )
+
+[node name="Skeleton389" parent="." instance=ExtResource( 2 )]
+position = Vector2( -82, -604 )
+
+[node name="Skeleton390" parent="." instance=ExtResource( 2 )]
+position = Vector2( -153, -578 )
+
+[node name="Skeleton391" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, -482 )
+
+[node name="Skeleton392" parent="." instance=ExtResource( 2 )]
+position = Vector2( -107, -465 )
+
+[node name="Skeleton393" parent="." instance=ExtResource( 2 )]
+position = Vector2( -143, -516 )
+
+[node name="Skeleton394" parent="." instance=ExtResource( 2 )]
+position = Vector2( -51, -601 )
+
+[node name="Skeleton395" parent="." instance=ExtResource( 2 )]
+position = Vector2( -122, -575 )
+
+[node name="Skeleton396" parent="." instance=ExtResource( 2 )]
+position = Vector2( -155, -519 )
+
+[node name="Skeleton397" parent="." instance=ExtResource( 2 )]
+position = Vector2( -214, -502 )
+
+[node name="Skeleton398" parent="." instance=ExtResource( 2 )]
+position = Vector2( -250, -553 )
+
+[node name="Skeleton399" parent="." instance=ExtResource( 2 )]
+position = Vector2( -158, -638 )
+
+[node name="Skeleton400" parent="." instance=ExtResource( 2 )]
+position = Vector2( -229, -612 )
+
+[node name="Skeleton401" parent="." instance=ExtResource( 2 )]
+position = Vector2( -124, -516 )
+
+[node name="Skeleton402" parent="." instance=ExtResource( 2 )]
+position = Vector2( -183, -499 )
+
+[node name="Skeleton403" parent="." instance=ExtResource( 2 )]
+position = Vector2( -219, -550 )
+
+[node name="Skeleton404" parent="." instance=ExtResource( 2 )]
+position = Vector2( -127, -635 )
+
+[node name="Skeleton405" parent="." instance=ExtResource( 2 )]
+position = Vector2( -198, -609 )
+
+[node name="Skeleton406" parent="." instance=ExtResource( 2 )]
+position = Vector2( -138, -496 )
+
+[node name="Skeleton407" parent="." instance=ExtResource( 2 )]
+position = Vector2( -197, -479 )
+
+[node name="Skeleton408" parent="." instance=ExtResource( 2 )]
+position = Vector2( -233, -530 )
+
+[node name="Skeleton409" parent="." instance=ExtResource( 2 )]
+position = Vector2( -141, -615 )
+
+[node name="Skeleton410" parent="." instance=ExtResource( 2 )]
+position = Vector2( -212, -589 )
+
+[node name="Skeleton411" parent="." instance=ExtResource( 2 )]
+position = Vector2( -107, -493 )
+
+[node name="Skeleton412" parent="." instance=ExtResource( 2 )]
+position = Vector2( -166, -476 )
+
+[node name="Skeleton413" parent="." instance=ExtResource( 2 )]
+position = Vector2( -202, -527 )
+
+[node name="Skeleton414" parent="." instance=ExtResource( 2 )]
+position = Vector2( -110, -612 )
+
+[node name="Skeleton415" parent="." instance=ExtResource( 2 )]
+position = Vector2( -181, -586 )
+
+[node name="Skeleton416" parent="." instance=ExtResource( 2 )]
+position = Vector2( 85, -516 )
+
+[node name="Skeleton417" parent="." instance=ExtResource( 2 )]
+position = Vector2( 26, -499 )
+
+[node name="Skeleton418" parent="." instance=ExtResource( 2 )]
+position = Vector2( -10, -550 )
+
+[node name="Skeleton419" parent="." instance=ExtResource( 2 )]
+position = Vector2( 82, -635 )
+
+[node name="Skeleton420" parent="." instance=ExtResource( 2 )]
+position = Vector2( 11, -609 )
+
+[node name="Skeleton421" parent="." instance=ExtResource( 2 )]
+position = Vector2( 116, -513 )
+
+[node name="Skeleton422" parent="." instance=ExtResource( 2 )]
+position = Vector2( 57, -496 )
+
+[node name="Skeleton423" parent="." instance=ExtResource( 2 )]
+position = Vector2( 21, -547 )
+
+[node name="Skeleton424" parent="." instance=ExtResource( 2 )]
+position = Vector2( 113, -632 )
+
+[node name="Skeleton425" parent="." instance=ExtResource( 2 )]
+position = Vector2( 42, -606 )
+
+[node name="Skeleton426" parent="." instance=ExtResource( 2 )]
+position = Vector2( 102, -493 )
+
+[node name="Skeleton427" parent="." instance=ExtResource( 2 )]
+position = Vector2( 43, -476 )
+
+[node name="Skeleton428" parent="." instance=ExtResource( 2 )]
+position = Vector2( 7, -527 )
+
+[node name="Skeleton429" parent="." instance=ExtResource( 2 )]
+position = Vector2( 99, -612 )
+
+[node name="Skeleton430" parent="." instance=ExtResource( 2 )]
+position = Vector2( 28, -586 )
+
+[node name="Skeleton431" parent="." instance=ExtResource( 2 )]
+position = Vector2( 133, -490 )
+
+[node name="Skeleton432" parent="." instance=ExtResource( 2 )]
+position = Vector2( 74, -473 )
+
+[node name="Skeleton433" parent="." instance=ExtResource( 2 )]
+position = Vector2( 38, -524 )
+
+[node name="Skeleton434" parent="." instance=ExtResource( 2 )]
+position = Vector2( 130, -609 )
+
+[node name="Skeleton435" parent="." instance=ExtResource( 2 )]
+position = Vector2( 59, -583 )
+
+[node name="Skeleton436" parent="." instance=ExtResource( 2 )]
+position = Vector2( 26, -527 )
+
+[node name="Skeleton437" parent="." instance=ExtResource( 2 )]
+position = Vector2( -33, -510 )
+
+[node name="Skeleton438" parent="." instance=ExtResource( 2 )]
+position = Vector2( -69, -561 )
+
+[node name="Skeleton439" parent="." instance=ExtResource( 2 )]
+position = Vector2( 23, -646 )
+
+[node name="Skeleton440" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, -620 )
+
+[node name="Skeleton441" parent="." instance=ExtResource( 2 )]
+position = Vector2( 57, -524 )
+
+[node name="Skeleton442" parent="." instance=ExtResource( 2 )]
+position = Vector2( -2, -507 )
+
+[node name="Skeleton443" parent="." instance=ExtResource( 2 )]
+position = Vector2( -38, -558 )
+
+[node name="Skeleton444" parent="." instance=ExtResource( 2 )]
+position = Vector2( 54, -643 )
+
+[node name="Skeleton445" parent="." instance=ExtResource( 2 )]
+position = Vector2( -17, -617 )
+
+[node name="Skeleton446" parent="." instance=ExtResource( 2 )]
+position = Vector2( 43, -504 )
+
+[node name="Skeleton447" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, -487 )
+
+[node name="Skeleton448" parent="." instance=ExtResource( 2 )]
+position = Vector2( -52, -538 )
+
+[node name="Skeleton449" parent="." instance=ExtResource( 2 )]
+position = Vector2( 40, -623 )
+
+[node name="Skeleton450" parent="." instance=ExtResource( 2 )]
+position = Vector2( -31, -597 )
+
+[node name="Skeleton451" parent="." instance=ExtResource( 2 )]
+position = Vector2( 74, -501 )
+
+[node name="Skeleton452" parent="." instance=ExtResource( 2 )]
+position = Vector2( 15, -484 )
+
+[node name="Skeleton453" parent="." instance=ExtResource( 2 )]
+position = Vector2( -21, -535 )
+
+[node name="Skeleton454" parent="." instance=ExtResource( 2 )]
+position = Vector2( 71, -620 )
+
+[node name="Skeleton455" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, -594 )
+
+[node name="Skeleton456" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, -510 )
+
+[node name="Skeleton457" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, -493 )
+
+[node name="Skeleton458" parent="." instance=ExtResource( 2 )]
+position = Vector2( 129, -544 )
+
+[node name="Skeleton459" parent="." instance=ExtResource( 2 )]
+position = Vector2( 221, -629 )
+
+[node name="Skeleton460" parent="." instance=ExtResource( 2 )]
+position = Vector2( 150, -603 )
+
+[node name="Skeleton461" parent="." instance=ExtResource( 2 )]
+position = Vector2( 255, -507 )
+
+[node name="Skeleton462" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, -490 )
+
+[node name="Skeleton463" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, -541 )
+
+[node name="Skeleton464" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, -626 )
+
+[node name="Skeleton465" parent="." instance=ExtResource( 2 )]
+position = Vector2( 181, -600 )
+
+[node name="Skeleton466" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241, -487 )
+
+[node name="Skeleton467" parent="." instance=ExtResource( 2 )]
+position = Vector2( 182, -470 )
+
+[node name="Skeleton468" parent="." instance=ExtResource( 2 )]
+position = Vector2( 146, -521 )
+
+[node name="Skeleton469" parent="." instance=ExtResource( 2 )]
+position = Vector2( 238, -606 )
+
+[node name="Skeleton470" parent="." instance=ExtResource( 2 )]
+position = Vector2( 167, -580 )
+
+[node name="Skeleton471" parent="." instance=ExtResource( 2 )]
+position = Vector2( 272, -484 )
+
+[node name="Skeleton472" parent="." instance=ExtResource( 2 )]
+position = Vector2( 213, -467 )
+
+[node name="Skeleton473" parent="." instance=ExtResource( 2 )]
+position = Vector2( 177, -518 )
+
+[node name="Skeleton474" parent="." instance=ExtResource( 2 )]
+position = Vector2( 269, -603 )
+
+[node name="Skeleton475" parent="." instance=ExtResource( 2 )]
+position = Vector2( 198, -577 )
+
+[node name="Skeleton476" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, -521 )
+
+[node name="Skeleton477" parent="." instance=ExtResource( 2 )]
+position = Vector2( 106, -504 )
+
+[node name="Skeleton478" parent="." instance=ExtResource( 2 )]
+position = Vector2( 70, -555 )
+
+[node name="Skeleton479" parent="." instance=ExtResource( 2 )]
+position = Vector2( 162, -640 )
+
+[node name="Skeleton480" parent="." instance=ExtResource( 2 )]
+position = Vector2( 91, -614 )
+
+[node name="Skeleton481" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, -518 )
+
+[node name="Skeleton482" parent="." instance=ExtResource( 2 )]
+position = Vector2( 137, -501 )
+
+[node name="Skeleton483" parent="." instance=ExtResource( 2 )]
+position = Vector2( 101, -552 )
+
+[node name="Skeleton484" parent="." instance=ExtResource( 2 )]
+position = Vector2( 193, -637 )
+
+[node name="Skeleton485" parent="." instance=ExtResource( 2 )]
+position = Vector2( 122, -611 )
+
+[node name="Skeleton486" parent="." instance=ExtResource( 2 )]
+position = Vector2( 182, -498 )
+
+[node name="Skeleton487" parent="." instance=ExtResource( 2 )]
+position = Vector2( 123, -481 )
+
+[node name="Skeleton488" parent="." instance=ExtResource( 2 )]
+position = Vector2( 87, -532 )
+
+[node name="Skeleton489" parent="." instance=ExtResource( 2 )]
+position = Vector2( 179, -617 )
+
+[node name="Skeleton490" parent="." instance=ExtResource( 2 )]
+position = Vector2( 108, -591 )
+
+[node name="Skeleton491" parent="." instance=ExtResource( 2 )]
+position = Vector2( 213, -495 )
+
+[node name="Skeleton492" parent="." instance=ExtResource( 2 )]
+position = Vector2( 154, -478 )
+
+[node name="Skeleton493" parent="." instance=ExtResource( 2 )]
+position = Vector2( 118, -529 )
+
+[node name="Skeleton494" parent="." instance=ExtResource( 2 )]
+position = Vector2( 210, -614 )
+
+[node name="Skeleton495" parent="." instance=ExtResource( 2 )]
+position = Vector2( 139, -588 )
+
+[node name="Skeleton496" parent="." instance=ExtResource( 2 )]
+position = Vector2( -87, -351 )
+
+[node name="Skeleton497" parent="." instance=ExtResource( 2 )]
+position = Vector2( -146, -334 )
+
+[node name="Skeleton498" parent="." instance=ExtResource( 2 )]
+position = Vector2( -182, -385 )
+
+[node name="Skeleton499" parent="." instance=ExtResource( 2 )]
+position = Vector2( -90, -470 )
+
+[node name="Skeleton500" parent="." instance=ExtResource( 2 )]
+position = Vector2( -161, -444 )
+
+[node name="Skeleton501" parent="." instance=ExtResource( 2 )]
+position = Vector2( -56, -348 )
+
+[node name="Skeleton502" parent="." instance=ExtResource( 2 )]
+position = Vector2( -115, -331 )
+
+[node name="Skeleton503" parent="." instance=ExtResource( 2 )]
+position = Vector2( -151, -382 )
+
+[node name="Skeleton504" parent="." instance=ExtResource( 2 )]
+position = Vector2( -59, -467 )
+
+[node name="Skeleton505" parent="." instance=ExtResource( 2 )]
+position = Vector2( -130, -441 )
+
+[node name="Skeleton506" parent="." instance=ExtResource( 2 )]
+position = Vector2( -70, -328 )
+
+[node name="Skeleton507" parent="." instance=ExtResource( 2 )]
+position = Vector2( -129, -311 )
+
+[node name="Skeleton508" parent="." instance=ExtResource( 2 )]
+position = Vector2( -165, -362 )
+
+[node name="Skeleton509" parent="." instance=ExtResource( 2 )]
+position = Vector2( -73, -447 )
+
+[node name="Skeleton510" parent="." instance=ExtResource( 2 )]
+position = Vector2( -144, -421 )
+
+[node name="Skeleton511" parent="." instance=ExtResource( 2 )]
+position = Vector2( -39, -325 )
+
+[node name="Skeleton512" parent="." instance=ExtResource( 2 )]
+position = Vector2( -98, -308 )
+
+[node name="Skeleton513" parent="." instance=ExtResource( 2 )]
+position = Vector2( -134, -359 )
+
+[node name="Skeleton514" parent="." instance=ExtResource( 2 )]
+position = Vector2( -42, -444 )
+
+[node name="Skeleton515" parent="." instance=ExtResource( 2 )]
+position = Vector2( -113, -418 )
+
+[node name="Skeleton516" parent="." instance=ExtResource( 2 )]
+position = Vector2( -146, -362 )
+
+[node name="Skeleton517" parent="." instance=ExtResource( 2 )]
+position = Vector2( -205, -345 )
+
+[node name="Skeleton518" parent="." instance=ExtResource( 2 )]
+position = Vector2( -241, -396 )
+
+[node name="Skeleton519" parent="." instance=ExtResource( 2 )]
+position = Vector2( -149, -481 )
+
+[node name="Skeleton520" parent="." instance=ExtResource( 2 )]
+position = Vector2( -220, -455 )
+
+[node name="Skeleton521" parent="." instance=ExtResource( 2 )]
+position = Vector2( -115, -359 )
+
+[node name="Skeleton522" parent="." instance=ExtResource( 2 )]
+position = Vector2( -174, -342 )
+
+[node name="Skeleton523" parent="." instance=ExtResource( 2 )]
+position = Vector2( -210, -393 )
+
+[node name="Skeleton524" parent="." instance=ExtResource( 2 )]
+position = Vector2( -118, -478 )
+
+[node name="Skeleton525" parent="." instance=ExtResource( 2 )]
+position = Vector2( -189, -452 )
+
+[node name="Skeleton526" parent="." instance=ExtResource( 2 )]
+position = Vector2( -129, -339 )
+
+[node name="Skeleton527" parent="." instance=ExtResource( 2 )]
+position = Vector2( -188, -322 )
+
+[node name="Skeleton528" parent="." instance=ExtResource( 2 )]
+position = Vector2( -224, -373 )
+
+[node name="Skeleton529" parent="." instance=ExtResource( 2 )]
+position = Vector2( -132, -458 )
+
+[node name="Skeleton530" parent="." instance=ExtResource( 2 )]
+position = Vector2( -203, -432 )
+
+[node name="Skeleton531" parent="." instance=ExtResource( 2 )]
+position = Vector2( -98, -336 )
+
+[node name="Skeleton532" parent="." instance=ExtResource( 2 )]
+position = Vector2( -157, -319 )
+
+[node name="Skeleton533" parent="." instance=ExtResource( 2 )]
+position = Vector2( -193, -370 )
+
+[node name="Skeleton534" parent="." instance=ExtResource( 2 )]
+position = Vector2( -101, -455 )
+
+[node name="Skeleton535" parent="." instance=ExtResource( 2 )]
+position = Vector2( -172, -429 )
+
+[node name="Skeleton536" parent="." instance=ExtResource( 2 )]
+position = Vector2( 94, -359 )
+
+[node name="Skeleton537" parent="." instance=ExtResource( 2 )]
+position = Vector2( 35, -342 )
+
+[node name="Skeleton538" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1, -393 )
+
+[node name="Skeleton539" parent="." instance=ExtResource( 2 )]
+position = Vector2( 91, -478 )
+
+[node name="Skeleton540" parent="." instance=ExtResource( 2 )]
+position = Vector2( 20, -452 )
+
+[node name="Skeleton541" parent="." instance=ExtResource( 2 )]
+position = Vector2( 125, -356 )
+
+[node name="Skeleton542" parent="." instance=ExtResource( 2 )]
+position = Vector2( 66, -339 )
+
+[node name="Skeleton543" parent="." instance=ExtResource( 2 )]
+position = Vector2( 30, -390 )
+
+[node name="Skeleton544" parent="." instance=ExtResource( 2 )]
+position = Vector2( 122, -475 )
+
+[node name="Skeleton545" parent="." instance=ExtResource( 2 )]
+position = Vector2( 51, -449 )
+
+[node name="Skeleton546" parent="." instance=ExtResource( 2 )]
+position = Vector2( 111, -336 )
+
+[node name="Skeleton547" parent="." instance=ExtResource( 2 )]
+position = Vector2( 52, -319 )
+
+[node name="Skeleton548" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, -370 )
+
+[node name="Skeleton549" parent="." instance=ExtResource( 2 )]
+position = Vector2( 108, -455 )
+
+[node name="Skeleton550" parent="." instance=ExtResource( 2 )]
+position = Vector2( 37, -429 )
+
+[node name="Skeleton551" parent="." instance=ExtResource( 2 )]
+position = Vector2( 142, -333 )
+
+[node name="Skeleton552" parent="." instance=ExtResource( 2 )]
+position = Vector2( 83, -316 )
+
+[node name="Skeleton553" parent="." instance=ExtResource( 2 )]
+position = Vector2( 47, -367 )
+
+[node name="Skeleton554" parent="." instance=ExtResource( 2 )]
+position = Vector2( 139, -452 )
+
+[node name="Skeleton555" parent="." instance=ExtResource( 2 )]
+position = Vector2( 68, -426 )
+
+[node name="Skeleton556" parent="." instance=ExtResource( 2 )]
+position = Vector2( 35, -370 )
+
+[node name="Skeleton557" parent="." instance=ExtResource( 2 )]
+position = Vector2( -24, -353 )
+
+[node name="Skeleton558" parent="." instance=ExtResource( 2 )]
+position = Vector2( -60, -404 )
+
+[node name="Skeleton559" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, -489 )
+
+[node name="Skeleton560" parent="." instance=ExtResource( 2 )]
+position = Vector2( -39, -463 )
+
+[node name="Skeleton561" parent="." instance=ExtResource( 2 )]
+position = Vector2( 66, -367 )
+
+[node name="Skeleton562" parent="." instance=ExtResource( 2 )]
+position = Vector2( 7, -350 )
+
+[node name="Skeleton563" parent="." instance=ExtResource( 2 )]
+position = Vector2( -29, -401 )
+
+[node name="Skeleton564" parent="." instance=ExtResource( 2 )]
+position = Vector2( 63, -486 )
+
+[node name="Skeleton565" parent="." instance=ExtResource( 2 )]
+position = Vector2( -8, -460 )
+
+[node name="Skeleton566" parent="." instance=ExtResource( 2 )]
+position = Vector2( 52, -347 )
+
+[node name="Skeleton567" parent="." instance=ExtResource( 2 )]
+position = Vector2( -7, -330 )
+
+[node name="Skeleton568" parent="." instance=ExtResource( 2 )]
+position = Vector2( -43, -381 )
+
+[node name="Skeleton569" parent="." instance=ExtResource( 2 )]
+position = Vector2( 49, -466 )
+
+[node name="Skeleton570" parent="." instance=ExtResource( 2 )]
+position = Vector2( -22, -440 )
+
+[node name="Skeleton571" parent="." instance=ExtResource( 2 )]
+position = Vector2( 83, -344 )
+
+[node name="Skeleton572" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, -327 )
+
+[node name="Skeleton573" parent="." instance=ExtResource( 2 )]
+position = Vector2( -12, -378 )
+
+[node name="Skeleton574" parent="." instance=ExtResource( 2 )]
+position = Vector2( 80, -463 )
+
+[node name="Skeleton575" parent="." instance=ExtResource( 2 )]
+position = Vector2( 9, -437 )
+
+[node name="Skeleton576" parent="." instance=ExtResource( 2 )]
+position = Vector2( 233, -353 )
+
+[node name="Skeleton577" parent="." instance=ExtResource( 2 )]
+position = Vector2( 174, -336 )
+
+[node name="Skeleton578" parent="." instance=ExtResource( 2 )]
+position = Vector2( 138, -387 )
+
+[node name="Skeleton579" parent="." instance=ExtResource( 2 )]
+position = Vector2( 230, -472 )
+
+[node name="Skeleton580" parent="." instance=ExtResource( 2 )]
+position = Vector2( 159, -446 )
+
+[node name="Skeleton581" parent="." instance=ExtResource( 2 )]
+position = Vector2( 264, -350 )
+
+[node name="Skeleton582" parent="." instance=ExtResource( 2 )]
+position = Vector2( 205, -333 )
+
+[node name="Skeleton583" parent="." instance=ExtResource( 2 )]
+position = Vector2( 169, -384 )
+
+[node name="Skeleton584" parent="." instance=ExtResource( 2 )]
+position = Vector2( 261, -469 )
+
+[node name="Skeleton585" parent="." instance=ExtResource( 2 )]
+position = Vector2( 190, -443 )
+
+[node name="Skeleton586" parent="." instance=ExtResource( 2 )]
+position = Vector2( 250, -330 )
+
+[node name="Skeleton587" parent="." instance=ExtResource( 2 )]
+position = Vector2( 191, -313 )
+
+[node name="Skeleton588" parent="." instance=ExtResource( 2 )]
+position = Vector2( 155, -364 )
+
+[node name="Skeleton589" parent="." instance=ExtResource( 2 )]
+position = Vector2( 247, -449 )
+
+[node name="Skeleton590" parent="." instance=ExtResource( 2 )]
+position = Vector2( 176, -423 )
+
+[node name="Skeleton591" parent="." instance=ExtResource( 2 )]
+position = Vector2( 281, -327 )
+
+[node name="Skeleton592" parent="." instance=ExtResource( 2 )]
+position = Vector2( 222, -310 )
+
+[node name="Skeleton593" parent="." instance=ExtResource( 2 )]
+position = Vector2( 186, -361 )
+
+[node name="Skeleton594" parent="." instance=ExtResource( 2 )]
+position = Vector2( 278, -446 )
+
+[node name="Skeleton595" parent="." instance=ExtResource( 2 )]
+position = Vector2( 207, -420 )
+
+[node name="Skeleton596" parent="." instance=ExtResource( 2 )]
+position = Vector2( 174, -364 )
+
+[node name="Skeleton597" parent="." instance=ExtResource( 2 )]
+position = Vector2( 115, -347 )
+
+[node name="Skeleton598" parent="." instance=ExtResource( 2 )]
+position = Vector2( 79, -398 )
+
+[node name="Skeleton599" parent="." instance=ExtResource( 2 )]
+position = Vector2( 171, -483 )
+
+[node name="Skeleton600" parent="." instance=ExtResource( 2 )]
+position = Vector2( 100, -457 )
+
+[node name="Skeleton601" parent="." instance=ExtResource( 2 )]
+position = Vector2( 205, -361 )
+
+[node name="Skeleton602" parent="." instance=ExtResource( 2 )]
+position = Vector2( 146, -344 )
+
+[node name="Skeleton603" parent="." instance=ExtResource( 2 )]
+position = Vector2( 110, -395 )
+
+[node name="Skeleton604" parent="." instance=ExtResource( 2 )]
+position = Vector2( 202, -480 )
+
+[node name="Skeleton605" parent="." instance=ExtResource( 2 )]
+position = Vector2( 131, -454 )
+
+[node name="Skeleton606" parent="." instance=ExtResource( 2 )]
+position = Vector2( 191, -341 )
+
+[node name="Skeleton607" parent="." instance=ExtResource( 2 )]
+position = Vector2( 132, -324 )
+
+[node name="Skeleton608" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, -375 )
+
+[node name="Skeleton609" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, -460 )
+
+[node name="Skeleton610" parent="." instance=ExtResource( 2 )]
+position = Vector2( 117, -434 )
+
+[node name="Skeleton611" parent="." instance=ExtResource( 2 )]
+position = Vector2( 222, -338 )
+
+[node name="Skeleton612" parent="." instance=ExtResource( 2 )]
+position = Vector2( 163, -321 )
+
+[node name="Skeleton613" parent="." instance=ExtResource( 2 )]
+position = Vector2( 127, -372 )
+
+[node name="Skeleton614" parent="." instance=ExtResource( 2 )]
+position = Vector2( 219, -457 )
+
+[node name="Skeleton615" parent="." instance=ExtResource( 2 )]
+position = Vector2( 148, -431 )
+
+[node name="Skeleton616" parent="." instance=ExtResource( 2 )]
+position = Vector2( -79, -181 )
+
+[node name="Skeleton617" parent="." instance=ExtResource( 2 )]
+position = Vector2( -138, -164 )
+
+[node name="Skeleton618" parent="." instance=ExtResource( 2 )]
+position = Vector2( -174, -215 )
+
+[node name="Skeleton619" parent="." instance=ExtResource( 2 )]
+position = Vector2( -82, -300 )
+
+[node name="Skeleton620" parent="." instance=ExtResource( 2 )]
+position = Vector2( -153, -274 )
+
+[node name="Skeleton621" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, -178 )
+
+[node name="Skeleton622" parent="." instance=ExtResource( 2 )]
+position = Vector2( -107, -161 )
+
+[node name="Skeleton623" parent="." instance=ExtResource( 2 )]
+position = Vector2( -143, -212 )
+
+[node name="Skeleton624" parent="." instance=ExtResource( 2 )]
+position = Vector2( -51, -297 )
+
+[node name="Skeleton625" parent="." instance=ExtResource( 2 )]
+position = Vector2( -122, -271 )
+
+[node name="Skeleton626" parent="." instance=ExtResource( 2 )]
+position = Vector2( -62, -158 )
+
+[node name="Skeleton627" parent="." instance=ExtResource( 2 )]
+position = Vector2( -121, -141 )
+
+[node name="Skeleton628" parent="." instance=ExtResource( 2 )]
+position = Vector2( -157, -192 )
+
+[node name="Skeleton629" parent="." instance=ExtResource( 2 )]
+position = Vector2( -65, -277 )
+
+[node name="Skeleton630" parent="." instance=ExtResource( 2 )]
+position = Vector2( -136, -251 )
+
+[node name="Skeleton631" parent="." instance=ExtResource( 2 )]
+position = Vector2( -31, -155 )
+
+[node name="Skeleton632" parent="." instance=ExtResource( 2 )]
+position = Vector2( -90, -138 )
+
+[node name="Skeleton633" parent="." instance=ExtResource( 2 )]
+position = Vector2( -126, -189 )
+
+[node name="Skeleton634" parent="." instance=ExtResource( 2 )]
+position = Vector2( -34, -274 )
+
+[node name="Skeleton635" parent="." instance=ExtResource( 2 )]
+position = Vector2( -105, -248 )
+
+[node name="Skeleton636" parent="." instance=ExtResource( 2 )]
+position = Vector2( -138, -192 )
+
+[node name="Skeleton637" parent="." instance=ExtResource( 2 )]
+position = Vector2( -197, -175 )
+
+[node name="Skeleton638" parent="." instance=ExtResource( 2 )]
+position = Vector2( -233, -226 )
+
+[node name="Skeleton639" parent="." instance=ExtResource( 2 )]
+position = Vector2( -141, -311 )
+
+[node name="Skeleton640" parent="." instance=ExtResource( 2 )]
+position = Vector2( -212, -285 )
+
+[node name="Skeleton641" parent="." instance=ExtResource( 2 )]
+position = Vector2( -107, -189 )
+
+[node name="Skeleton642" parent="." instance=ExtResource( 2 )]
+position = Vector2( -166, -172 )
+
+[node name="Skeleton643" parent="." instance=ExtResource( 2 )]
+position = Vector2( -202, -223 )
+
+[node name="Skeleton644" parent="." instance=ExtResource( 2 )]
+position = Vector2( -110, -308 )
+
+[node name="Skeleton645" parent="." instance=ExtResource( 2 )]
+position = Vector2( -181, -282 )
+
+[node name="Skeleton646" parent="." instance=ExtResource( 2 )]
+position = Vector2( -121, -169 )
+
+[node name="Skeleton647" parent="." instance=ExtResource( 2 )]
+position = Vector2( -180, -152 )
+
+[node name="Skeleton648" parent="." instance=ExtResource( 2 )]
+position = Vector2( -216, -203 )
+
+[node name="Skeleton649" parent="." instance=ExtResource( 2 )]
+position = Vector2( -124, -288 )
+
+[node name="Skeleton650" parent="." instance=ExtResource( 2 )]
+position = Vector2( -195, -262 )
+
+[node name="Skeleton651" parent="." instance=ExtResource( 2 )]
+position = Vector2( -90, -166 )
+
+[node name="Skeleton652" parent="." instance=ExtResource( 2 )]
+position = Vector2( -149, -149 )
+
+[node name="Skeleton653" parent="." instance=ExtResource( 2 )]
+position = Vector2( -185, -200 )
+
+[node name="Skeleton654" parent="." instance=ExtResource( 2 )]
+position = Vector2( -93, -285 )
+
+[node name="Skeleton655" parent="." instance=ExtResource( 2 )]
+position = Vector2( -164, -259 )
+
+[node name="Skeleton656" parent="." instance=ExtResource( 2 )]
+position = Vector2( 102, -189 )
+
+[node name="Skeleton657" parent="." instance=ExtResource( 2 )]
+position = Vector2( 43, -172 )
+
+[node name="Skeleton658" parent="." instance=ExtResource( 2 )]
+position = Vector2( 7, -223 )
+
+[node name="Skeleton659" parent="." instance=ExtResource( 2 )]
+position = Vector2( 99, -308 )
+
+[node name="Skeleton660" parent="." instance=ExtResource( 2 )]
+position = Vector2( 28, -282 )
+
+[node name="Skeleton661" parent="." instance=ExtResource( 2 )]
+position = Vector2( 133, -186 )
+
+[node name="Skeleton662" parent="." instance=ExtResource( 2 )]
+position = Vector2( 74, -169 )
+
+[node name="Skeleton663" parent="." instance=ExtResource( 2 )]
+position = Vector2( 38, -220 )
+
+[node name="Skeleton664" parent="." instance=ExtResource( 2 )]
+position = Vector2( 130, -305 )
+
+[node name="Skeleton665" parent="." instance=ExtResource( 2 )]
+position = Vector2( 59, -279 )
+
+[node name="Skeleton666" parent="." instance=ExtResource( 2 )]
+position = Vector2( 119, -166 )
+
+[node name="Skeleton667" parent="." instance=ExtResource( 2 )]
+position = Vector2( 60, -149 )
+
+[node name="Skeleton668" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, -200 )
+
+[node name="Skeleton669" parent="." instance=ExtResource( 2 )]
+position = Vector2( 116, -285 )
+
+[node name="Skeleton670" parent="." instance=ExtResource( 2 )]
+position = Vector2( 45, -259 )
+
+[node name="Skeleton671" parent="." instance=ExtResource( 2 )]
+position = Vector2( 150, -163 )
+
+[node name="Skeleton672" parent="." instance=ExtResource( 2 )]
+position = Vector2( 91, -146 )
+
+[node name="Skeleton673" parent="." instance=ExtResource( 2 )]
+position = Vector2( 55, -197 )
+
+[node name="Skeleton674" parent="." instance=ExtResource( 2 )]
+position = Vector2( 147, -282 )
+
+[node name="Skeleton675" parent="." instance=ExtResource( 2 )]
+position = Vector2( 76, -256 )
+
+[node name="Skeleton676" parent="." instance=ExtResource( 2 )]
+position = Vector2( 43, -200 )
+
+[node name="Skeleton677" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, -183 )
+
+[node name="Skeleton678" parent="." instance=ExtResource( 2 )]
+position = Vector2( -52, -234 )
+
+[node name="Skeleton679" parent="." instance=ExtResource( 2 )]
+position = Vector2( 40, -319 )
+
+[node name="Skeleton680" parent="." instance=ExtResource( 2 )]
+position = Vector2( -31, -293 )
+
+[node name="Skeleton681" parent="." instance=ExtResource( 2 )]
+position = Vector2( 74, -197 )
+
+[node name="Skeleton682" parent="." instance=ExtResource( 2 )]
+position = Vector2( 15, -180 )
+
+[node name="Skeleton683" parent="." instance=ExtResource( 2 )]
+position = Vector2( -21, -231 )
+
+[node name="Skeleton684" parent="." instance=ExtResource( 2 )]
+position = Vector2( 71, -316 )
+
+[node name="Skeleton685" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, -290 )
+
+[node name="Skeleton686" parent="." instance=ExtResource( 2 )]
+position = Vector2( 60, -177 )
+
+[node name="Skeleton687" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1, -160 )
+
+[node name="Skeleton688" parent="." instance=ExtResource( 2 )]
+position = Vector2( -35, -211 )
+
+[node name="Skeleton689" parent="." instance=ExtResource( 2 )]
+position = Vector2( 57, -296 )
+
+[node name="Skeleton690" parent="." instance=ExtResource( 2 )]
+position = Vector2( -14, -270 )
+
+[node name="Skeleton691" parent="." instance=ExtResource( 2 )]
+position = Vector2( 91, -174 )
+
+[node name="Skeleton692" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, -157 )
+
+[node name="Skeleton693" parent="." instance=ExtResource( 2 )]
+position = Vector2( -4, -208 )
+
+[node name="Skeleton694" parent="." instance=ExtResource( 2 )]
+position = Vector2( 88, -293 )
+
+[node name="Skeleton695" parent="." instance=ExtResource( 2 )]
+position = Vector2( 17, -267 )
+
+[node name="Skeleton696" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241, -183 )
+
+[node name="Skeleton697" parent="." instance=ExtResource( 2 )]
+position = Vector2( 182, -166 )
+
+[node name="Skeleton698" parent="." instance=ExtResource( 2 )]
+position = Vector2( 146, -217 )
+
+[node name="Skeleton699" parent="." instance=ExtResource( 2 )]
+position = Vector2( 238, -302 )
+
+[node name="Skeleton700" parent="." instance=ExtResource( 2 )]
+position = Vector2( 167, -276 )
+
+[node name="Skeleton701" parent="." instance=ExtResource( 2 )]
+position = Vector2( 272, -180 )
+
+[node name="Skeleton702" parent="." instance=ExtResource( 2 )]
+position = Vector2( 213, -163 )
+
+[node name="Skeleton703" parent="." instance=ExtResource( 2 )]
+position = Vector2( 177, -214 )
+
+[node name="Skeleton704" parent="." instance=ExtResource( 2 )]
+position = Vector2( 269, -299 )
+
+[node name="Skeleton705" parent="." instance=ExtResource( 2 )]
+position = Vector2( 198, -273 )
+
+[node name="Skeleton706" parent="." instance=ExtResource( 2 )]
+position = Vector2( 258, -160 )
+
+[node name="Skeleton707" parent="." instance=ExtResource( 2 )]
+position = Vector2( 199, -143 )
+
+[node name="Skeleton708" parent="." instance=ExtResource( 2 )]
+position = Vector2( 163, -194 )
+
+[node name="Skeleton709" parent="." instance=ExtResource( 2 )]
+position = Vector2( 255, -279 )
+
+[node name="Skeleton710" parent="." instance=ExtResource( 2 )]
+position = Vector2( 184, -253 )
+
+[node name="Skeleton711" parent="." instance=ExtResource( 2 )]
+position = Vector2( 289, -157 )
+
+[node name="Skeleton712" parent="." instance=ExtResource( 2 )]
+position = Vector2( 230, -140 )
+
+[node name="Skeleton713" parent="." instance=ExtResource( 2 )]
+position = Vector2( 194, -191 )
+
+[node name="Skeleton714" parent="." instance=ExtResource( 2 )]
+position = Vector2( 286, -276 )
+
+[node name="Skeleton715" parent="." instance=ExtResource( 2 )]
+position = Vector2( 215, -250 )
+
+[node name="Skeleton716" parent="." instance=ExtResource( 2 )]
+position = Vector2( 182, -194 )
+
+[node name="Skeleton717" parent="." instance=ExtResource( 2 )]
+position = Vector2( 123, -177 )
+
+[node name="Skeleton718" parent="." instance=ExtResource( 2 )]
+position = Vector2( 87, -228 )
+
+[node name="Skeleton719" parent="." instance=ExtResource( 2 )]
+position = Vector2( 179, -313 )
+
+[node name="Skeleton720" parent="." instance=ExtResource( 2 )]
+position = Vector2( 108, -287 )
+
+[node name="Skeleton721" parent="." instance=ExtResource( 2 )]
+position = Vector2( 213, -191 )
+
+[node name="Skeleton722" parent="." instance=ExtResource( 2 )]
+position = Vector2( 154, -174 )
+
+[node name="Skeleton723" parent="." instance=ExtResource( 2 )]
+position = Vector2( 118, -225 )
+
+[node name="Skeleton724" parent="." instance=ExtResource( 2 )]
+position = Vector2( 210, -310 )
+
+[node name="Skeleton725" parent="." instance=ExtResource( 2 )]
+position = Vector2( 139, -284 )
+
+[node name="Skeleton726" parent="." instance=ExtResource( 2 )]
+position = Vector2( 199, -171 )
+
+[node name="Skeleton727" parent="." instance=ExtResource( 2 )]
+position = Vector2( 140, -154 )
+
+[node name="Skeleton728" parent="." instance=ExtResource( 2 )]
+position = Vector2( 104, -205 )
+
+[node name="Skeleton729" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, -290 )
+
+[node name="Skeleton730" parent="." instance=ExtResource( 2 )]
+position = Vector2( 125, -264 )
+
+[node name="Skeleton731" parent="." instance=ExtResource( 2 )]
+position = Vector2( 230, -168 )
+
+[node name="Skeleton732" parent="." instance=ExtResource( 2 )]
+position = Vector2( 171, -151 )
+
+[node name="Skeleton733" parent="." instance=ExtResource( 2 )]
+position = Vector2( 135, -202 )
+
+[node name="Skeleton734" parent="." instance=ExtResource( 2 )]
+position = Vector2( 227, -287 )
+
+[node name="Skeleton735" parent="." instance=ExtResource( 2 )]
+position = Vector2( 156, -261 )
+
+[node name="Skeleton736" parent="." instance=ExtResource( 2 )]
+position = Vector2( -631, -675 )
+
+[node name="Skeleton737" parent="." instance=ExtResource( 2 )]
+position = Vector2( -690, -658 )
+
+[node name="Skeleton738" parent="." instance=ExtResource( 2 )]
+position = Vector2( -726, -709 )
+
+[node name="Skeleton739" parent="." instance=ExtResource( 2 )]
+position = Vector2( -634, -794 )
+
+[node name="Skeleton740" parent="." instance=ExtResource( 2 )]
+position = Vector2( -705, -768 )
+
+[node name="Skeleton741" parent="." instance=ExtResource( 2 )]
+position = Vector2( -600, -672 )
+
+[node name="Skeleton742" parent="." instance=ExtResource( 2 )]
+position = Vector2( -659, -655 )
+
+[node name="Skeleton743" parent="." instance=ExtResource( 2 )]
+position = Vector2( -695, -706 )
+
+[node name="Skeleton744" parent="." instance=ExtResource( 2 )]
+position = Vector2( -603, -791 )
+
+[node name="Skeleton745" parent="." instance=ExtResource( 2 )]
+position = Vector2( -674, -765 )
+
+[node name="Skeleton746" parent="." instance=ExtResource( 2 )]
+position = Vector2( -614, -652 )
+
+[node name="Skeleton747" parent="." instance=ExtResource( 2 )]
+position = Vector2( -673, -635 )
+
+[node name="Skeleton748" parent="." instance=ExtResource( 2 )]
+position = Vector2( -709, -686 )
+
+[node name="Skeleton749" parent="." instance=ExtResource( 2 )]
+position = Vector2( -617, -771 )
+
+[node name="Skeleton750" parent="." instance=ExtResource( 2 )]
+position = Vector2( -688, -745 )
+
+[node name="Skeleton751" parent="." instance=ExtResource( 2 )]
+position = Vector2( -583, -649 )
+
+[node name="Skeleton752" parent="." instance=ExtResource( 2 )]
+position = Vector2( -642, -632 )
+
+[node name="Skeleton753" parent="." instance=ExtResource( 2 )]
+position = Vector2( -678, -683 )
+
+[node name="Skeleton754" parent="." instance=ExtResource( 2 )]
+position = Vector2( -586, -768 )
+
+[node name="Skeleton755" parent="." instance=ExtResource( 2 )]
+position = Vector2( -657, -742 )
+
+[node name="Skeleton756" parent="." instance=ExtResource( 2 )]
+position = Vector2( -690, -686 )
+
+[node name="Skeleton757" parent="." instance=ExtResource( 2 )]
+position = Vector2( -749, -669 )
+
+[node name="Skeleton758" parent="." instance=ExtResource( 2 )]
+position = Vector2( -785, -720 )
+
+[node name="Skeleton759" parent="." instance=ExtResource( 2 )]
+position = Vector2( -693, -805 )
+
+[node name="Skeleton760" parent="." instance=ExtResource( 2 )]
+position = Vector2( -764, -779 )
+
+[node name="Skeleton761" parent="." instance=ExtResource( 2 )]
+position = Vector2( -659, -683 )
+
+[node name="Skeleton762" parent="." instance=ExtResource( 2 )]
+position = Vector2( -718, -666 )
+
+[node name="Skeleton763" parent="." instance=ExtResource( 2 )]
+position = Vector2( -754, -717 )
+
+[node name="Skeleton764" parent="." instance=ExtResource( 2 )]
+position = Vector2( -662, -802 )
+
+[node name="Skeleton765" parent="." instance=ExtResource( 2 )]
+position = Vector2( -733, -776 )
+
+[node name="Skeleton766" parent="." instance=ExtResource( 2 )]
+position = Vector2( -673, -663 )
+
+[node name="Skeleton767" parent="." instance=ExtResource( 2 )]
+position = Vector2( -732, -646 )
+
+[node name="Skeleton768" parent="." instance=ExtResource( 2 )]
+position = Vector2( -768, -697 )
+
+[node name="Skeleton769" parent="." instance=ExtResource( 2 )]
+position = Vector2( -676, -782 )
+
+[node name="Skeleton770" parent="." instance=ExtResource( 2 )]
+position = Vector2( -747, -756 )
+
+[node name="Skeleton771" parent="." instance=ExtResource( 2 )]
+position = Vector2( -642, -660 )
+
+[node name="Skeleton772" parent="." instance=ExtResource( 2 )]
+position = Vector2( -701, -643 )
+
+[node name="Skeleton773" parent="." instance=ExtResource( 2 )]
+position = Vector2( -737, -694 )
+
+[node name="Skeleton774" parent="." instance=ExtResource( 2 )]
+position = Vector2( -645, -779 )
+
+[node name="Skeleton775" parent="." instance=ExtResource( 2 )]
+position = Vector2( -716, -753 )
+
+[node name="Skeleton776" parent="." instance=ExtResource( 2 )]
+position = Vector2( -450, -683 )
+
+[node name="Skeleton777" parent="." instance=ExtResource( 2 )]
+position = Vector2( -509, -666 )
+
+[node name="Skeleton778" parent="." instance=ExtResource( 2 )]
+position = Vector2( -545, -717 )
+
+[node name="Skeleton779" parent="." instance=ExtResource( 2 )]
+position = Vector2( -453, -802 )
+
+[node name="Skeleton780" parent="." instance=ExtResource( 2 )]
+position = Vector2( -524, -776 )
+
+[node name="Skeleton781" parent="." instance=ExtResource( 2 )]
+position = Vector2( -419, -680 )
+
+[node name="Skeleton782" parent="." instance=ExtResource( 2 )]
+position = Vector2( -478, -663 )
+
+[node name="Skeleton783" parent="." instance=ExtResource( 2 )]
+position = Vector2( -514, -714 )
+
+[node name="Skeleton784" parent="." instance=ExtResource( 2 )]
+position = Vector2( -422, -799 )
+
+[node name="Skeleton785" parent="." instance=ExtResource( 2 )]
+position = Vector2( -493, -773 )
+
+[node name="Skeleton786" parent="." instance=ExtResource( 2 )]
+position = Vector2( -433, -660 )
+
+[node name="Skeleton787" parent="." instance=ExtResource( 2 )]
+position = Vector2( -492, -643 )
+
+[node name="Skeleton788" parent="." instance=ExtResource( 2 )]
+position = Vector2( -528, -694 )
+
+[node name="Skeleton789" parent="." instance=ExtResource( 2 )]
+position = Vector2( -436, -779 )
+
+[node name="Skeleton790" parent="." instance=ExtResource( 2 )]
+position = Vector2( -507, -753 )
+
+[node name="Skeleton791" parent="." instance=ExtResource( 2 )]
+position = Vector2( -402, -657 )
+
+[node name="Skeleton792" parent="." instance=ExtResource( 2 )]
+position = Vector2( -461, -640 )
+
+[node name="Skeleton793" parent="." instance=ExtResource( 2 )]
+position = Vector2( -497, -691 )
+
+[node name="Skeleton794" parent="." instance=ExtResource( 2 )]
+position = Vector2( -405, -776 )
+
+[node name="Skeleton795" parent="." instance=ExtResource( 2 )]
+position = Vector2( -476, -750 )
+
+[node name="Skeleton796" parent="." instance=ExtResource( 2 )]
+position = Vector2( -509, -694 )
+
+[node name="Skeleton797" parent="." instance=ExtResource( 2 )]
+position = Vector2( -568, -677 )
+
+[node name="Skeleton798" parent="." instance=ExtResource( 2 )]
+position = Vector2( -604, -728 )
+
+[node name="Skeleton799" parent="." instance=ExtResource( 2 )]
+position = Vector2( -512, -813 )
+
+[node name="Skeleton800" parent="." instance=ExtResource( 2 )]
+position = Vector2( -583, -787 )
+
+[node name="Skeleton801" parent="." instance=ExtResource( 2 )]
+position = Vector2( -478, -691 )
+
+[node name="Skeleton802" parent="." instance=ExtResource( 2 )]
+position = Vector2( -537, -674 )
+
+[node name="Skeleton803" parent="." instance=ExtResource( 2 )]
+position = Vector2( -573, -725 )
+
+[node name="Skeleton804" parent="." instance=ExtResource( 2 )]
+position = Vector2( -481, -810 )
+
+[node name="Skeleton805" parent="." instance=ExtResource( 2 )]
+position = Vector2( -552, -784 )
+
+[node name="Skeleton806" parent="." instance=ExtResource( 2 )]
+position = Vector2( -492, -671 )
+
+[node name="Skeleton807" parent="." instance=ExtResource( 2 )]
+position = Vector2( -551, -654 )
+
+[node name="Skeleton808" parent="." instance=ExtResource( 2 )]
+position = Vector2( -587, -705 )
+
+[node name="Skeleton809" parent="." instance=ExtResource( 2 )]
+position = Vector2( -495, -790 )
+
+[node name="Skeleton810" parent="." instance=ExtResource( 2 )]
+position = Vector2( -566, -764 )
+
+[node name="Skeleton811" parent="." instance=ExtResource( 2 )]
+position = Vector2( -461, -668 )
+
+[node name="Skeleton812" parent="." instance=ExtResource( 2 )]
+position = Vector2( -520, -651 )
+
+[node name="Skeleton813" parent="." instance=ExtResource( 2 )]
+position = Vector2( -556, -702 )
+
+[node name="Skeleton814" parent="." instance=ExtResource( 2 )]
+position = Vector2( -464, -787 )
+
+[node name="Skeleton815" parent="." instance=ExtResource( 2 )]
+position = Vector2( -535, -761 )
+
+[node name="Skeleton816" parent="." instance=ExtResource( 2 )]
+position = Vector2( -311, -677 )
+
+[node name="Skeleton817" parent="." instance=ExtResource( 2 )]
+position = Vector2( -370, -660 )
+
+[node name="Skeleton818" parent="." instance=ExtResource( 2 )]
+position = Vector2( -406, -711 )
+
+[node name="Skeleton819" parent="." instance=ExtResource( 2 )]
+position = Vector2( -314, -796 )
+
+[node name="Skeleton820" parent="." instance=ExtResource( 2 )]
+position = Vector2( -385, -770 )
+
+[node name="Skeleton821" parent="." instance=ExtResource( 2 )]
+position = Vector2( -280, -674 )
+
+[node name="Skeleton822" parent="." instance=ExtResource( 2 )]
+position = Vector2( -339, -657 )
+
+[node name="Skeleton823" parent="." instance=ExtResource( 2 )]
+position = Vector2( -375, -708 )
+
+[node name="Skeleton824" parent="." instance=ExtResource( 2 )]
+position = Vector2( -283, -793 )
+
+[node name="Skeleton825" parent="." instance=ExtResource( 2 )]
+position = Vector2( -354, -767 )
+
+[node name="Skeleton826" parent="." instance=ExtResource( 2 )]
+position = Vector2( -294, -654 )
+
+[node name="Skeleton827" parent="." instance=ExtResource( 2 )]
+position = Vector2( -353, -637 )
+
+[node name="Skeleton828" parent="." instance=ExtResource( 2 )]
+position = Vector2( -389, -688 )
+
+[node name="Skeleton829" parent="." instance=ExtResource( 2 )]
+position = Vector2( -297, -773 )
+
+[node name="Skeleton830" parent="." instance=ExtResource( 2 )]
+position = Vector2( -368, -747 )
+
+[node name="Skeleton831" parent="." instance=ExtResource( 2 )]
+position = Vector2( -263, -651 )
+
+[node name="Skeleton832" parent="." instance=ExtResource( 2 )]
+position = Vector2( -322, -634 )
+
+[node name="Skeleton833" parent="." instance=ExtResource( 2 )]
+position = Vector2( -358, -685 )
+
+[node name="Skeleton834" parent="." instance=ExtResource( 2 )]
+position = Vector2( -266, -770 )
+
+[node name="Skeleton835" parent="." instance=ExtResource( 2 )]
+position = Vector2( -337, -744 )
+
+[node name="Skeleton836" parent="." instance=ExtResource( 2 )]
+position = Vector2( -370, -688 )
+
+[node name="Skeleton837" parent="." instance=ExtResource( 2 )]
+position = Vector2( -429, -671 )
+
+[node name="Skeleton838" parent="." instance=ExtResource( 2 )]
+position = Vector2( -465, -722 )
+
+[node name="Skeleton839" parent="." instance=ExtResource( 2 )]
+position = Vector2( -373, -807 )
+
+[node name="Skeleton840" parent="." instance=ExtResource( 2 )]
+position = Vector2( -444, -781 )
+
+[node name="Skeleton841" parent="." instance=ExtResource( 2 )]
+position = Vector2( -339, -685 )
+
+[node name="Skeleton842" parent="." instance=ExtResource( 2 )]
+position = Vector2( -398, -668 )
+
+[node name="Skeleton843" parent="." instance=ExtResource( 2 )]
+position = Vector2( -434, -719 )
+
+[node name="Skeleton844" parent="." instance=ExtResource( 2 )]
+position = Vector2( -342, -804 )
+
+[node name="Skeleton845" parent="." instance=ExtResource( 2 )]
+position = Vector2( -413, -778 )
+
+[node name="Skeleton846" parent="." instance=ExtResource( 2 )]
+position = Vector2( -353, -665 )
+
+[node name="Skeleton847" parent="." instance=ExtResource( 2 )]
+position = Vector2( -412, -648 )
+
+[node name="Skeleton848" parent="." instance=ExtResource( 2 )]
+position = Vector2( -448, -699 )
+
+[node name="Skeleton849" parent="." instance=ExtResource( 2 )]
+position = Vector2( -356, -784 )
+
+[node name="Skeleton850" parent="." instance=ExtResource( 2 )]
+position = Vector2( -427, -758 )
+
+[node name="Skeleton851" parent="." instance=ExtResource( 2 )]
+position = Vector2( -322, -662 )
+
+[node name="Skeleton852" parent="." instance=ExtResource( 2 )]
+position = Vector2( -381, -645 )
+
+[node name="Skeleton853" parent="." instance=ExtResource( 2 )]
+position = Vector2( -417, -696 )
+
+[node name="Skeleton854" parent="." instance=ExtResource( 2 )]
+position = Vector2( -325, -781 )
+
+[node name="Skeleton855" parent="." instance=ExtResource( 2 )]
+position = Vector2( -396, -755 )
+
+[node name="Skeleton856" parent="." instance=ExtResource( 2 )]
+position = Vector2( -622, -518 )
+
+[node name="Skeleton857" parent="." instance=ExtResource( 2 )]
+position = Vector2( -681, -501 )
+
+[node name="Skeleton858" parent="." instance=ExtResource( 2 )]
+position = Vector2( -717, -552 )
+
+[node name="Skeleton859" parent="." instance=ExtResource( 2 )]
+position = Vector2( -625, -637 )
+
+[node name="Skeleton860" parent="." instance=ExtResource( 2 )]
+position = Vector2( -696, -611 )
+
+[node name="Skeleton861" parent="." instance=ExtResource( 2 )]
+position = Vector2( -591, -515 )
+
+[node name="Skeleton862" parent="." instance=ExtResource( 2 )]
+position = Vector2( -650, -498 )
+
+[node name="Skeleton863" parent="." instance=ExtResource( 2 )]
+position = Vector2( -686, -549 )
+
+[node name="Skeleton864" parent="." instance=ExtResource( 2 )]
+position = Vector2( -594, -634 )
+
+[node name="Skeleton865" parent="." instance=ExtResource( 2 )]
+position = Vector2( -665, -608 )
+
+[node name="Skeleton866" parent="." instance=ExtResource( 2 )]
+position = Vector2( -605, -495 )
+
+[node name="Skeleton867" parent="." instance=ExtResource( 2 )]
+position = Vector2( -664, -478 )
+
+[node name="Skeleton868" parent="." instance=ExtResource( 2 )]
+position = Vector2( -700, -529 )
+
+[node name="Skeleton869" parent="." instance=ExtResource( 2 )]
+position = Vector2( -608, -614 )
+
+[node name="Skeleton870" parent="." instance=ExtResource( 2 )]
+position = Vector2( -679, -588 )
+
+[node name="Skeleton871" parent="." instance=ExtResource( 2 )]
+position = Vector2( -574, -492 )
+
+[node name="Skeleton872" parent="." instance=ExtResource( 2 )]
+position = Vector2( -633, -475 )
+
+[node name="Skeleton873" parent="." instance=ExtResource( 2 )]
+position = Vector2( -669, -526 )
+
+[node name="Skeleton874" parent="." instance=ExtResource( 2 )]
+position = Vector2( -577, -611 )
+
+[node name="Skeleton875" parent="." instance=ExtResource( 2 )]
+position = Vector2( -648, -585 )
+
+[node name="Skeleton876" parent="." instance=ExtResource( 2 )]
+position = Vector2( -681, -529 )
+
+[node name="Skeleton877" parent="." instance=ExtResource( 2 )]
+position = Vector2( -740, -512 )
+
+[node name="Skeleton878" parent="." instance=ExtResource( 2 )]
+position = Vector2( -776, -563 )
+
+[node name="Skeleton879" parent="." instance=ExtResource( 2 )]
+position = Vector2( -684, -648 )
+
+[node name="Skeleton880" parent="." instance=ExtResource( 2 )]
+position = Vector2( -755, -622 )
+
+[node name="Skeleton881" parent="." instance=ExtResource( 2 )]
+position = Vector2( -650, -526 )
+
+[node name="Skeleton882" parent="." instance=ExtResource( 2 )]
+position = Vector2( -709, -509 )
+
+[node name="Skeleton883" parent="." instance=ExtResource( 2 )]
+position = Vector2( -745, -560 )
+
+[node name="Skeleton884" parent="." instance=ExtResource( 2 )]
+position = Vector2( -653, -645 )
+
+[node name="Skeleton885" parent="." instance=ExtResource( 2 )]
+position = Vector2( -724, -619 )
+
+[node name="Skeleton886" parent="." instance=ExtResource( 2 )]
+position = Vector2( -664, -506 )
+
+[node name="Skeleton887" parent="." instance=ExtResource( 2 )]
+position = Vector2( -723, -489 )
+
+[node name="Skeleton888" parent="." instance=ExtResource( 2 )]
+position = Vector2( -759, -540 )
+
+[node name="Skeleton889" parent="." instance=ExtResource( 2 )]
+position = Vector2( -667, -625 )
+
+[node name="Skeleton890" parent="." instance=ExtResource( 2 )]
+position = Vector2( -738, -599 )
+
+[node name="Skeleton891" parent="." instance=ExtResource( 2 )]
+position = Vector2( -633, -503 )
+
+[node name="Skeleton892" parent="." instance=ExtResource( 2 )]
+position = Vector2( -692, -486 )
+
+[node name="Skeleton893" parent="." instance=ExtResource( 2 )]
+position = Vector2( -728, -537 )
+
+[node name="Skeleton894" parent="." instance=ExtResource( 2 )]
+position = Vector2( -636, -622 )
+
+[node name="Skeleton895" parent="." instance=ExtResource( 2 )]
+position = Vector2( -707, -596 )
+
+[node name="Skeleton896" parent="." instance=ExtResource( 2 )]
+position = Vector2( -441, -526 )
+
+[node name="Skeleton897" parent="." instance=ExtResource( 2 )]
+position = Vector2( -500, -509 )
+
+[node name="Skeleton898" parent="." instance=ExtResource( 2 )]
+position = Vector2( -536, -560 )
+
+[node name="Skeleton899" parent="." instance=ExtResource( 2 )]
+position = Vector2( -444, -645 )
+
+[node name="Skeleton900" parent="." instance=ExtResource( 2 )]
+position = Vector2( -515, -619 )
+
+[node name="Skeleton901" parent="." instance=ExtResource( 2 )]
+position = Vector2( -410, -523 )
+
+[node name="Skeleton902" parent="." instance=ExtResource( 2 )]
+position = Vector2( -469, -506 )
+
+[node name="Skeleton903" parent="." instance=ExtResource( 2 )]
+position = Vector2( -505, -557 )
+
+[node name="Skeleton904" parent="." instance=ExtResource( 2 )]
+position = Vector2( -413, -642 )
+
+[node name="Skeleton905" parent="." instance=ExtResource( 2 )]
+position = Vector2( -484, -616 )
+
+[node name="Skeleton906" parent="." instance=ExtResource( 2 )]
+position = Vector2( -424, -503 )
+
+[node name="Skeleton907" parent="." instance=ExtResource( 2 )]
+position = Vector2( -483, -486 )
+
+[node name="Skeleton908" parent="." instance=ExtResource( 2 )]
+position = Vector2( -519, -537 )
+
+[node name="Skeleton909" parent="." instance=ExtResource( 2 )]
+position = Vector2( -427, -622 )
+
+[node name="Skeleton910" parent="." instance=ExtResource( 2 )]
+position = Vector2( -498, -596 )
+
+[node name="Skeleton911" parent="." instance=ExtResource( 2 )]
+position = Vector2( -393, -500 )
+
+[node name="Skeleton912" parent="." instance=ExtResource( 2 )]
+position = Vector2( -452, -483 )
+
+[node name="Skeleton913" parent="." instance=ExtResource( 2 )]
+position = Vector2( -488, -534 )
+
+[node name="Skeleton914" parent="." instance=ExtResource( 2 )]
+position = Vector2( -396, -619 )
+
+[node name="Skeleton915" parent="." instance=ExtResource( 2 )]
+position = Vector2( -467, -593 )
+
+[node name="Skeleton916" parent="." instance=ExtResource( 2 )]
+position = Vector2( -500, -537 )
+
+[node name="Skeleton917" parent="." instance=ExtResource( 2 )]
+position = Vector2( -559, -520 )
+
+[node name="Skeleton918" parent="." instance=ExtResource( 2 )]
+position = Vector2( -595, -571 )
+
+[node name="Skeleton919" parent="." instance=ExtResource( 2 )]
+position = Vector2( -503, -656 )
+
+[node name="Skeleton920" parent="." instance=ExtResource( 2 )]
+position = Vector2( -574, -630 )
+
+[node name="Skeleton921" parent="." instance=ExtResource( 2 )]
+position = Vector2( -469, -534 )
+
+[node name="Skeleton922" parent="." instance=ExtResource( 2 )]
+position = Vector2( -528, -517 )
+
+[node name="Skeleton923" parent="." instance=ExtResource( 2 )]
+position = Vector2( -564, -568 )
+
+[node name="Skeleton924" parent="." instance=ExtResource( 2 )]
+position = Vector2( -472, -653 )
+
+[node name="Skeleton925" parent="." instance=ExtResource( 2 )]
+position = Vector2( -543, -627 )
+
+[node name="Skeleton926" parent="." instance=ExtResource( 2 )]
+position = Vector2( -483, -514 )
+
+[node name="Skeleton927" parent="." instance=ExtResource( 2 )]
+position = Vector2( -542, -497 )
+
+[node name="Skeleton928" parent="." instance=ExtResource( 2 )]
+position = Vector2( -578, -548 )
+
+[node name="Skeleton929" parent="." instance=ExtResource( 2 )]
+position = Vector2( -486, -633 )
+
+[node name="Skeleton930" parent="." instance=ExtResource( 2 )]
+position = Vector2( -557, -607 )
+
+[node name="Skeleton931" parent="." instance=ExtResource( 2 )]
+position = Vector2( -452, -511 )
+
+[node name="Skeleton932" parent="." instance=ExtResource( 2 )]
+position = Vector2( -511, -494 )
+
+[node name="Skeleton933" parent="." instance=ExtResource( 2 )]
+position = Vector2( -547, -545 )
+
+[node name="Skeleton934" parent="." instance=ExtResource( 2 )]
+position = Vector2( -455, -630 )
+
+[node name="Skeleton935" parent="." instance=ExtResource( 2 )]
+position = Vector2( -526, -604 )
+
+[node name="Skeleton936" parent="." instance=ExtResource( 2 )]
+position = Vector2( -302, -520 )
+
+[node name="Skeleton937" parent="." instance=ExtResource( 2 )]
+position = Vector2( -361, -503 )
+
+[node name="Skeleton938" parent="." instance=ExtResource( 2 )]
+position = Vector2( -397, -554 )
+
+[node name="Skeleton939" parent="." instance=ExtResource( 2 )]
+position = Vector2( -305, -639 )
+
+[node name="Skeleton940" parent="." instance=ExtResource( 2 )]
+position = Vector2( -376, -613 )
+
+[node name="Skeleton941" parent="." instance=ExtResource( 2 )]
+position = Vector2( -271, -517 )
+
+[node name="Skeleton942" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, -500 )
+
+[node name="Skeleton943" parent="." instance=ExtResource( 2 )]
+position = Vector2( -366, -551 )
+
+[node name="Skeleton944" parent="." instance=ExtResource( 2 )]
+position = Vector2( -274, -636 )
+
+[node name="Skeleton945" parent="." instance=ExtResource( 2 )]
+position = Vector2( -345, -610 )
+
+[node name="Skeleton946" parent="." instance=ExtResource( 2 )]
+position = Vector2( -285, -497 )
+
+[node name="Skeleton947" parent="." instance=ExtResource( 2 )]
+position = Vector2( -344, -480 )
+
+[node name="Skeleton948" parent="." instance=ExtResource( 2 )]
+position = Vector2( -380, -531 )
+
+[node name="Skeleton949" parent="." instance=ExtResource( 2 )]
+position = Vector2( -288, -616 )
+
+[node name="Skeleton950" parent="." instance=ExtResource( 2 )]
+position = Vector2( -359, -590 )
+
+[node name="Skeleton951" parent="." instance=ExtResource( 2 )]
+position = Vector2( -254, -494 )
+
+[node name="Skeleton952" parent="." instance=ExtResource( 2 )]
+position = Vector2( -313, -477 )
+
+[node name="Skeleton953" parent="." instance=ExtResource( 2 )]
+position = Vector2( -349, -528 )
+
+[node name="Skeleton954" parent="." instance=ExtResource( 2 )]
+position = Vector2( -257, -613 )
+
+[node name="Skeleton955" parent="." instance=ExtResource( 2 )]
+position = Vector2( -328, -587 )
+
+[node name="Skeleton956" parent="." instance=ExtResource( 2 )]
+position = Vector2( -361, -531 )
+
+[node name="Skeleton957" parent="." instance=ExtResource( 2 )]
+position = Vector2( -420, -514 )
+
+[node name="Skeleton958" parent="." instance=ExtResource( 2 )]
+position = Vector2( -456, -565 )
+
+[node name="Skeleton959" parent="." instance=ExtResource( 2 )]
+position = Vector2( -364, -650 )
+
+[node name="Skeleton960" parent="." instance=ExtResource( 2 )]
+position = Vector2( -435, -624 )
+
+[node name="Skeleton961" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, -528 )
+
+[node name="Skeleton962" parent="." instance=ExtResource( 2 )]
+position = Vector2( -389, -511 )
+
+[node name="Skeleton963" parent="." instance=ExtResource( 2 )]
+position = Vector2( -425, -562 )
+
+[node name="Skeleton964" parent="." instance=ExtResource( 2 )]
+position = Vector2( -333, -647 )
+
+[node name="Skeleton965" parent="." instance=ExtResource( 2 )]
+position = Vector2( -404, -621 )
+
+[node name="Skeleton966" parent="." instance=ExtResource( 2 )]
+position = Vector2( -344, -508 )
+
+[node name="Skeleton967" parent="." instance=ExtResource( 2 )]
+position = Vector2( -403, -491 )
+
+[node name="Skeleton968" parent="." instance=ExtResource( 2 )]
+position = Vector2( -439, -542 )
+
+[node name="Skeleton969" parent="." instance=ExtResource( 2 )]
+position = Vector2( -347, -627 )
+
+[node name="Skeleton970" parent="." instance=ExtResource( 2 )]
+position = Vector2( -418, -601 )
+
+[node name="Skeleton971" parent="." instance=ExtResource( 2 )]
+position = Vector2( -313, -505 )
+
+[node name="Skeleton972" parent="." instance=ExtResource( 2 )]
+position = Vector2( -372, -488 )
+
+[node name="Skeleton973" parent="." instance=ExtResource( 2 )]
+position = Vector2( -408, -539 )
+
+[node name="Skeleton974" parent="." instance=ExtResource( 2 )]
+position = Vector2( -316, -624 )
+
+[node name="Skeleton975" parent="." instance=ExtResource( 2 )]
+position = Vector2( -387, -598 )
+
+[node name="Skeleton976" parent="." instance=ExtResource( 2 )]
+position = Vector2( -614, -348 )
+
+[node name="Skeleton977" parent="." instance=ExtResource( 2 )]
+position = Vector2( -673, -331 )
+
+[node name="Skeleton978" parent="." instance=ExtResource( 2 )]
+position = Vector2( -709, -382 )
+
+[node name="Skeleton979" parent="." instance=ExtResource( 2 )]
+position = Vector2( -617, -467 )
+
+[node name="Skeleton980" parent="." instance=ExtResource( 2 )]
+position = Vector2( -688, -441 )
+
+[node name="Skeleton981" parent="." instance=ExtResource( 2 )]
+position = Vector2( -583, -345 )
+
+[node name="Skeleton982" parent="." instance=ExtResource( 2 )]
+position = Vector2( -642, -328 )
+
+[node name="Skeleton983" parent="." instance=ExtResource( 2 )]
+position = Vector2( -678, -379 )
+
+[node name="Skeleton984" parent="." instance=ExtResource( 2 )]
+position = Vector2( -586, -464 )
+
+[node name="Skeleton985" parent="." instance=ExtResource( 2 )]
+position = Vector2( -657, -438 )
+
+[node name="Skeleton986" parent="." instance=ExtResource( 2 )]
+position = Vector2( -597, -325 )
+
+[node name="Skeleton987" parent="." instance=ExtResource( 2 )]
+position = Vector2( -656, -308 )
+
+[node name="Skeleton988" parent="." instance=ExtResource( 2 )]
+position = Vector2( -692, -359 )
+
+[node name="Skeleton989" parent="." instance=ExtResource( 2 )]
+position = Vector2( -600, -444 )
+
+[node name="Skeleton990" parent="." instance=ExtResource( 2 )]
+position = Vector2( -671, -418 )
+
+[node name="Skeleton991" parent="." instance=ExtResource( 2 )]
+position = Vector2( -566, -322 )
+
+[node name="Skeleton992" parent="." instance=ExtResource( 2 )]
+position = Vector2( -625, -305 )
+
+[node name="Skeleton993" parent="." instance=ExtResource( 2 )]
+position = Vector2( -661, -356 )
+
+[node name="Skeleton994" parent="." instance=ExtResource( 2 )]
+position = Vector2( -569, -441 )
+
+[node name="Skeleton995" parent="." instance=ExtResource( 2 )]
+position = Vector2( -640, -415 )
+
+[node name="Skeleton996" parent="." instance=ExtResource( 2 )]
+position = Vector2( -673, -359 )
+
+[node name="Skeleton997" parent="." instance=ExtResource( 2 )]
+position = Vector2( -732, -342 )
+
+[node name="Skeleton998" parent="." instance=ExtResource( 2 )]
+position = Vector2( -768, -393 )
+
+[node name="Skeleton999" parent="." instance=ExtResource( 2 )]
+position = Vector2( -676, -478 )
+
+[node name="Skeleton1000" parent="." instance=ExtResource( 2 )]
+position = Vector2( -747, -452 )
+
+[node name="Skeleton1001" parent="." instance=ExtResource( 2 )]
+position = Vector2( -642, -356 )
+
+[node name="Skeleton1002" parent="." instance=ExtResource( 2 )]
+position = Vector2( -701, -339 )
+
+[node name="Skeleton1003" parent="." instance=ExtResource( 2 )]
+position = Vector2( -737, -390 )
+
+[node name="Skeleton1004" parent="." instance=ExtResource( 2 )]
+position = Vector2( -645, -475 )
+
+[node name="Skeleton1005" parent="." instance=ExtResource( 2 )]
+position = Vector2( -716, -449 )
+
+[node name="Skeleton1006" parent="." instance=ExtResource( 2 )]
+position = Vector2( -656, -336 )
+
+[node name="Skeleton1007" parent="." instance=ExtResource( 2 )]
+position = Vector2( -715, -319 )
+
+[node name="Skeleton1008" parent="." instance=ExtResource( 2 )]
+position = Vector2( -751, -370 )
+
+[node name="Skeleton1009" parent="." instance=ExtResource( 2 )]
+position = Vector2( -659, -455 )
+
+[node name="Skeleton1010" parent="." instance=ExtResource( 2 )]
+position = Vector2( -730, -429 )
+
+[node name="Skeleton1011" parent="." instance=ExtResource( 2 )]
+position = Vector2( -625, -333 )
+
+[node name="Skeleton1012" parent="." instance=ExtResource( 2 )]
+position = Vector2( -684, -316 )
+
+[node name="Skeleton1013" parent="." instance=ExtResource( 2 )]
+position = Vector2( -720, -367 )
+
+[node name="Skeleton1014" parent="." instance=ExtResource( 2 )]
+position = Vector2( -628, -452 )
+
+[node name="Skeleton1015" parent="." instance=ExtResource( 2 )]
+position = Vector2( -699, -426 )
+
+[node name="Skeleton1016" parent="." instance=ExtResource( 2 )]
+position = Vector2( -433, -356 )
+
+[node name="Skeleton1017" parent="." instance=ExtResource( 2 )]
+position = Vector2( -492, -339 )
+
+[node name="Skeleton1018" parent="." instance=ExtResource( 2 )]
+position = Vector2( -528, -390 )
+
+[node name="Skeleton1019" parent="." instance=ExtResource( 2 )]
+position = Vector2( -436, -475 )
+
+[node name="Skeleton1020" parent="." instance=ExtResource( 2 )]
+position = Vector2( -507, -449 )
+
+[node name="Skeleton1021" parent="." instance=ExtResource( 2 )]
+position = Vector2( -402, -353 )
+
+[node name="Skeleton1022" parent="." instance=ExtResource( 2 )]
+position = Vector2( -461, -336 )
+
+[node name="Skeleton1023" parent="." instance=ExtResource( 2 )]
+position = Vector2( -497, -387 )
+
+[node name="Skeleton1024" parent="." instance=ExtResource( 2 )]
+position = Vector2( -405, -472 )
+
+[node name="Skeleton1025" parent="." instance=ExtResource( 2 )]
+position = Vector2( -476, -446 )
+
+[node name="Skeleton1026" parent="." instance=ExtResource( 2 )]
+position = Vector2( -416, -333 )
+
+[node name="Skeleton1027" parent="." instance=ExtResource( 2 )]
+position = Vector2( -475, -316 )
+
+[node name="Skeleton1028" parent="." instance=ExtResource( 2 )]
+position = Vector2( -511, -367 )
+
+[node name="Skeleton1029" parent="." instance=ExtResource( 2 )]
+position = Vector2( -419, -452 )
+
+[node name="Skeleton1030" parent="." instance=ExtResource( 2 )]
+position = Vector2( -490, -426 )
+
+[node name="Skeleton1031" parent="." instance=ExtResource( 2 )]
+position = Vector2( -385, -330 )
+
+[node name="Skeleton1032" parent="." instance=ExtResource( 2 )]
+position = Vector2( -444, -313 )
+
+[node name="Skeleton1033" parent="." instance=ExtResource( 2 )]
+position = Vector2( -480, -364 )
+
+[node name="Skeleton1034" parent="." instance=ExtResource( 2 )]
+position = Vector2( -388, -449 )
+
+[node name="Skeleton1035" parent="." instance=ExtResource( 2 )]
+position = Vector2( -459, -423 )
+
+[node name="Skeleton1036" parent="." instance=ExtResource( 2 )]
+position = Vector2( -492, -367 )
+
+[node name="Skeleton1037" parent="." instance=ExtResource( 2 )]
+position = Vector2( -551, -350 )
+
+[node name="Skeleton1038" parent="." instance=ExtResource( 2 )]
+position = Vector2( -587, -401 )
+
+[node name="Skeleton1039" parent="." instance=ExtResource( 2 )]
+position = Vector2( -495, -486 )
+
+[node name="Skeleton1040" parent="." instance=ExtResource( 2 )]
+position = Vector2( -566, -460 )
+
+[node name="Skeleton1041" parent="." instance=ExtResource( 2 )]
+position = Vector2( -461, -364 )
+
+[node name="Skeleton1042" parent="." instance=ExtResource( 2 )]
+position = Vector2( -520, -347 )
+
+[node name="Skeleton1043" parent="." instance=ExtResource( 2 )]
+position = Vector2( -556, -398 )
+
+[node name="Skeleton1044" parent="." instance=ExtResource( 2 )]
+position = Vector2( -464, -483 )
+
+[node name="Skeleton1045" parent="." instance=ExtResource( 2 )]
+position = Vector2( -535, -457 )
+
+[node name="Skeleton1046" parent="." instance=ExtResource( 2 )]
+position = Vector2( -475, -344 )
+
+[node name="Skeleton1047" parent="." instance=ExtResource( 2 )]
+position = Vector2( -534, -327 )
+
+[node name="Skeleton1048" parent="." instance=ExtResource( 2 )]
+position = Vector2( -570, -378 )
+
+[node name="Skeleton1049" parent="." instance=ExtResource( 2 )]
+position = Vector2( -478, -463 )
+
+[node name="Skeleton1050" parent="." instance=ExtResource( 2 )]
+position = Vector2( -549, -437 )
+
+[node name="Skeleton1051" parent="." instance=ExtResource( 2 )]
+position = Vector2( -444, -341 )
+
+[node name="Skeleton1052" parent="." instance=ExtResource( 2 )]
+position = Vector2( -503, -324 )
+
+[node name="Skeleton1053" parent="." instance=ExtResource( 2 )]
+position = Vector2( -539, -375 )
+
+[node name="Skeleton1054" parent="." instance=ExtResource( 2 )]
+position = Vector2( -447, -460 )
+
+[node name="Skeleton1055" parent="." instance=ExtResource( 2 )]
+position = Vector2( -518, -434 )
+
+[node name="Skeleton1056" parent="." instance=ExtResource( 2 )]
+position = Vector2( -294, -350 )
+
+[node name="Skeleton1057" parent="." instance=ExtResource( 2 )]
+position = Vector2( -353, -333 )
+
+[node name="Skeleton1058" parent="." instance=ExtResource( 2 )]
+position = Vector2( -389, -384 )
+
+[node name="Skeleton1059" parent="." instance=ExtResource( 2 )]
+position = Vector2( -297, -469 )
+
+[node name="Skeleton1060" parent="." instance=ExtResource( 2 )]
+position = Vector2( -368, -443 )
+
+[node name="Skeleton1061" parent="." instance=ExtResource( 2 )]
+position = Vector2( -263, -347 )
+
+[node name="Skeleton1062" parent="." instance=ExtResource( 2 )]
+position = Vector2( -322, -330 )
+
+[node name="Skeleton1063" parent="." instance=ExtResource( 2 )]
+position = Vector2( -358, -381 )
+
+[node name="Skeleton1064" parent="." instance=ExtResource( 2 )]
+position = Vector2( -266, -466 )
+
+[node name="Skeleton1065" parent="." instance=ExtResource( 2 )]
+position = Vector2( -337, -440 )
+
+[node name="Skeleton1066" parent="." instance=ExtResource( 2 )]
+position = Vector2( -277, -327 )
+
+[node name="Skeleton1067" parent="." instance=ExtResource( 2 )]
+position = Vector2( -336, -310 )
+
+[node name="Skeleton1068" parent="." instance=ExtResource( 2 )]
+position = Vector2( -372, -361 )
+
+[node name="Skeleton1069" parent="." instance=ExtResource( 2 )]
+position = Vector2( -280, -446 )
+
+[node name="Skeleton1070" parent="." instance=ExtResource( 2 )]
+position = Vector2( -351, -420 )
+
+[node name="Skeleton1071" parent="." instance=ExtResource( 2 )]
+position = Vector2( -246, -324 )
+
+[node name="Skeleton1072" parent="." instance=ExtResource( 2 )]
+position = Vector2( -305, -307 )
+
+[node name="Skeleton1073" parent="." instance=ExtResource( 2 )]
+position = Vector2( -341, -358 )
+
+[node name="Skeleton1074" parent="." instance=ExtResource( 2 )]
+position = Vector2( -249, -443 )
+
+[node name="Skeleton1075" parent="." instance=ExtResource( 2 )]
+position = Vector2( -320, -417 )
+
+[node name="Skeleton1076" parent="." instance=ExtResource( 2 )]
+position = Vector2( -353, -361 )
+
+[node name="Skeleton1077" parent="." instance=ExtResource( 2 )]
+position = Vector2( -412, -344 )
+
+[node name="Skeleton1078" parent="." instance=ExtResource( 2 )]
+position = Vector2( -448, -395 )
+
+[node name="Skeleton1079" parent="." instance=ExtResource( 2 )]
+position = Vector2( -356, -480 )
+
+[node name="Skeleton1080" parent="." instance=ExtResource( 2 )]
+position = Vector2( -427, -454 )
+
+[node name="Skeleton1081" parent="." instance=ExtResource( 2 )]
+position = Vector2( -322, -358 )
+
+[node name="Skeleton1082" parent="." instance=ExtResource( 2 )]
+position = Vector2( -381, -341 )
+
+[node name="Skeleton1083" parent="." instance=ExtResource( 2 )]
+position = Vector2( -417, -392 )
+
+[node name="Skeleton1084" parent="." instance=ExtResource( 2 )]
+position = Vector2( -325, -477 )
+
+[node name="Skeleton1085" parent="." instance=ExtResource( 2 )]
+position = Vector2( -396, -451 )
+
+[node name="Skeleton1086" parent="." instance=ExtResource( 2 )]
+position = Vector2( -336, -338 )
+
+[node name="Skeleton1087" parent="." instance=ExtResource( 2 )]
+position = Vector2( -395, -321 )
+
+[node name="Skeleton1088" parent="." instance=ExtResource( 2 )]
+position = Vector2( -431, -372 )
+
+[node name="Skeleton1089" parent="." instance=ExtResource( 2 )]
+position = Vector2( -339, -457 )
+
+[node name="Skeleton1090" parent="." instance=ExtResource( 2 )]
+position = Vector2( -410, -431 )
+
+[node name="Skeleton1091" parent="." instance=ExtResource( 2 )]
+position = Vector2( -305, -335 )
+
+[node name="Skeleton1092" parent="." instance=ExtResource( 2 )]
+position = Vector2( -364, -318 )
+
+[node name="Skeleton1093" parent="." instance=ExtResource( 2 )]
+position = Vector2( -400, -369 )
+
+[node name="Skeleton1094" parent="." instance=ExtResource( 2 )]
+position = Vector2( -308, -454 )
+
+[node name="Skeleton1095" parent="." instance=ExtResource( 2 )]
+position = Vector2( -379, -428 )

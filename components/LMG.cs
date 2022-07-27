@@ -15,7 +15,7 @@ public class LMG : Node2D, IWeapon {
   private DamageType damageType = DamageType.Normal;
 
   [Export]
-  private float shotCooldown = 0.1f;
+  private float shotCooldown = 0.05f;
 
   [Export]
   private float AimSpread {
