@@ -25,16 +25,16 @@ public class Bullet : Area2D {
   }
 
   public void OnBulletEntered(Node target) {
-    if (target.HasNode("Health")) {
+    if (target.IsInGroup("hitbox")) {
       if (target is IHasHealth targetHealth) {
         // in case the script has overrides for the default IHasHealth implementations
         targetHealth.TakeDamage(WeaponDamage);
-      } else {
+      } else if (target.HasNode("Health")) {
         target.GetNode<IHasHealth>("Health").TakeDamage(WeaponDamage);
       }
-    }
 
-    QueueFree();
+      QueueFree();
+    }
   }
 
   // Public Functions
