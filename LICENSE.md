@@ -1,4 +1,4 @@
-Copyright (c) 2022, Thomas Kent
+Copyright 2022, The1Krutz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
